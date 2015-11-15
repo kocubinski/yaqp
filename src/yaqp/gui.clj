@@ -6,11 +6,16 @@
 
 (defrecord Bar [fraction text])
 
-(def state
+(def ^:private state
   (atom {:bars []
          :layout {:gutter 5
                   :bar-width 180
                   :bar-height 20}}))
+
+(defn add-bar [bar]
+  (swap! state update-in [:bars] conj bar))
+
+(defn remove-bar [bar])
 
 (defonce f
   (->
@@ -23,7 +28,7 @@
                        :font "MONOSPACED-20"))
 
 (defn draw-bar [g gutter width height row col fraction text]
-  (log (str "drawing at " row "," col))
+  ;(log (str "drawing at " row "," col))
   (let [gutter 5 width 180 height 20
         x (+ gutter (* gutter col) (* width col))
         y (+ gutter (* gutter row) (* height row))
@@ -41,7 +46,7 @@
         window-height (.getHeight f)
         {:keys [gutter bar-width bar-height]} (:layout @state)
         row-height (+ gutter bar-height)
-        row-max (Math/floor (/ window-height (+ gutter bar-height)))
+        row-max (dec (Math/floor (/ window-height (+ gutter bar-height))))
         col-max (Math/floor (/ window-width (+ gutter bar-width)))]
 
     (->
@@ -53,26 +58,10 @@
         (doseq [[{:keys [fraction text]} i] (map #(vector %1 %2) (:bars @state) (range))
                 :let [row (mod i row-max)
                       col (Math/floor (/ i row-max))]]
-          (log i)
+          ;(log i)
           (draw-bar g gutter bar-width bar-height row col fraction text)))))))
 
 (defn test-paint-bars []
-  (swap! state assoc :bars
-         [(Bar. 1.0 "Mez")
-          (Bar. 0.8 "Mez")
-          (Bar. 0.3 "Mez")
-          (Bar. 0.5 "Mez")
-          (Bar. 0.8 "Mez")
-          (Bar. 0.3 "Mez")
-          (Bar. 0.5 "Mez")
-          (Bar. 0.8 "Mez")
-          (Bar. 0.3 "Mez")
-          (Bar. 0.5 "Mez")
-          (Bar. 0.8 "Mez")
-          (Bar. 0.3 "Mez")
-          (Bar. 0.5 "Mez")
-          (Bar. 0.8 "Mez")
-          (Bar. 0.3 "Mez")
-          (Bar. 0.5 "Mez")
-          ])
+  (add-bar (Bar. 0.8 "Mez"))
+  (add-bar (Bar. 0.3 "Mez"))
   (render))

@@ -3,8 +3,9 @@
    [yaqp.gui :as gui])
   (:use
    [yaqp.log]
-   [simple-time.core :only [timespan]])
+   [simple-time.core :only [timespan now]])
   (:import
+   [yaqp.gui Bar]
    [java.io File]
    [org.apache.commons.io.input TailerListenerAdapter Tailer])
   )
@@ -25,10 +26,6 @@
     :on-end on-end
     :duration duration}))
 
-(defn timer-bar [text duration]
-  (trigger
-   ))
-
 (def triggers
   {"A cool breeze slips through your mind."
    {:on-start nil
@@ -40,6 +37,13 @@
          :tail nil
          :log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
          :timers []}))
+
+(defn timer-bar [text duration]
+  (let [bar (Bar. text duration)]
+    (gui/add-bar bar)
+    (swap! app assoc-in [:timers]
+           {:start-time (now)
+            :bar bar})))
 
 (defn handle-line [line]
   ;(log line)
@@ -53,10 +57,16 @@
     (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 500 true))))
 
 (defn tick []
+  (gui/render))
+
+(defn run []
   (when-not (:kill @app)
     (Thread/sleep 1000)
-    ;;(log "tick")
+    (tick)
     (recur)))
 
-(defn start-render []
-  (.start (Thread. tick)))
+(defn start []
+  (.start (Thread. run)))
+
+(defn stop []
+  (swap! app assoc :kill true))
