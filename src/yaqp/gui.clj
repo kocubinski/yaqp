@@ -28,9 +28,7 @@
                        :font "MONOSPACED-20"))
 
 (defn draw-bar [g gutter width height row col fraction text]
-  ;(log (str "drawing at " row "," col))
-  (let [gutter 5 width 180 height 20
-        x (+ gutter (* gutter col) (* width col))
+  (let [x (+ gutter (* gutter col) (* width col))
         y (+ gutter (* gutter row) (* height row))
         f-x (+ x (* fraction width))
         f-w (- width (* fraction width))]
@@ -41,27 +39,30 @@
                         (+ 22 (* gutter row) (* height row)) text)
           text-style)))
 
-(defn render []
+(defn paint [paint-fn]
+  (-> f (select [:#canvas])
+      (config! :paint paint-fn)))
+
+(defn render-bars [bars]
   (let [window-width (.getWidth f)
         window-height (.getHeight f)
         {:keys [gutter bar-width bar-height]} (:layout @state)
         row-height (+ gutter bar-height)
         row-max (dec (Math/floor (/ window-height (+ gutter bar-height))))
         col-max (Math/floor (/ window-width (+ gutter bar-width)))]
-
-    (->
-     f
-     (select [:#canvas])
-     (config!
-      :paint
-      (fn [c g]
-        (doseq [[{:keys [fraction text]} i] (map #(vector %1 %2) (:bars @state) (range))
-                :let [row (mod i row-max)
-                      col (Math/floor (/ i row-max))]]
-          ;(log i)
-          (draw-bar g gutter bar-width bar-height row col fraction text)))))))
+    (paint
+     (when (seq bars)
+       (fn [c g]
+         (doseq [[{:keys [fraction text]} i] (map #(vector %1 %2) bars (range))
+                 :let [row (mod i row-max)
+                       col (Math/floor (/ i row-max))]]
+                                        ;(log i)
+           (draw-bar g gutter bar-width bar-height row col fraction text)))))))
 
 (defn test-paint-bars []
-  (add-bar (Bar. 0.8 "Mez"))
-  (add-bar (Bar. 0.3 "Mez"))
-  (render))
+  (render-bars
+   [(Bar. 0.8 "Mez")
+    (Bar. 0.3 "Mez")]))
+
+(defn test-clear []
+  (render-bars []))

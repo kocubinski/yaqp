@@ -1,9 +1,9 @@
 (ns yaqp.core
   (:require
-   [yaqp.gui :as gui])
+   [yaqp.gui :as gui]
+   [simple-time.core :as time])
   (:use
-   [yaqp.log]
-   [simple-time.core :only [timespan now]])
+   [yaqp.log])
   (:import
    [yaqp.gui Bar]
    [java.io File]
@@ -38,12 +38,12 @@
          :log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
          :timers []}))
 
-(defn timer-bar [text duration]
-  (let [bar (Bar. text duration)]
-    (gui/add-bar bar)
-    (swap! app assoc-in [:timers]
-           {:start-time (now)
-            :bar bar})))
+(defn add-timer! [text duration]
+  (swap! app update-in [:timers] conj
+         {:start-time (time/now)
+          :duration duration
+          :text text
+          }))
 
 (defn handle-line [line]
   ;(log line)
@@ -57,7 +57,21 @@
     (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 500 true))))
 
 (defn tick []
-  (gui/render))
+  ;; iterate through timers, draw fraction according to diff from (now) - start, duration
+  ;(log "tick")
+  (let [now (time/now)]
+    (gui/render-bars
+     (map
+      (fn [{:keys [start-time duration text]}]
+        (let [passed-ms (time/timespan->total-milliseconds
+                         (time/- now start-time))
+              duration-ms (time/timespan->total-milliseconds duration)]
+          ;(log (str "passed: " passed-ms " duration: " duration-ms))
+          (when (< passed-ms duration-ms)
+            (Bar. (/ (- duration-ms passed-ms)
+                     duration-ms)
+                  text))))
+      (:timers @app)))))
 
 (defn run []
   (when-not (:kill @app)
