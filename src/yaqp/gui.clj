@@ -66,3 +66,10 @@
 
 (defn test-clear []
   (render-bars []))
+
+
+
+  (let [now (t/now)
+
+
+                                   (:timers @app))

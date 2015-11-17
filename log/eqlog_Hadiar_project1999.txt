@@ -1,0 +1,2415 @@
+[Thu Nov 12 22:00:30 2015] Logging to 'eqlog.txt' is now *ON*.
+[Thu Nov 12 22:00:31 2015] Almaa begins to cast a spell.
+[Thu Nov 12 22:00:41 2015] Tuhigh discorporates in a portal of wind.
+[Thu Nov 12 22:00:41 2015] Belshazzar discorporates in a portal of wind.
+[Thu Nov 12 22:00:41 2015] Eanelani discorporates in a portal of wind.
+[Thu Nov 12 22:00:41 2015] Almaa discorporates in a portal of wind.
+[Thu Nov 12 22:01:19 2015] Wackaveli shouts, '54 rogue lfg'
+[Thu Nov 12 22:02:02 2015] Blowinitup begins to cast a spell.
+[Thu Nov 12 22:02:07 2015] Dinz begins to cast a spell.
+[Thu Nov 12 22:02:09 2015] Blowinitup begins to cast a spell.
+[Thu Nov 12 22:02:13 2015] LOADING, PLEASE WAIT...
+[Thu Nov 12 22:02:39 2015] You have entered Dreadlands.
+[Thu Nov 12 22:02:53 2015] Targeted (NPC): a drolvarg rager
+[Thu Nov 12 22:02:53 2015] Right click on the NPC to consider it.
+[Thu Nov 12 22:02:53 2015] a drolvarg rager glares at you threateningly -- You would probably win this fight..it's not certain though.
+[Thu Nov 12 22:02:53 2015] a drolvarg rager glares at you threateningly -- You would probably win this fight..it's not certain though.
+[Thu Nov 12 22:02:58 2015] You begin casting Mesmerize.
+[Thu Nov 12 22:02:59 2015] Blowinitup tells you, 'Fresh C?'
+[Thu Nov 12 22:03:00 2015] A drolvarg rager has been mesmerized.
+[Thu Nov 12 22:03:08 2015] You told Blowinitup, 'ya'
+[Thu Nov 12 22:03:09 2015] Blowinitup says, 'Hail, Hadiar'
+[Thu Nov 12 22:03:09 2015] Blowinitup says, 'Hail, Hadiar'
+[Thu Nov 12 22:03:09 2015] Blowinitup says, 'Hail, Hadiar'
+[Thu Nov 12 22:03:12 2015] Targeted (Player): Blowinitup
+[Thu Nov 12 22:03:12 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:03:13 2015] You begin casting Clarity.
+[Thu Nov 12 22:03:13 2015] You haven't recovered yet...
+[Thu Nov 12 22:03:15 2015] Blowinitup tells you, 'Thanks bud'
+[Thu Nov 12 22:03:16 2015] Blowinitup looks tranquil.
+[Thu Nov 12 22:03:17 2015] You told Blowinitup, 'np'
+[Thu Nov 12 22:03:23 2015] Blowinitup adds some coins to the trade.
+[Thu Nov 12 22:03:23 2015] The total trade is: 10 PP, 0 GP, 0 SP, 0 CP
+[Thu Nov 12 22:03:26 2015] Your Mesmerize spell has worn off.
+[Thu Nov 12 22:03:34 2015] You told Blowinitup, 'not doin much trying to get eq working in linux/wine'
+[Thu Nov 12 22:03:44 2015] Blowinitup tells you, 'Yeah i play on a mac'
+[Thu Nov 12 22:04:00 2015] You told Blowinitup, 'man do you ever have this issue with the mouselook cutting off at edge of window'
+[Thu Nov 12 22:04:13 2015] Blowinitup tells you, 'Mouselook?'
+[Thu Nov 12 22:04:13 2015] Blowinitup regards you indifferently -- he appears to be quite formidable.
+[Thu Nov 12 22:04:13 2015] Blowinitup regards you indifferently -- he appears to be quite formidable.
+[Thu Nov 12 22:04:14 2015] Blowinitup regards you indifferently -- he appears to be quite formidable.
+[Thu Nov 12 22:04:14 2015] Blowinitup regards you indifferently -- he appears to be quite formidable.
+[Thu Nov 12 22:04:25 2015] You told Blowinitup, 'yea right-click look'
+[Thu Nov 12 22:04:37 2015] Butterlips begins to cast a spell.
+[Thu Nov 12 22:05:18 2015] LOADING, PLEASE WAIT...
+[Thu Nov 12 22:05:38 2015] You have entered Karnor's Castle.
+[Thu Nov 12 22:05:40 2015] Blowinitup tells you, 'Hmmm'
+[Thu Nov 12 22:05:51 2015] LOADING, PLEASE WAIT...
+[Thu Nov 12 22:06:18 2015] You have entered Dreadlands.
+[Thu Nov 12 22:06:35 2015] Targeted (NPC): a drolvarg rager
+[Thu Nov 12 22:06:35 2015] Right click on the NPC to consider it.
+[Thu Nov 12 22:06:36 2015] Auto attack is on.
+[Thu Nov 12 22:06:36 2015] Your target is too far away, get closer!
+[Thu Nov 12 22:06:36 2015] Your target is too far away, get closer!
+[Thu Nov 12 22:06:38 2015] You haven't recovered yet...
+[Thu Nov 12 22:06:38 2015] You begin casting Mesmerize.
+[Thu Nov 12 22:06:40 2015] A drolvarg rager has been mesmerized.
+[Thu Nov 12 22:06:40 2015] Your target is too far away, get closer!
+[Thu Nov 12 22:06:40 2015] Your target is too far away, get closer!
+[Thu Nov 12 22:06:43 2015] Auto attack is off.
+[Thu Nov 12 22:06:43 2015] Your target is too far away, get closer!
+[Thu Nov 12 22:06:49 2015] Auto attack is on.
+[Thu Nov 12 22:06:49 2015] Your target is too far away, get closer!
+[Thu Nov 12 22:06:49 2015] Your target is too far away, get closer!
+[Thu Nov 12 22:06:49 2015] Auto attack is off.
+[Thu Nov 12 22:06:52 2015] You begin casting Mesmerize.
+[Thu Nov 12 22:06:55 2015] A drolvarg rager has been mesmerized.
+[Thu Nov 12 22:07:04 2015] LOADING, PLEASE WAIT...
+[Thu Nov 12 22:07:23 2015] You have entered Karnor's Castle.
+[Thu Nov 12 22:07:30 2015] Vzraith says out of character, 'I dont get it'
+[Thu Nov 12 22:07:37 2015] Ebene says out of character, 'Lcy lf rep tank,'
+[Thu Nov 12 22:07:56 2015] Targeted (Corpse): Wraq's corpse
+[Thu Nov 12 22:07:56 2015] Stand close to and right click on the Corpse to try looting it.
+[Thu Nov 12 22:08:40 2015] You forget Paralyzing Earth.
+[Thu Nov 12 22:08:47 2015] Beginning to memorize Arch Shielding...
+[Thu Nov 12 22:08:47 2015] You have finished memorizing Arch Shielding.
+[Thu Nov 12 22:08:52 2015] You begin casting Arch Shielding.
+[Thu Nov 12 22:09:04 2015] You feel armored.
+[Thu Nov 12 22:09:31 2015] Your feet slow down.
+[Thu Nov 12 22:11:19 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:11:19 2015] Bigstinkey's casting is interrupted!
+[Thu Nov 12 22:11:22 2015] Wackaveli shouts, '54 rogue lfg'
+[Thu Nov 12 22:11:26 2015] Kamel waves at Fosh.
+[Thu Nov 12 22:11:29 2015] Spunker says out of character, 'Anyone need evac to EJ leaving in 10 secs'
+[Thu Nov 12 22:11:32 2015] Fosh waves at Kamel.
+[Thu Nov 12 22:12:01 2015] Chomp, chomp, chomp...  Kamel takes a bite from a Roots.
+[Thu Nov 12 22:12:12 2015] Spunker begins to cast a spell.
+[Thu Nov 12 22:12:13 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:12:17 2015] Fosh fades away.
+[Thu Nov 12 22:12:19 2015] Blowinitup tells you, 'So do you mean put the mouse very far towards edge of window, right click and try to drag and look?'
+[Thu Nov 12 22:12:20 2015] Spunker begins to cast a spell.
+[Thu Nov 12 22:12:25 2015] Spunker fades away.
+[Thu Nov 12 22:12:27 2015] Spunker begins to cast a spell.
+[Thu Nov 12 22:12:28 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:12:34 2015] Blowinitup tells you, 'Its giving you an issue?'
+[Thu Nov 12 22:12:40 2015] You told Blowinitup, 'yea.. mouse look stops at the edge of the window in the case'
+[Thu Nov 12 22:12:43 2015] Spunker's casting is interrupted!
+[Thu Nov 12 22:12:44 2015] Spunker begins to cast a spell.
+[Thu Nov 12 22:12:53 2015] Kamel discorporates in a portal of wind.
+[Thu Nov 12 22:12:53 2015] Fosh discorporates in a portal of wind.
+[Thu Nov 12 22:12:53 2015] Spunker discorporates in a portal of wind.
+[Thu Nov 12 22:12:59 2015] You told Blowinitup, 'there's a crapload of patches and bug reports saying its fixed on winehq but its not fixed for me'
+[Thu Nov 12 22:13:10 2015] Blowinitup tells you, 'I can right click with my cursor as close to the edge of the window and scan around without issues'
+[Thu Nov 12 22:13:23 2015] You told Blowinitup, 'darn, must be xinput thing with linux'
+[Thu Nov 12 22:13:31 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:13:41 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:13:42 2015] You told Blowinitup, 'do you know what version of wine you're using?'
+[Thu Nov 12 22:13:43 2015] Blowinitup tells you, 'I also tried and hvvybf up installing wine and all that like 4 times'
+[Thu Nov 12 22:13:46 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:14:02 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:14:09 2015] Blowinitup tells you, 'So ill just say im horribly unsavvy with computers'
+[Thu Nov 12 22:14:10 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:14:18 2015] Blowinitup tells you, 'And i have no idea what im running lol'
+[Thu Nov 12 22:14:22 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:14:25 2015] Blowinitup tells you, 'Let me see if i can figure it out'
+[Thu Nov 12 22:14:35 2015] Wackaveli shouts, '54 rogue lfg'
+[Thu Nov 12 22:14:39 2015] You told Blowinitup, 'eh not big deal if you can't probably wouldn't help me anyway just curious'
+[Thu Nov 12 22:15:19 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:15:28 2015] Blowinitup tells you, 'Wineskin 2.5'
+[Thu Nov 12 22:15:30 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:15:32 2015] Stanis's casting is interrupted!
+[Thu Nov 12 22:15:37 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:15:38 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:15:40 2015] Stanis's casting is interrupted!
+[Thu Nov 12 22:15:41 2015] You told Blowinitup, 'ah, cool'
+[Thu Nov 12 22:15:42 2015] Kefkef fades away.
+[Thu Nov 12 22:15:57 2015] Blowinitup tells you, 'Ws8winecxg10.1. it also says in a different place'
+[Thu Nov 12 22:16:06 2015] Bigstinkey scores a critical hit! (69)
+[Thu Nov 12 22:16:26 2015] Bigstinkey scores a critical hit! (34)
+[Thu Nov 12 22:16:30 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 22:16:36 2015] Bigstinkey scores a critical hit! (52)
+[Thu Nov 12 22:16:40 2015] spectral curate regains concentration and continues casting.
+[Thu Nov 12 22:16:44 2015] Bigstinkey scores a critical hit! (52)
+[Thu Nov 12 22:16:48 2015] Bigstinkey scores a critical hit! (79)
+[Thu Nov 12 22:16:52 2015] Players in EverQuest:
+[Thu Nov 12 22:16:52 2015] ---------------------------
+
+[Thu Nov 12 22:16:52 2015] [ANONYMOUS] Blowinitup <Asgard> 
+[Thu Nov 12 22:16:52 2015] There is 1 player in EverQuest.
+[Thu Nov 12 22:16:59 2015] You told Blowinitup, 'Gar'
+[Thu Nov 12 22:17:04 2015] Bigstinkey scores a critical hit! (100)
+[Thu Nov 12 22:17:06 2015] Wackaveli says, '10-4'
+[Thu Nov 12 22:17:07 2015] Bigstinkey scores a critical hit! (37)
+[Thu Nov 12 22:17:15 2015] Bigstinkey scores a critical hit! (52)
+[Thu Nov 12 22:17:18 2015] Bigstinkey scores a critical hit! (30)
+[Thu Nov 12 22:17:18 2015] You forget Arch Shielding.
+[Thu Nov 12 22:17:18 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 22:17:23 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:17:24 2015] Beginning to memorize Swift like the Wind...
+[Thu Nov 12 22:17:25 2015] You have finished memorizing Swift like the Wind.
+[Thu Nov 12 22:17:26 2015] You cannot memorize a spell you already have memorized.
+[Thu Nov 12 22:17:26 2015] You cannot memorize a spell you already have memorized.
+[Thu Nov 12 22:17:27 2015] You cannot memorize a spell you already have memorized.
+[Thu Nov 12 22:17:28 2015] spectral curate's casting is interrupted!
+[Thu Nov 12 22:17:29 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 22:17:29 2015] Targeted (Player): Ages
+[Thu Nov 12 22:17:29 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:17:31 2015] Allisa says, 'Hail, Wackaveli'
+[Thu Nov 12 22:17:31 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:17:32 2015] Targeted (Player): Wackaveli
+[Thu Nov 12 22:17:32 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:17:33 2015] spectral curate's casting is interrupted!
+[Thu Nov 12 22:17:34 2015] You begin casting Swift like the Wind.
+[Thu Nov 12 22:17:40 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 22:17:42 2015] Wackaveli feels much faster.
+[Thu Nov 12 22:17:43 2015] Stanis's casting is interrupted!
+[Thu Nov 12 22:17:45 2015] You no longer have a target.
+[Thu Nov 12 22:17:46 2015] Targeted (Player): Wackaveli
+[Thu Nov 12 22:17:46 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:17:46 2015] You no longer have a target.
+[Thu Nov 12 22:17:47 2015] Targeted (Player): Allisa
+[Thu Nov 12 22:17:47 2015] Stand close to and right click on the Player to consider and inspect her. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:17:47 2015] You no longer have a target.
+[Thu Nov 12 22:17:50 2015] spectral curate's casting is interrupted!
+[Thu Nov 12 22:17:53 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 22:17:55 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:18:02 2015] Allisa begins to cast a spell.
+[Thu Nov 12 22:18:10 2015] Allisa begins to cast a spell.
+[Thu Nov 12 22:18:27 2015] Wackaveli shouts, '54 rogue lfg'
+[Thu Nov 12 22:18:30 2015] Players in EverQuest:
+[Thu Nov 12 22:18:30 2015] ---------------------------
+
+[Thu Nov 12 22:18:30 2015] [25 Bard] Diletantte (Half Elf) <Nocterma> ZONE: soldunga  
+[Thu Nov 12 22:18:30 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: karnor  
+[Thu Nov 12 22:18:30 2015] [33 Shadow Knight] Magtoo (Dark Elf) <Nocterma> ZONE: soldunga  
+[Thu Nov 12 22:18:30 2015] There are 3 players in EverQuest.
+[Thu Nov 12 22:18:49 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:18:50 2015] Targeted (Player): Allisa
+[Thu Nov 12 22:18:50 2015] Stand close to and right click on the Player to consider and inspect her. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:19:20 2015] Bigstinkey scores a critical hit! (62)
+[Thu Nov 12 22:19:35 2015] Bigstinkey tells you, 'Got clarity?'
+[Thu Nov 12 22:19:38 2015] Allisen waves at Wackaveli.
+[Thu Nov 12 22:19:50 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:19:52 2015] Stanis shouts, 'Anyone able to clarity at zone in?'
+[Thu Nov 12 22:20:01 2015] Allisen thanks Wackaveli heartily.
+[Thu Nov 12 22:20:04 2015] Wackaveli bows before Allisen.
+[Thu Nov 12 22:20:15 2015] You told Bigstinkey, 'where are you'
+[Thu Nov 12 22:20:17 2015] Targeted (Player): Stanis
+[Thu Nov 12 22:20:17 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:20:19 2015] You begin casting Clarity.
+[Thu Nov 12 22:20:19 2015] You haven't recovered yet...
+[Thu Nov 12 22:20:19 2015] You haven't recovered yet...
+[Thu Nov 12 22:20:19 2015] You haven't recovered yet...
+[Thu Nov 12 22:20:19 2015] You haven't recovered yet...
+[Thu Nov 12 22:20:19 2015] You haven't recovered yet...
+[Thu Nov 12 22:20:20 2015] Bigstinkey tells you, 'En '
+[Thu Nov 12 22:20:22 2015] You regain your concentration and continue your casting.
+[Thu Nov 12 22:20:22 2015] Stanis looks tranquil.
+[Thu Nov 12 22:20:23 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:20:27 2015] Stanis's casting is interrupted!
+[Thu Nov 12 22:20:34 2015] Targeted (Player): Bigstinkey
+[Thu Nov 12 22:20:34 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:20:36 2015] You begin casting Clarity.
+[Thu Nov 12 22:20:36 2015] You haven't recovered yet...
+[Thu Nov 12 22:20:39 2015] Bigstinkey looks tranquil.
+[Thu Nov 12 22:20:41 2015] Zurab says out of character, '56 monk lfg'
+[Thu Nov 12 22:20:51 2015] Bigstinkey tells you, 'He give u?'
+[Thu Nov 12 22:20:55 2015] Bigstinkey scores a critical hit! (59)
+[Thu Nov 12 22:20:57 2015] Bigstinkey scores a critical hit! (52)
+[Thu Nov 12 22:20:59 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:21:00 2015] Stanis's casting is interrupted!
+[Thu Nov 12 22:21:12 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:21:13 2015] Bigstinkey scores a critical hit! (39)
+[Thu Nov 12 22:21:14 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:21:17 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:21:18 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:21:19 2015] You told Bigstinkey, 'no'
+[Thu Nov 12 22:21:19 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:21:23 2015] Bigstinkey tells you, 'Wrong tell'
+[Thu Nov 12 22:21:25 2015] Bigstinkey goes into a berserker frenzy!
+[Thu Nov 12 22:21:29 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:21:29 2015] You told Bigstinkey, 'oh'
+[Thu Nov 12 22:21:32 2015] Bigstinkey lands a Crippling Blow!(79)
+[Thu Nov 12 22:21:33 2015] a drolvarg sentry staggers.
+[Thu Nov 12 22:21:33 2015] Bigstinkey lands a Crippling Blow!(146)
+[Thu Nov 12 22:21:39 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:21:39 2015] You told Bigstinkey, 'mana battery'
+[Thu Nov 12 22:21:43 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:21:46 2015] Bigstinkey lands a Crippling Blow!(68)
+[Thu Nov 12 22:21:46 2015] a drolvarg sentry staggers.
+[Thu Nov 12 22:21:46 2015] Bigstinkey lands a Crippling Blow!(45)
+[Thu Nov 12 22:21:49 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:21:50 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:22:47 2015] Bigstinkey goes into a berserker frenzy!
+[Thu Nov 12 22:22:48 2015] Ivyfoot says out of character, 'Greyish Bone Chips rotting at captain'
+[Thu Nov 12 22:23:01 2015] Ivyfoot says out of character, 'Jarsath Scale Wrist Guards too'
+[Thu Nov 12 22:23:13 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:23:31 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:23:38 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:23:54 2015] Vokoris says out of character, 'Jarsath Scale Chestplate lcy'
+[Thu Nov 12 22:24:12 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:24:33 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:24:35 2015] Stanis's casting is interrupted!
+[Thu Nov 12 22:24:36 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:24:46 2015] Zurab says out of character, 'Any ports ?'
+[Thu Nov 12 22:26:09 2015] Wackaveli shouts, '54 rogue lfg'
+[Thu Nov 12 22:26:14 2015] Niana says out of character, '51 ranger lfg pst'
+[Thu Nov 12 22:26:21 2015] Allisen says out of character, '54 mnk lfg'
+[Thu Nov 12 22:26:35 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:26:44 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:26:55 2015] Sarina says out of character, '55 Bard lfg'
+[Thu Nov 12 22:28:14 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:28:16 2015] Hallow says out of character, 'Bards should eb banded from DLs'
+[Thu Nov 12 22:29:17 2015] Bigstinkey scores a critical hit! (44)
+[Thu Nov 12 22:29:35 2015] Bigstinkey scores a critical hit! (81)
+[Thu Nov 12 22:29:42 2015] Bigstinkey scores a critical hit! (30)
+[Thu Nov 12 22:29:46 2015] Bigstinkey scores a critical hit! (40)
+[Thu Nov 12 22:30:23 2015] Bigstinkey scores a critical hit! (61)
+[Thu Nov 12 22:30:46 2015] Wackaveli begins to cast a spell.
+[Thu Nov 12 22:30:52 2015] Wackaveli's image shimmers.
+[Thu Nov 12 22:31:08 2015] Skeletal guardian tries to bash Ebene, but misses!
+[Thu Nov 12 22:31:08 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:10 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:10 2015] Skeletal guardian hits Ebene for 18 points of damage.
+[Thu Nov 12 22:31:11 2015] Ebene tries to crush skeletal guardian, but misses!
+[Thu Nov 12 22:31:11 2015] Ebene tries to crush skeletal guardian, but misses!
+[Thu Nov 12 22:31:12 2015] Skeletal guardian hits Ebene for 18 points of damage.
+[Thu Nov 12 22:31:14 2015] Ebene tries to crush skeletal guardian, but skeletal guardian dodges!
+[Thu Nov 12 22:31:15 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:15 2015] Skeletal guardian tries to bash Ebene, but misses!
+[Thu Nov 12 22:31:16 2015] Blowinitup tells you, 'Hey C?:)'
+[Thu Nov 12 22:31:16 2015] Ebene crushes skeletal guardian for 47 points of damage.
+[Thu Nov 12 22:31:16 2015] Ebene tries to crush skeletal guardian, but misses!
+[Thu Nov 12 22:31:17 2015] Skeletal guardian hits Ebene for 18 points of damage.
+[Thu Nov 12 22:31:19 2015] Targeted (Player): Blowinitup
+[Thu Nov 12 22:31:19 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:31:19 2015] Skeletal guardian tries to hit Ebene, but Ebene parries!
+[Thu Nov 12 22:31:19 2015] Ebene beams a smile at skeletal guardian
+[Thu Nov 12 22:31:19 2015] Ebene says 'Ahhh, I feel much better now...'
+[Thu Nov 12 22:31:19 2015] Skeletal guardian staggers.
+[Thu Nov 12 22:31:19 2015] Ebene tries to crush skeletal guardian, but misses!
+[Thu Nov 12 22:31:19 2015] Ebene tries to crush skeletal guardian, but misses!
+[Thu Nov 12 22:31:22 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:22 2015] Skeletal guardian hits Ebene for 18 points of damage.
+[Thu Nov 12 22:31:22 2015] You begin casting Clarity.
+[Thu Nov 12 22:31:22 2015] You haven't recovered yet...
+[Thu Nov 12 22:31:22 2015] You haven't recovered yet...
+[Thu Nov 12 22:31:23 2015] Skeletal guardian tries to bash Ebene, but misses!
+[Thu Nov 12 22:31:24 2015] Wackaveli says, 'Pull or a train?'
+[Thu Nov 12 22:31:24 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:24 2015] Ebene tries to crush skeletal guardian, but misses!
+[Thu Nov 12 22:31:24 2015] Ebene tries to crush skeletal guardian, but misses!
+[Thu Nov 12 22:31:25 2015] Blowinitup looks tranquil.
+[Thu Nov 12 22:31:26 2015] Niana is too far away to inspect.  Get closer.
+[Thu Nov 12 22:31:26 2015] Niana regards you indifferently -- she appears to be quite formidable.
+[Thu Nov 12 22:31:26 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:27 2015] Targeted (Player): Niana
+[Thu Nov 12 22:31:27 2015] Stand close to and right click on the Player to consider and inspect her. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:31:27 2015] Blowinitup adds some coins to the trade.
+[Thu Nov 12 22:31:27 2015] The total trade is: 10 PP, 0 GP, 0 SP, 0 CP
+[Thu Nov 12 22:31:28 2015] Ebene crushes skeletal guardian for 33 points of damage.
+[Thu Nov 12 22:31:29 2015] Skeletal guardian tries to hit Ebene, but Ebene parries!
+[Thu Nov 12 22:31:29 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:30 2015] You begin casting Clarity.
+[Thu Nov 12 22:31:31 2015] Ebene says, 'Train,'
+[Thu Nov 12 22:31:31 2015] Skeletal guardian bashes Ebene for 23 points of damage.
+[Thu Nov 12 22:31:31 2015] Skeletal guardian hits Ebene for 72 points of damage.
+[Thu Nov 12 22:31:31 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:33 2015] Niana looks tranquil.
+[Thu Nov 12 22:31:33 2015] Ebene tries to crush skeletal guardian, but misses!
+[Thu Nov 12 22:31:33 2015] Ebene crushes skeletal guardian for 22 points of damage.
+[Thu Nov 12 22:31:34 2015] Skeletal guardian hits Ebene for 18 points of damage.
+[Thu Nov 12 22:31:34 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:36 2015] Skeletal guardian tries to hit Ebene, but misses!
+[Thu Nov 12 22:31:37 2015] Ebene fades away.
+[Thu Nov 12 22:31:37 2015] Ebene crushes skeletal guardian for 32 points of damage.
+[Thu Nov 12 22:31:38 2015] Skeletal guardian hits Streetlight for 104 points of damage.
+[Thu Nov 12 22:31:38 2015] Skeletal guardian hits Streetlight for 58 points of damage.
+[Thu Nov 12 22:31:39 2015] Skeletal guardian tries to bash Streetlight, but misses!
+[Thu Nov 12 22:31:41 2015] Skeletal guardian hits Streetlight for 94 points of damage.
+[Thu Nov 12 22:31:41 2015] Skeletal guardian hits Streetlight for 31 points of damage.
+[Thu Nov 12 22:31:45 2015] Blowinitup says, 'Lol someone hammers off it'
+[Thu Nov 12 22:31:47 2015] Skeletal guardian was pierced by thorns.
+[Thu Nov 12 22:31:47 2015] Skeletal guardian hits Hight for 104 points of damage.
+[Thu Nov 12 22:31:47 2015] Skeletal guardian tries to hit Hight, but misses!
+[Thu Nov 12 22:31:47 2015] Skeletal guardian tries to kick Hight, but misses!
+[Thu Nov 12 22:31:49 2015] Skeletal guardian was pierced by thorns.
+[Thu Nov 12 22:31:49 2015] Skeletal guardian hits Hight for 104 points of damage.
+[Thu Nov 12 22:31:49 2015] Skeletal guardian was pierced by thorns.
+[Thu Nov 12 22:31:49 2015] Skeletal guardian hits Hight for 49 points of damage.
+[Thu Nov 12 22:31:50 2015] Hight begins to cast a spell.
+[Thu Nov 12 22:31:50 2015] Wackaveli says, 'Haha'
+[Thu Nov 12 22:31:52 2015] Skeletal guardian tries to hit Hight, but misses!
+[Thu Nov 12 22:31:52 2015] Skeletal guardian was pierced by thorns.
+[Thu Nov 12 22:31:52 2015] Skeletal guardian hits Hight for 94 points of damage.
+[Thu Nov 12 22:31:52 2015] Hight regains concentration and continues casting.
+[Thu Nov 12 22:31:52 2015] Skeletal guardian's feet become entwined.
+[Thu Nov 12 22:31:57 2015] Wackaveli says, 'One skelly will clear the ent?'
+[Thu Nov 12 22:31:57 2015] Hight begins to cast a spell.
+[Thu Nov 12 22:32:00 2015] Bigstinkey scores a critical hit! (25)
+[Thu Nov 12 22:32:00 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:03 2015] Skeletal guardian is engulfed in a swarm.
+[Thu Nov 12 22:32:06 2015] Hight begins to cast a spell.
+[Thu Nov 12 22:32:10 2015] Skeletal guardian is surrounded by blazing flames.
+[Thu Nov 12 22:32:10 2015] Skeletal guardian bashes Niana for 25 points of damage.
+[Thu Nov 12 22:32:10 2015] Skeletal guardian tries to hit Niana, but misses!
+[Thu Nov 12 22:32:10 2015] Skeletal guardian tries to hit Niana, but Niana parries!
+[Thu Nov 12 22:32:10 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:11 2015] Niana tries to kick skeletal guardian, but skeletal guardian parries!
+[Thu Nov 12 22:32:11 2015] Niana tries to slash skeletal guardian, but skeletal guardian dodges!
+[Thu Nov 12 22:32:11 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:11 2015] Niana slashes skeletal guardian for 32 points of damage.
+[Thu Nov 12 22:32:11 2015] Niana slashes skeletal guardian for 21 points of damage.
+[Thu Nov 12 22:32:11 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:12 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:12 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:13 2015] Skeletal guardian hits Niana for 31 points of damage.
+[Thu Nov 12 22:32:13 2015] Niana slashes skeletal guardian for 26 points of damage.
+[Thu Nov 12 22:32:14 2015] Niana slashes skeletal guardian for 26 points of damage.
+[Thu Nov 12 22:32:14 2015] Niana slashes skeletal guardian for 19 points of damage.
+[Thu Nov 12 22:32:15 2015] Niana slashes skeletal guardian for 44 points of damage.
+[Thu Nov 12 22:32:15 2015] Skeletal guardian hits Niana for 76 points of damage.
+[Thu Nov 12 22:32:16 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:16 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:16 2015] Niana kicks skeletal guardian for 6 points of damage.
+[Thu Nov 12 22:32:17 2015] Niana slashes skeletal guardian for 35 points of damage.
+[Thu Nov 12 22:32:17 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:17 2015] Skeletal guardian hits Niana for 40 points of damage.
+[Thu Nov 12 22:32:18 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:18 2015] Niana slashes skeletal guardian for 26 points of damage.
+[Thu Nov 12 22:32:18 2015] Wackaveli pierces skeletal guardian for 12 points of damage.
+[Thu Nov 12 22:32:18 2015] Wackaveli pierces skeletal guardian for 54 points of damage.
+[Thu Nov 12 22:32:18 2015] Wackaveli slashes skeletal guardian for 18 points of damage.
+[Thu Nov 12 22:32:18 2015] Skeletal guardian tries to kick Niana, but misses!
+[Thu Nov 12 22:32:19 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:19 2015] Niana slashes skeletal guardian for 43 points of damage.
+[Thu Nov 12 22:32:19 2015] Niana slashes skeletal guardian for 31 points of damage.
+[Thu Nov 12 22:32:19 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:19 2015] Wackaveli backstabs skeletal guardian for 81 points of damage.
+[Thu Nov 12 22:32:19 2015] Wackaveli pierces skeletal guardian for 39 points of damage.
+[Thu Nov 12 22:32:20 2015] Niana slashes skeletal guardian for 57 points of damage.
+[Thu Nov 12 22:32:20 2015] Skeletal guardian tries to hit Niana, but Niana ripostes!
+[Thu Nov 12 22:32:20 2015] Skeletal guardian hits Niana for 76 points of damage.
+[Thu Nov 12 22:32:20 2015] Niana slashes skeletal guardian for 32 points of damage.
+[Thu Nov 12 22:32:20 2015] Niana slashes skeletal guardian for 22 points of damage.
+[Thu Nov 12 22:32:20 2015] Niana slashes skeletal guardian for 41 points of damage.
+[Thu Nov 12 22:32:20 2015] Niana slashes skeletal guardian for 24 points of damage.
+[Thu Nov 12 22:32:20 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:21 2015] Wackaveli pierces skeletal guardian for 18 points of damage.
+[Thu Nov 12 22:32:21 2015] Wackaveli slashes skeletal guardian for 25 points of damage.
+[Thu Nov 12 22:32:21 2015] Wackaveli slashes skeletal guardian for 22 points of damage.
+[Thu Nov 12 22:32:21 2015] Hight begins to cast a spell.
+[Thu Nov 12 22:32:21 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:21 2015] Skeletal guardian is slowed by the embracing earth.
+[Thu Nov 12 22:32:21 2015] Niana slashes skeletal guardian for 41 points of damage.
+[Thu Nov 12 22:32:21 2015] Niana slashes skeletal guardian for 62 points of damage.
+[Thu Nov 12 22:32:21 2015] Niana kicks skeletal guardian for 15 points of damage.
+[Thu Nov 12 22:32:22 2015] Wackaveli pierces skeletal guardian for 78 points of damage.
+[Thu Nov 12 22:32:22 2015] Skeletal guardian tries to hit Niana, but misses!
+[Thu Nov 12 22:32:22 2015] Niana slashes skeletal guardian for 26 points of damage.
+[Thu Nov 12 22:32:22 2015] Niana slashes skeletal guardian for 37 points of damage.
+[Thu Nov 12 22:32:22 2015] Niana slashes skeletal guardian for 22 points of damage.
+[Thu Nov 12 22:32:22 2015] Niana slashes skeletal guardian for 43 points of damage.
+[Thu Nov 12 22:32:23 2015] Sibot tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:23 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:23 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:23 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:23 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:23 2015] Wackaveli slashes skeletal guardian for 69 points of damage.
+[Thu Nov 12 22:32:23 2015] Hight's casting is interrupted!
+[Thu Nov 12 22:32:24 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:24 2015] Niana slashes skeletal guardian for 46 points of damage.
+[Thu Nov 12 22:32:24 2015] Niana slashes skeletal guardian for 7 points of damage.
+[Thu Nov 12 22:32:25 2015] Sibot tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:25 2015] Wackaveli pierces skeletal guardian for 17 points of damage.
+[Thu Nov 12 22:32:25 2015] Wackaveli slashes skeletal guardian for 25 points of damage.
+[Thu Nov 12 22:32:25 2015] Niana slashes skeletal guardian for 59 points of damage.
+[Thu Nov 12 22:32:25 2015] Niana slashes skeletal guardian for 33 points of damage.
+[Thu Nov 12 22:32:25 2015] Sibot slashes skeletal guardian for 12 points of damage.
+[Thu Nov 12 22:32:25 2015] Wackaveli tries to backstab skeletal guardian, but misses!
+[Thu Nov 12 22:32:26 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:26 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:26 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:26 2015] Wackaveli pierces skeletal guardian for 23 points of damage.
+[Thu Nov 12 22:32:26 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:26 2015] Skeletal guardian kicks Sibot for 21 points of damage.
+[Thu Nov 12 22:32:26 2015] Sibot slashes skeletal guardian for 11 points of damage.
+[Thu Nov 12 22:32:26 2015] Niana slashes skeletal guardian for 22 points of damage.
+[Thu Nov 12 22:32:27 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:27 2015] Niana slashes skeletal guardian for 5 points of damage.
+[Thu Nov 12 22:32:27 2015] Skeletal guardian tries to hit Sibot, but misses!
+[Thu Nov 12 22:32:27 2015] Niana tries to kick skeletal guardian, but misses!
+[Thu Nov 12 22:32:28 2015] Wackaveli pierces skeletal guardian for 56 points of damage.
+[Thu Nov 12 22:32:28 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:28 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:28 2015] Sibot slashes skeletal guardian for 32 points of damage.
+[Thu Nov 12 22:32:28 2015] Sibot rages.
+[Thu Nov 12 22:32:29 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:29 2015] Wackaveli pierces skeletal guardian for 20 points of damage.
+[Thu Nov 12 22:32:29 2015] Wackaveli slashes skeletal guardian for 36 points of damage.
+[Thu Nov 12 22:32:29 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:29 2015] Sibot slashes skeletal guardian for 26 points of damage.
+[Thu Nov 12 22:32:29 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:29 2015] Niana slashes skeletal guardian for 26 points of damage.
+[Thu Nov 12 22:32:29 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:29 2015] Sibot slashes skeletal guardian for 14 points of damage.
+[Thu Nov 12 22:32:29 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:30 2015] Wackaveli pierces skeletal guardian for 62 points of damage.
+[Thu Nov 12 22:32:30 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:30 2015] Wackaveli slashes skeletal guardian for 28 points of damage.
+[Thu Nov 12 22:32:30 2015] Wackaveli slashes skeletal guardian for 60 points of damage.
+[Thu Nov 12 22:32:30 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:30 2015] Niana slashes skeletal guardian for 27 points of damage.
+[Thu Nov 12 22:32:30 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:30 2015] Niana slashes skeletal guardian for 50 points of damage.
+[Thu Nov 12 22:32:30 2015] Sibot slashes skeletal guardian for 19 points of damage.
+[Thu Nov 12 22:32:31 2015] Niana slashes skeletal guardian for 13 points of damage.
+[Thu Nov 12 22:32:31 2015] Sibot slashes skeletal guardian for 17 points of damage.
+[Thu Nov 12 22:32:32 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:32 2015] Niana slashes skeletal guardian for 21 points of damage.
+[Thu Nov 12 22:32:32 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:32 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:32 2015] Wackaveli slashes skeletal guardian for 28 points of damage.
+[Thu Nov 12 22:32:32 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:32 2015] Skeletal guardian hits Sibot for 36 points of damage.
+[Thu Nov 12 22:32:32 2015] Wackaveli backstabs skeletal guardian for 356 points of damage.
+[Thu Nov 12 22:32:33 2015] Niana slashes skeletal guardian for 37 points of damage.
+[Thu Nov 12 22:32:33 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:33 2015] Sibot tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:33 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:33 2015] Wackaveli pierces skeletal guardian for 27 points of damage.
+[Thu Nov 12 22:32:33 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:33 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:33 2015] Niana tries to kick skeletal guardian, but misses!
+[Thu Nov 12 22:32:34 2015] Sibot rages.
+[Thu Nov 12 22:32:34 2015] Niana slashes skeletal guardian for 10 points of damage.
+[Thu Nov 12 22:32:34 2015] Niana slashes skeletal guardian for 44 points of damage.
+[Thu Nov 12 22:32:34 2015] Sibot slashes skeletal guardian for 23 points of damage.
+[Thu Nov 12 22:32:34 2015] Targeted (NPC): skeletal guardian
+[Thu Nov 12 22:32:34 2015] Right click on the NPC to consider it.
+[Thu Nov 12 22:32:34 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:34 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:34 2015] Wackaveli pierces skeletal guardian for 57 points of damage.
+[Thu Nov 12 22:32:34 2015] Wackaveli pierces skeletal guardian for 52 points of damage.
+[Thu Nov 12 22:32:35 2015] Niana slashes skeletal guardian for 17 points of damage.
+[Thu Nov 12 22:32:35 2015] skeletal guardian scowls at you, ready to attack -- it appears to be quite formidable.
+[Thu Nov 12 22:32:35 2015] Sibot slashes skeletal guardian for 14 points of damage.
+[Thu Nov 12 22:32:35 2015] skeletal guardian scowls at you, ready to attack -- it appears to be quite formidable.
+[Thu Nov 12 22:32:35 2015] Niana slashes skeletal guardian for 23 points of damage.
+[Thu Nov 12 22:32:36 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:36 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:36 2015] Wackaveli slashes skeletal guardian for 6 points of damage.
+[Thu Nov 12 22:32:36 2015] Sibot slashes skeletal guardian for 13 points of damage.
+[Thu Nov 12 22:32:36 2015] Skeletal guardian hits Niana for 104 points of damage.
+[Thu Nov 12 22:32:36 2015] Sibot slashes skeletal guardian for 14 points of damage.
+[Thu Nov 12 22:32:37 2015] Niana slashes skeletal guardian for 15 points of damage.
+[Thu Nov 12 22:32:37 2015] Wackaveli pierces skeletal guardian for 36 points of damage.
+[Thu Nov 12 22:32:37 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:37 2015] Wackaveli slashes skeletal guardian for 22 points of damage.
+[Thu Nov 12 22:32:37 2015] Niana slashes skeletal guardian for 53 points of damage.
+[Thu Nov 12 22:32:37 2015] Sibot slashes skeletal guardian for 15 points of damage.
+[Thu Nov 12 22:32:38 2015] Skeletal guardian is slowed by the embracing earth.
+[Thu Nov 12 22:32:38 2015] Niana slashes skeletal guardian for 9 points of damage.
+[Thu Nov 12 22:32:38 2015] Wackaveli pierces skeletal guardian for 54 points of damage.
+[Thu Nov 12 22:32:38 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:38 2015] Wackaveli slashes skeletal guardian for 58 points of damage.
+[Thu Nov 12 22:32:39 2015] Sibot slashes skeletal guardian for 19 points of damage.
+[Thu Nov 12 22:32:39 2015] Niana kicks skeletal guardian for 14 points of damage.
+[Thu Nov 12 22:32:39 2015] Wackaveli tries to backstab skeletal guardian, but misses!
+[Thu Nov 12 22:32:39 2015] Sibot slashes skeletal guardian for 16 points of damage.
+[Thu Nov 12 22:32:39 2015] Niana slashes skeletal guardian for 24 points of damage.
+[Thu Nov 12 22:32:39 2015] Niana slashes skeletal guardian for 66 points of damage.
+[Thu Nov 12 22:32:39 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:39 2015] Niana slashes skeletal guardian for 35 points of damage.
+[Thu Nov 12 22:32:40 2015] Sibot tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:40 2015] Wackaveli pierces skeletal guardian for 32 points of damage.
+[Thu Nov 12 22:32:40 2015] Wackaveli pierces skeletal guardian for 43 points of damage.
+[Thu Nov 12 22:32:40 2015] Wackaveli tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:40 2015] Wackaveli slashes skeletal guardian for 50 points of damage.
+[Thu Nov 12 22:32:41 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:41 2015] Niana slashes skeletal guardian for 21 points of damage.
+[Thu Nov 12 22:32:41 2015] Niana slashes skeletal guardian for 23 points of damage.
+[Thu Nov 12 22:32:41 2015] Niana slashes skeletal guardian for 28 points of damage.
+[Thu Nov 12 22:32:41 2015] Sibot slashes skeletal guardian for 27 points of damage.
+[Thu Nov 12 22:32:41 2015] Skeletal guardian tries to hit Sibot, but misses!
+[Thu Nov 12 22:32:41 2015] Skeletal guardian hits Sibot for 104 points of damage.
+[Thu Nov 12 22:32:41 2015] Wackaveli pierces skeletal guardian for 18 points of damage.
+[Thu Nov 12 22:32:41 2015] Wackaveli pierces skeletal guardian for 45 points of damage.
+[Thu Nov 12 22:32:42 2015] Skeletal guardian tries to bash Sibot, but Sibot parries!
+[Thu Nov 12 22:32:42 2015] Niana slashes skeletal guardian for 41 points of damage.
+[Thu Nov 12 22:32:42 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:42 2015] Sibot tries to slash skeletal guardian, but skeletal guardian parries!
+[Thu Nov 12 22:32:42 2015] Niana slashes skeletal guardian for 62 points of damage.
+[Thu Nov 12 22:32:42 2015] Niana begins to move faster.
+[Thu Nov 12 22:32:42 2015] Sibot rages.
+[Thu Nov 12 22:32:42 2015] Sibot tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:43 2015] Wackaveli pierces skeletal guardian for 50 points of damage.
+[Thu Nov 12 22:32:43 2015] Wackaveli slashes skeletal guardian for 27 points of damage.
+[Thu Nov 12 22:32:43 2015] A missed note brings Sibot's song to a close!
+[Thu Nov 12 22:32:43 2015] Sibot slashes skeletal guardian for 19 points of damage.
+[Thu Nov 12 22:32:43 2015] Niana slashes skeletal guardian for 36 points of damage.
+[Thu Nov 12 22:32:44 2015] Sibot tries to slash skeletal guardian, but skeletal guardian dodges!
+[Thu Nov 12 22:32:44 2015] Wackaveli tries to pierce skeletal guardian, but misses!
+[Thu Nov 12 22:32:44 2015] Wackaveli pierces skeletal guardian for 38 points of damage.
+[Thu Nov 12 22:32:44 2015] Niana kicks skeletal guardian for 8 points of damage.
+[Thu Nov 12 22:32:44 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:44 2015] Niana slashes skeletal guardian for 20 points of damage.
+[Thu Nov 12 22:32:44 2015] Sibot slashes skeletal guardian for 14 points of damage.
+[Thu Nov 12 22:32:45 2015] Skeletal guardian is slowed by the embracing earth.
+[Thu Nov 12 22:32:45 2015] Niana slashes skeletal guardian for 28 points of damage.
+[Thu Nov 12 22:32:45 2015] Niana tries to slash skeletal guardian, but misses!
+[Thu Nov 12 22:32:45 2015] Wackaveli pierces skeletal guardian for 45 points of damage.
+[Thu Nov 12 22:32:45 2015] Sibot slashes skeletal guardian for 44 points of damage.
+[Thu Nov 12 22:32:46 2015] Sibot slashes skeletal guardian for 24 points of damage.
+[Thu Nov 12 22:32:46 2015] Wackaveli backstabs skeletal guardian for 186 points of damage.
+[Thu Nov 12 22:32:46 2015] skeletal guardian has been slain by Wackaveli!
+[Thu Nov 12 22:32:51 2015] Sibot rages.
+[Thu Nov 12 22:33:05 2015] Wackaveli shouts, '54 rogue lfg'
+[Thu Nov 12 22:33:17 2015] Hight says, 'That was pertty s`fqcv lo '
+[Thu Nov 12 22:33:39 2015] Stabzo says out of character, '54 Rogue LFG'
+[Thu Nov 12 22:34:24 2015] Fealas says out of character, 'Ports @ ZL'
+[Thu Nov 12 22:34:43 2015] Hight begins to cast a spell.
+[Thu Nov 12 22:34:51 2015] Allisen stares at the ground.
+[Thu Nov 12 22:35:06 2015] Hight begins to cast a spell.
+[Thu Nov 12 22:35:06 2015] Zurab says out of character, 'Any ports ?'
+[Thu Nov 12 22:35:15 2015] Hight discorporates in a portal of wind.
+[Thu Nov 12 22:35:25 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:35:26 2015] Whipping winces.
+[Thu Nov 12 22:35:29 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:35:30 2015] Whipping winces.
+[Thu Nov 12 22:35:34 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:35:35 2015] Whipping winces.
+[Thu Nov 12 22:35:38 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:35:39 2015] Whipping winces.
+[Thu Nov 12 22:35:43 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:35:44 2015] Whipping winces.
+[Thu Nov 12 22:35:46 2015] Dorthia begins to cast a spell.
+[Thu Nov 12 22:35:47 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:35:49 2015] Whipping winces.
+[Thu Nov 12 22:35:53 2015] Allisen whistles a little tune.
+[Thu Nov 12 22:36:10 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:36:13 2015] Dorthia begins to cast a spell.
+[Thu Nov 12 22:36:26 2015] Gabobab says 'At your service Master.'
+[Thu Nov 12 22:36:26 2015] Whipping summons a frenzied spirit.
+[Thu Nov 12 22:36:31 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:36:31 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:36:38 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:36:38 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:36:39 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:36:41 2015] Whipping winces.
+[Thu Nov 12 22:36:45 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:36:45 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:36:47 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:36:48 2015] Whipping winces.
+[Thu Nov 12 22:36:51 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:36:51 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:36:51 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:36:57 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:36:57 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:36:58 2015] Niana shouts, 'Cc'
+[Thu Nov 12 22:36:59 2015] Whipping looks tougher.
+[Thu Nov 12 22:37:03 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:03 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:07 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:08 2015] Whipping winces.
+[Thu Nov 12 22:37:09 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:09 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:11 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:12 2015] Whipping winces.
+[Thu Nov 12 22:37:15 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:15 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:16 2015] Ivyfoot says out of character, 'A Doll'
+[Thu Nov 12 22:37:16 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:17 2015] Whipping winces.
+[Thu Nov 12 22:37:20 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:21 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:21 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:22 2015] Whipping winces.
+[Thu Nov 12 22:37:25 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:26 2015] Whipping winces.
+[Thu Nov 12 22:37:27 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:27 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:29 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:30 2015] Whipping winces.
+[Thu Nov 12 22:37:33 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:33 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:33 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:34 2015] Whipping winces.
+[Thu Nov 12 22:37:38 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:39 2015] Whipping winces.
+[Thu Nov 12 22:37:39 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:39 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:45 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:45 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:46 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:37:47 2015] Whipping winces.
+[Thu Nov 12 22:37:51 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:51 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:57 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:37:57 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:37:58 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:38:00 2015] skeletal watcher staggers.
+[Thu Nov 12 22:38:00 2015] Bigstinkey lands a Crippling Blow!(51)
+[Thu Nov 12 22:38:01 2015] Bigstinkey lands a Crippling Blow!(146)
+[Thu Nov 12 22:38:03 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:03 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:05 2015] Faleins looks tougher.
+[Thu Nov 12 22:38:09 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:09 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:09 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:38:11 2015] Whipping winces.
+[Thu Nov 12 22:38:15 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:15 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:18 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:38:19 2015] Whipping winces.
+[Thu Nov 12 22:38:21 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:21 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:21 2015] skeletal watcher staggers.
+[Thu Nov 12 22:38:21 2015] Bigstinkey lands a Crippling Blow!(62)
+[Thu Nov 12 22:38:22 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:38:23 2015] Whipping winces.
+[Thu Nov 12 22:38:27 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:27 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:29 2015] skeletal watcher staggers.
+[Thu Nov 12 22:38:29 2015] Bigstinkey lands a Crippling Blow!(88)
+[Thu Nov 12 22:38:30 2015] **A Magic Die is rolled by Getrekt.
+[Thu Nov 12 22:38:30 2015] **It could have been any number from 0 to 100, but this time it turned up a 100.
+[Thu Nov 12 22:38:33 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:38:33 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:33 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:34 2015] Whipping winces.
+[Thu Nov 12 22:38:34 2015] **A Magic Die is rolled by Zeakiel.
+[Thu Nov 12 22:38:34 2015] **It could have been any number from 0 to 100, but this time it turned up a 30.
+[Thu Nov 12 22:38:37 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:38:38 2015] Whipping winces.
+[Thu Nov 12 22:38:39 2015] **A Magic Die is rolled by Wenzel.
+[Thu Nov 12 22:38:39 2015] **It could have been any number from 0 to 100, but this time it turned up a 15.
+[Thu Nov 12 22:38:39 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:39 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:44 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:38:45 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:45 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:45 2015] Whipping winces.
+[Thu Nov 12 22:38:46 2015] Niana's spell fizzles!
+[Thu Nov 12 22:38:49 2015] Niana's spell fizzles!
+[Thu Nov 12 22:38:49 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:38:50 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:38:51 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:51 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:54 2015] Whipping looks strong.
+[Thu Nov 12 22:38:55 2015] Niana's spell fizzles!
+[Thu Nov 12 22:38:55 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:38:57 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:38:57 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:38:58 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:39:03 2015] Faleins looks strong.
+[Thu Nov 12 22:39:03 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:03 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:08 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:39:09 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:09 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:11 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:39:13 2015] skeletal watcher staggers.
+[Thu Nov 12 22:39:13 2015] Bigstinkey lands a Crippling Blow!(319)
+[Thu Nov 12 22:39:13 2015] Gabobab looks strong.
+[Thu Nov 12 22:39:15 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:15 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:18 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:39:20 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:39:21 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:21 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:21 2015] Whipping winces.
+[Thu Nov 12 22:39:24 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:39:26 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:39:27 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:27 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:29 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:39:30 2015] Whipping winces.
+[Thu Nov 12 22:39:33 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:33 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:33 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:39:39 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:39 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:39 2015] Whipping's body shines with riotous health.
+[Thu Nov 12 22:39:44 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:39:44 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:39:45 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:45 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:46 2015] Prophetie says out of character, 'Any evac for emerald jungle'
+[Thu Nov 12 22:39:46 2015] Wackaveli shouts, '54 rogue lfg'
+[Thu Nov 12 22:39:50 2015] Faleins's body shines with riotous health.
+[Thu Nov 12 22:39:51 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:51 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:54 2015] Niana says out of character, '51 ranger lfg'
+[Thu Nov 12 22:39:57 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:39:57 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:39:58 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:40:01 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:40:03 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:40:03 2015] Faleins is surrounded by a shield of song.
+[Thu Nov 12 22:40:05 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:40:06 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:40:07 2015] Whipping winces.
+[Thu Nov 12 22:40:09 2015] Whipping is surrounded by a shield of song.
+[Thu Nov 12 22:40:12 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:40:13 2015] Whipping winces.
+[Thu Nov 12 22:40:18 2015] Bigstinkey is no longer berserk.
+[Thu Nov 12 22:40:21 2015] Whipping begins to cast a spell.
+[Thu Nov 12 22:40:21 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:40:27 2015] Whipping begins to regenerate.
+[Thu Nov 12 22:40:35 2015] A missed note brings Faleins's song to a close!
+[Thu Nov 12 22:40:36 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:40:53 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:40:54 2015] Atlana begins to cast a spell.
+[Thu Nov 12 22:41:08 2015] Atlana begins to cast a spell.
+[Thu Nov 12 22:41:14 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:41:29 2015] Allisen thanks Atlana heartily.
+[Thu Nov 12 22:41:30 2015] Allisen cheers at Atlana.
+[Thu Nov 12 22:41:39 2015] Atlana says, 'Welcome'
+[Thu Nov 12 22:41:48 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:41:56 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:41:57 2015] Bigstinkey's casting is interrupted!
+[Thu Nov 12 22:42:02 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:43:14 2015] Prophetie says out of character, 'Any evac for emerald jungle'
+[Thu Nov 12 22:43:29 2015] Rylas begins to cast a spell.
+[Thu Nov 12 22:43:39 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:43:45 2015] Rylas creates a shimmering portal.
+[Thu Nov 12 22:43:45 2015] Nauthdril says out of character, 'CC'
+[Thu Nov 12 22:44:00 2015] Faleins's song ends abruptly.
+[Thu Nov 12 22:45:12 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:45:20 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:45:59 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:46:04 2015] Atlana says out of character, 'Anyone in basement?'
+[Thu Nov 12 22:46:09 2015] Coine says out of character, 'Yup'
+[Thu Nov 12 22:48:04 2015] Allisen waves at Emocar.
+[Thu Nov 12 22:48:20 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:48:26 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:48:32 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:48:40 2015] Targeted (Corpse): Stabzall's corpse
+[Thu Nov 12 22:48:40 2015] Stand close to and right click on the Corpse to try looting it.
+[Thu Nov 12 22:49:17 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:49:23 2015] Althalas begins to regenerate.
+[Thu Nov 12 22:49:33 2015] Ivyfoot begins to cast a spell.
+[Thu Nov 12 22:49:34 2015] Neversleep says out of character, 'WTB a port to GD'
+[Thu Nov 12 22:49:38 2015] Emocar feels much better.
+[Thu Nov 12 22:49:53 2015] Ivyfoot begins to cast a spell.
+[Thu Nov 12 22:49:58 2015] Emocar feels much better.
+[Thu Nov 12 22:50:15 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:50:20 2015] Althalas's body is strengthened by nature.
+[Thu Nov 12 22:50:24 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:50:27 2015] Neversleep begins to cast a spell.
+[Thu Nov 12 22:50:28 2015] Althalas's body is surrounded by the Call of Earth.
+[Thu Nov 12 22:50:32 2015] Stanis tells you, 'Hey can you hit me with one more clarity if mana permits?'
+[Thu Nov 12 22:50:41 2015] Ivyfoot says, 'Thank you'
+[Thu Nov 12 22:50:41 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:50:43 2015] Targeted (Player): Stanis
+[Thu Nov 12 22:50:43 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:50:45 2015] You begin casting Clarity.
+[Thu Nov 12 22:50:47 2015] You told Stanis, 'sure bud'
+[Thu Nov 12 22:50:48 2015] Stanis looks tranquil.
+[Thu Nov 12 22:50:49 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:50:52 2015] Stanis tells you, 'Thank you =)'
+[Thu Nov 12 22:50:52 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:50:58 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:50:58 2015] Althalas's skin turns hard as diamond.
+[Thu Nov 12 22:50:59 2015] Targeted (Corpse): Stabzall's corpse
+[Thu Nov 12 22:50:59 2015] Stand close to and right click on the Corpse to try looting it.
+[Thu Nov 12 22:51:00 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:51:07 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:51:08 2015] Targeted (Corpse): Stabzall's corpse
+[Thu Nov 12 22:51:08 2015] Stand close to and right click on the Corpse to try looting it.
+[Thu Nov 12 22:51:12 2015] Althalas's spell fizzles!
+[Thu Nov 12 22:51:13 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:51:13 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:51:17 2015] Althalas feels much better.
+[Thu Nov 12 22:51:19 2015] Glug, glug, glug...  Ivyfoot takes a drink from a Pod of Water.
+[Thu Nov 12 22:51:20 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:51:24 2015] Neversleep kisses Atlana on the cheek.
+[Thu Nov 12 22:51:24 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:51:27 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:51:28 2015] Althalas feels much better.
+[Thu Nov 12 22:51:29 2015] Niana's casting is interrupted!
+[Thu Nov 12 22:51:29 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:51:32 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:51:33 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:51:36 2015] Althalas's weapons gleam.
+[Thu Nov 12 22:51:39 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:51:42 2015] Althalas is surrounded by a thorny barrier.
+[Thu Nov 12 22:51:56 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:52:01 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:52:32 2015] Bigstinkey scores a critical hit! (51)
+[Thu Nov 12 22:52:43 2015] Blowinitup tells you, 'C? im annoying'
+[Thu Nov 12 22:53:04 2015] Targeted (Player): Sibot
+[Thu Nov 12 22:53:04 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:53:04 2015] Targeted (Player): Blowinitup
+[Thu Nov 12 22:53:04 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 22:53:06 2015] You begin casting Clarity.
+[Thu Nov 12 22:53:06 2015] Ivyfoot begins to cast a spell.
+[Thu Nov 12 22:53:08 2015] Bigstinkey scores a critical hit! (25)
+[Thu Nov 12 22:53:09 2015] Blowinitup looks tranquil.
+[Thu Nov 12 22:53:09 2015] Bigstinkey scores a critical hit! (25)
+[Thu Nov 12 22:53:11 2015] Blowinitup is surrounded by a brief lupine aura.
+[Thu Nov 12 22:53:14 2015] Chomp, chomp, chomp...  Ivyfoot takes a bite from a Vegetables.
+[Thu Nov 12 22:53:17 2015] Blowinitup says, 'Tyty'
+[Thu Nov 12 22:53:19 2015] Bigstinkey scores a critical hit! (34)
+[Thu Nov 12 22:53:21 2015] You told Blowinitup, 'nah its no prob i'm literally sitting here reading the wine source trying to make a patch'
+[Thu Nov 12 22:53:22 2015] Bigstinkey goes into a berserker frenzy!
+[Thu Nov 12 22:53:23 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:53:24 2015] Allishia says, 'Remedy ♥ [  Ivyfoot ] ♥'
+[Thu Nov 12 22:53:26 2015] skeletal guardian staggers.
+[Thu Nov 12 22:53:26 2015] Bigstinkey lands a Crippling Blow!(137)
+[Thu Nov 12 22:53:26 2015] Ivyfoot's wounds fade away.
+[Thu Nov 12 22:53:28 2015] Wenzel says out of character, 'LFG check'
+[Thu Nov 12 22:53:30 2015] skeletal guardian staggers.
+[Thu Nov 12 22:53:30 2015] Bigstinkey lands a Crippling Blow!(83)
+[Thu Nov 12 22:53:33 2015] Blowinitup tells you, 'Man good luck, i sympathize'
+[Thu Nov 12 22:53:33 2015] Allishia says out of character, '54 mnk lfg'
+[Thu Nov 12 22:53:33 2015] Ivyfoot says, 'Ty Alli'
+[Thu Nov 12 22:53:35 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:53:40 2015] Blowinitup tells you, 'At least youre in game though!'
+[Thu Nov 12 22:53:41 2015] Allishia says, 'Welcome!'
+[Thu Nov 12 22:53:48 2015] You told Blowinitup, 'haha definetely'
+[Thu Nov 12 22:54:04 2015] You told Blowinitup, 'if I can make a patch it will be worth it though '
+[Thu Nov 12 22:54:17 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:54:19 2015] Streetlight waves at Allishia.
+[Thu Nov 12 22:54:37 2015] Niana says out of character, '51 ranger lfg'
+[Thu Nov 12 22:54:47 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:54:48 2015] Bigstinkey's casting is interrupted!
+[Thu Nov 12 22:54:50 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:54:50 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:54:53 2015] Niana's eyes gleam with heroic resolution.
+[Thu Nov 12 22:54:56 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:54:59 2015] Niana's weapons gleam.
+[Thu Nov 12 22:55:00 2015] Niana says, 'Yu'
+[Thu Nov 12 22:55:01 2015] Niana says, 'Ty'
+[Thu Nov 12 22:55:03 2015] Niana begins to cast a spell.
+[Thu Nov 12 22:55:06 2015] Blowinitup begins to cast a spell.
+[Thu Nov 12 22:55:07 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:55:07 2015] Niana is surrounded by a brief lupine aura.
+[Thu Nov 12 22:55:09 2015] Blowinitup's feet leave the ground.
+[Thu Nov 12 22:55:18 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:55:22 2015] Bigstinkey is no longer berserk.
+[Thu Nov 12 22:55:23 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 22:55:26 2015] Yiska hugs Allishia.
+[Thu Nov 12 22:55:28 2015] Stanis begins to cast a spell.
+[Thu Nov 12 22:55:29 2015] Yiska hugs Allishia.
+[Thu Nov 12 22:55:30 2015] Yiska hugs Allishia.
+[Thu Nov 12 22:55:45 2015] Yiska bear hugs Allishia.
+[Thu Nov 12 22:55:51 2015] Nindari says, 'Anyone need evac to EJ? i am going'
+[Thu Nov 12 22:55:53 2015] Yiska begins to cast a spell.
+[Thu Nov 12 22:56:19 2015] Yiska begins to cast a spell.
+[Thu Nov 12 22:56:45 2015] Nindari begins to cast a spell.
+[Thu Nov 12 22:56:54 2015] Nindari discorporates in a portal of wind.
+[Thu Nov 12 22:57:00 2015] Ivyfoot says, 'Hail, Niana'
+[Thu Nov 12 22:57:09 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:57:10 2015] Allishia says, 'Remedy ♥ [  Zeakiel ] ♥'
+[Thu Nov 12 22:57:24 2015] Zeakiel says, 'Ty Alli'
+[Thu Nov 12 22:57:29 2015] Allishia says out of character, '54 mnk lfg'
+[Thu Nov 12 22:57:32 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:57:51 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:57:55 2015] Althalas's casting is interrupted!
+[Thu Nov 12 22:58:02 2015] Ivyfoot begins to cast a spell.
+[Thu Nov 12 22:58:04 2015] Neversleep begins to cast a spell.
+[Thu Nov 12 22:58:06 2015] Ivyfoot is surrounded by a brief lupine aura.
+[Thu Nov 12 22:58:16 2015] Neversleep begins to cast a spell.
+[Thu Nov 12 22:58:19 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:58:24 2015] Neversleep begins to cast a spell.
+[Thu Nov 12 22:58:33 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:58:39 2015] Neifor begins to cast a spell.
+[Thu Nov 12 22:58:44 2015] Neversleep is surrounded by a brief lupine aura.
+[Thu Nov 12 22:58:46 2015] Neifor begins to cast a spell.
+[Thu Nov 12 22:58:48 2015] Winkers begins to cast a spell.
+[Thu Nov 12 22:58:49 2015] Neversleep's feet leave the ground.
+[Thu Nov 12 22:58:50 2015] Winkers regains concentration and continues casting.
+[Thu Nov 12 22:58:51 2015] Kefkef begins to cast a spell.
+[Thu Nov 12 22:58:55 2015] Neifor begins to cast a spell.
+[Thu Nov 12 22:58:59 2015] Neversleep is surrounded by a brief lupine aura.
+[Thu Nov 12 22:59:04 2015] Neifor begins to cast a spell.
+[Thu Nov 12 22:59:09 2015] Kinglance is surrounded by a brief lupine aura.
+[Thu Nov 12 22:59:12 2015] Neifor begins to cast a spell.
+[Thu Nov 12 22:59:15 2015] Kinglance's feet leave the ground.
+[Thu Nov 12 22:59:17 2015] Allishia begins to cast a spell.
+[Thu Nov 12 22:59:18 2015] Neifor begins to cast a spell.
+[Thu Nov 12 22:59:27 2015] Neversleep discorporates in a portal of wind.
+[Thu Nov 12 22:59:27 2015] Kinglance discorporates in a portal of wind.
+[Thu Nov 12 22:59:44 2015] Althalas begins to cast a spell.
+[Thu Nov 12 22:59:58 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:00:01 2015] Althalas feels much better.
+[Thu Nov 12 23:00:07 2015] Allishia begins to cast a spell.
+[Thu Nov 12 23:00:19 2015] Bigstinkey goes into a berserker frenzy!
+[Thu Nov 12 23:00:32 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:00:35 2015] Atlana begins to cast a spell.
+[Thu Nov 12 23:00:45 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:00:46 2015] Stanis's casting is interrupted!
+[Thu Nov 12 23:00:46 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:00:55 2015] skeletal guardian staggers.
+[Thu Nov 12 23:00:55 2015] Bigstinkey lands a Crippling Blow!(47)
+[Thu Nov 12 23:00:57 2015] Atlana begins to cast a spell.
+[Thu Nov 12 23:01:00 2015] Bigstinkey lands a Crippling Blow!(120)
+[Thu Nov 12 23:01:03 2015] Allishia begins to cast a spell.
+[Thu Nov 12 23:01:13 2015] Bigstinkey is no longer berserk.
+[Thu Nov 12 23:01:27 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:01:27 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:01:31 2015] Bigstinkey scores a critical hit! (52)
+[Thu Nov 12 23:01:39 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:01:42 2015] Allishia begins to cast a spell.
+[Thu Nov 12 23:01:46 2015] Winkers says, 'Oh goodness'
+[Thu Nov 12 23:01:48 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:01:54 2015] Bigstinkey scores a critical hit! (44)
+[Thu Nov 12 23:01:59 2015] Atlana waves at Blinkystop.
+[Thu Nov 12 23:02:06 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:02:09 2015] Allishia begins to cast a spell.
+[Thu Nov 12 23:02:12 2015] Allishia regains concentration and continues casting.
+[Thu Nov 12 23:02:14 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:02:15 2015] Stanis regains concentration and continues casting.
+[Thu Nov 12 23:02:22 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:02:33 2015] Allishia begins to cast a spell.
+[Thu Nov 12 23:02:48 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:02:51 2015] Allishia begins to cast a spell.
+[Thu Nov 12 23:02:52 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:02:54 2015] Stanis regains concentration and continues casting.
+[Thu Nov 12 23:02:59 2015] Allishia begins to cast a spell.
+[Thu Nov 12 23:03:10 2015] Allishia begins to cast a spell.
+[Thu Nov 12 23:03:12 2015] Allishia regains concentration and continues casting.
+[Thu Nov 12 23:03:18 2015] Allishia shrugs unknowingly.
+[Thu Nov 12 23:03:34 2015] Bigstinkey scores a critical hit! (30)
+[Thu Nov 12 23:03:39 2015] Bigstinkey scores a critical hit! (44)
+[Thu Nov 12 23:03:42 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:03:52 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:04:06 2015] Blinkystop says out of character, '51 CLR lfg'
+[Thu Nov 12 23:04:09 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:04:11 2015] Stanis's casting is interrupted!
+[Thu Nov 12 23:04:12 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:04:22 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:04:25 2015] Bigstinkey goes into a berserker frenzy!
+[Thu Nov 12 23:04:31 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 23:04:32 2015] skeletal guardian staggers.
+[Thu Nov 12 23:04:32 2015] Bigstinkey lands a Crippling Blow!(91)
+[Thu Nov 12 23:04:32 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:04:34 2015] spectral curate's casting is interrupted!
+[Thu Nov 12 23:04:40 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:04:42 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 23:04:43 2015] Stanis's casting is interrupted!
+[Thu Nov 12 23:04:43 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:04:43 2015] Bigstinkey lands a Crippling Blow!(95)
+[Thu Nov 12 23:04:45 2015] spectral curate's casting is interrupted!
+[Thu Nov 12 23:04:50 2015] skeletal guardian staggers.
+[Thu Nov 12 23:04:50 2015] Bigstinkey lands a Crippling Blow!(187)
+[Thu Nov 12 23:04:52 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 23:04:54 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:04:55 2015] spectral curate's casting is interrupted!
+[Thu Nov 12 23:04:56 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:04:58 2015] Bigstinkey lands a Crippling Blow!(88)
+[Thu Nov 12 23:05:03 2015] spectral curate begins to cast a spell.
+[Thu Nov 12 23:05:05 2015] Winkers's spell fizzles!
+[Thu Nov 12 23:05:06 2015] Allisen grins evilly at Yiska.
+[Thu Nov 12 23:05:06 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:05:08 2015] spectral curate's casting is interrupted!
+[Thu Nov 12 23:05:08 2015] Allisen waves at Yiska.
+[Thu Nov 12 23:05:10 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:05:12 2015] skeletal guardian staggers.
+[Thu Nov 12 23:05:12 2015] Bigstinkey lands a Crippling Blow!(71)
+[Thu Nov 12 23:05:13 2015] Dauklemar says, 'Hail, Yiska'
+[Thu Nov 12 23:05:14 2015] Atlana begins to cast a spell.
+[Thu Nov 12 23:05:15 2015] Atlana says, 'Complete heal on Bigstinkey'
+[Thu Nov 12 23:05:20 2015] Yiska grabs hold of Dauklemar and begins to dance with him.
+[Thu Nov 12 23:05:25 2015] Bigstinkey is no longer berserk.
+[Thu Nov 12 23:05:36 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 23:05:44 2015] Dauklemar begins to cast a spell.
+[Thu Nov 12 23:05:46 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:05:53 2015] Dauklemar begins to cast a spell.
+[Thu Nov 12 23:05:56 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:05:56 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:05:58 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:06:02 2015] Althalas's casting is interrupted!
+[Thu Nov 12 23:06:07 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:06:15 2015] Dauklemar begins to cast a spell.
+[Thu Nov 12 23:06:22 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:06:29 2015] Winkers says out of character, '55 pally lfg'
+[Thu Nov 12 23:06:33 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:06:43 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:06:53 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:07:20 2015] Yiska nods at Dauklemar.
+[Thu Nov 12 23:07:27 2015] Yiska taps his foot as he looks at Dauklemar impatiently.
+[Thu Nov 12 23:07:37 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:07:48 2015] Yiska has landed a Thunderous Kick! (131)
+[Thu Nov 12 23:07:51 2015] Neezy begins to cast a spell.
+[Thu Nov 12 23:08:01 2015] Yiska nods at Dauklemar.
+[Thu Nov 12 23:08:05 2015] Stanis's spell fizzles!
+[Thu Nov 12 23:08:06 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:08:14 2015] Yiska begins to cast a spell.
+[Thu Nov 12 23:08:18 2015] Bigstinkey scores a critical hit! (52)
+[Thu Nov 12 23:08:18 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:08:46 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:08:57 2015] Bigstinkey scores a critical hit! (52)
+[Thu Nov 12 23:09:04 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:09:08 2015] Blinkystop waves at Atlana.
+[Thu Nov 12 23:09:39 2015] Mamael begins to walk faster.
+[Thu Nov 12 23:09:58 2015] Mamael begins to cast a spell.
+[Thu Nov 12 23:10:06 2015] Mamael's casting is interrupted!
+[Thu Nov 12 23:10:08 2015] Mamael begins to cast a spell.
+[Thu Nov 12 23:10:13 2015] Althalas's spell fizzles!
+[Thu Nov 12 23:10:14 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:10:14 2015] Mamael's casting is interrupted!
+[Thu Nov 12 23:10:16 2015] Mamael begins to cast a spell.
+[Thu Nov 12 23:10:18 2015] Mamael is surrounded by a brief lupine aura.
+[Thu Nov 12 23:10:19 2015] Mamael bows before Althalas.
+[Thu Nov 12 23:10:22 2015] Mamael thanks Althalas heartily.
+[Thu Nov 12 23:10:25 2015] Mamael creates a shimmering portal.
+[Thu Nov 12 23:11:00 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:11:06 2015] Althalas begins to regenerate.
+[Thu Nov 12 23:11:11 2015] Atlana says out of character, '55 cleric lfg'
+[Thu Nov 12 23:11:45 2015] Bigstinkey begins to cast a spell.
+[Thu Nov 12 23:12:21 2015] Coine says out of character, 'LFG check'
+[Thu Nov 12 23:12:21 2015] You may not loot this corpse at this time.
+[Thu Nov 12 23:12:29 2015] Winkers says out of character, '55 pally'
+[Thu Nov 12 23:12:52 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:12:56 2015] Althalas feels much better.
+[Thu Nov 12 23:12:59 2015] Althalas's spell fizzles!
+[Thu Nov 12 23:12:59 2015] Althalas begins to cast a spell.
+[Thu Nov 12 23:13:03 2015] Althalas feels much better.
+[Thu Nov 12 23:13:15 2015] Targeted (Player): Althalas
+[Thu Nov 12 23:13:15 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Thu Nov 12 23:13:16 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:13:18 2015] It will take you about 30 seconds to prepare your camp.
+[Thu Nov 12 23:13:22 2015] It will take about 25 more seconds to prepare your camp.
+[Thu Nov 12 23:13:27 2015] It will take about 20 more seconds to prepare your camp.
+[Thu Nov 12 23:13:29 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:13:31 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:13:32 2015] It will take about 15 more seconds to prepare your camp.
+[Thu Nov 12 23:13:36 2015] Stanis begins to cast a spell.
+[Thu Nov 12 23:13:37 2015] It will take about 10 more seconds to prepare your camp.
+[Thu Nov 12 23:13:40 2015] Winkers begins to cast a spell.
+[Thu Nov 12 23:13:42 2015] It will take about 5 more seconds to prepare your camp.
+[Thu Nov 12 23:13:47 2015] Bigstinkey scores a critical hit! (35)
+[Sat Nov 14 16:37:33 2015] Logging to 'eqlog.txt' is now *ON*.
+[Sat Nov 14 16:38:26 2015] Haxy says out of character, '54 monk lfg'
+[Sat Nov 14 16:38:43 2015] Haxy begins to walk faster.
+[Sat Nov 14 16:39:31 2015] Asphix says out of character, 'Porting to duid locations'
+[Sat Nov 14 16:39:37 2015] Brym says out of character, 'anyone porting?'
+[Sat Nov 14 16:40:18 2015] Asphix begins to cast a spell.
+[Sat Nov 14 16:40:33 2015] Asphix begins to cast a spell.
+[Sat Nov 14 16:40:38 2015] Sapphy is surrounded by a brief lupine aura.
+[Sat Nov 14 16:40:42 2015] Swaregin shouts, 'WTB - REZ'
+[Sat Nov 14 16:40:42 2015] Asphix begins to cast a spell.
+[Sat Nov 14 16:40:44 2015] Sapphy begins to cast a spell.
+[Sat Nov 14 16:40:46 2015] Swaregin shouts, 'WTB - C2'
+[Sat Nov 14 16:40:49 2015] Sapphy fades away.
+[Sat Nov 14 16:40:58 2015] Brym creates a mystic portal.
+[Sat Nov 14 16:40:58 2015] Sapphy creates a mystic portal.
+[Sat Nov 14 16:40:58 2015] Asphix creates a mystic portal.
+[Sat Nov 14 16:41:13 2015] Eener says out of character, '90&PCT; at ZL'
+[Sat Nov 14 16:41:34 2015] Zhephyr begins to cast a spell.
+[Sat Nov 14 16:41:40 2015] Zhephyr's casting is interrupted!
+[Sat Nov 14 16:42:51 2015] Swaregin shouts, 'WTB - C2 right meow !'
+[Sat Nov 14 16:43:17 2015] Eener begins to cast a spell.
+[Sat Nov 14 16:43:24 2015] Eener begins to cast a spell.
+[Sat Nov 14 16:43:52 2015] Waster says out of character, 'anyone lfg?'
+[Sat Nov 14 16:44:17 2015] Eener says out of character, '51 cleric LFG i have an hr'
+[Sat Nov 14 16:44:55 2015] Waster says out of character, 'LCY LF tank/mele dps'
+[Sat Nov 14 16:45:42 2015] Donkova begins to cast a spell.
+[Sat Nov 14 16:45:45 2015] Ysadora's eyes gleam with heroic resolution.
+[Sat Nov 14 16:45:45 2015] Zhephyr's eyes gleam with heroic resolution.
+[Sat Nov 14 16:45:45 2015] Donkova's eyes gleam with heroic resolution.
+[Sat Nov 14 16:45:50 2015] Missandar whistles at Donkova appreciatively.
+[Sat Nov 14 16:46:30 2015] Swaregin shouts, 'WTB - C2 right meow !'
+[Sat Nov 14 16:47:07 2015] Missandar begins to cast a spell.
+[Sat Nov 14 16:47:25 2015] Sibrina says out of character, 'Train'
+[Sat Nov 14 16:47:37 2015] Sibrina says out of character, 'From hands   *caution* train'
+[Sat Nov 14 16:48:11 2015] Coine says out of character, 'bard LFG'
+[Sat Nov 14 16:48:19 2015] Coine's image shimmers.
+[Sat Nov 14 16:49:07 2015] Exuo says out of character, 'Train right'
+[Sat Nov 14 16:49:12 2015] Waster says out of character, 'thanks for the train...'
+[Sat Nov 14 16:49:23 2015] Sibrina says out of character, 'it was called.  Don't blame me :P'
+[Sat Nov 14 16:50:04 2015] Coine says out of character, 'bard LFG'
+[Sat Nov 14 16:50:18 2015] Caerbear begins to cast a spell.
+[Sat Nov 14 16:50:39 2015] Waster begins to cast a spell.
+[Sat Nov 14 16:52:33 2015] Eliena says out of character, 'Supple Scale Armband rotting at hands'
+[Sat Nov 14 16:53:56 2015] Eliena says out of character, 'hands looking for repl trainer... err puller'
+[Sat Nov 14 16:56:17 2015] Salchicha begins to cast a spell.
+[Sat Nov 14 16:56:26 2015] Salchicha creates a shimmering portal.
+[Sat Nov 14 16:56:36 2015] Rogueaine says out of character, 'hands LF dps'
+[Sat Nov 14 16:56:52 2015] Nikal bows before Otuack.
+[Sat Nov 14 16:56:55 2015] Nikal begins to cast a spell.
+[Sat Nov 14 16:56:56 2015] Nikal winces.
+[Sat Nov 14 16:57:14 2015] Upskirts begins to cast a spell.
+[Sat Nov 14 16:57:23 2015] Upskirts creates a shimmering portal.
+[Sat Nov 14 16:57:23 2015] Mebbas has landed a Thunderous Kick! (56)
+[Sat Nov 14 16:57:43 2015] Lartanin begins to cast a spell.
+[Sat Nov 14 16:57:56 2015] Rumachil begins to cast a spell.
+[Sat Nov 14 16:58:01 2015] Rumachil's casting is interrupted!
+[Sat Nov 14 16:58:05 2015] Rumachil begins to cast a spell.
+[Sat Nov 14 16:58:06 2015] Baranx says out of character, '58 war lfg'
+[Sat Nov 14 16:58:46 2015] Eliena says out of character, 'hands lf puller'
+[Sat Nov 14 16:58:53 2015] Baranx begins to cast a spell.
+[Sat Nov 14 16:59:03 2015] Baranx looks stronger.
+[Sat Nov 14 17:02:51 2015] Zotties says, 'Hail, Arakiss'
+[Sat Nov 14 17:03:11 2015] Arakiss begins to cast a spell.
+[Sat Nov 14 17:04:02 2015] Rogueaine begins to cast a spell.
+[Sat Nov 14 17:04:17 2015] Rogueaine looks invigorated
+[Sat Nov 14 17:04:25 2015] Rogueaine begins to cast a spell.
+[Sat Nov 14 17:04:40 2015] Rogueaine looks invigorated
+[Sat Nov 14 17:04:41 2015] Rogueaine begins to cast a spell.
+[Sat Nov 14 17:04:53 2015] Rogueaine regards you indifferently -- what would you like your tombstone to say?
+[Sat Nov 14 17:04:53 2015] You are inspecting Rogueaine.
+[Sat Nov 14 17:04:56 2015] Rogueaine looks invigorated
+[Sat Nov 14 17:04:59 2015] Targeted (NPC): a drolvarg sentry
+[Sat Nov 14 17:04:59 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:05:03 2015] a drolvarg sentry scowls at you, ready to attack -- it appears to be quite formidable.
+[Sat Nov 14 17:05:04 2015] a drolvarg sentry scowls at you, ready to attack -- it appears to be quite formidable.
+[Sat Nov 14 17:05:05 2015] Eratii begins to cast a spell.
+[Sat Nov 14 17:05:11 2015] Eratii's feet leave the ground.
+[Sat Nov 14 17:05:13 2015] Your feet feel quick.
+[Sat Nov 14 17:05:16 2015] Eratii begins to cast a spell.
+[Sat Nov 14 17:05:17 2015] LOADING, PLEASE WAIT...
+[Sat Nov 14 17:05:44 2015] You have entered Dreadlands.
+[Sat Nov 14 17:05:55 2015] Targeted (NPC): a drolvarg rager
+[Sat Nov 14 17:05:55 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:05:58 2015] a drolvarg rager glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:05:58 2015] a ravishing drolvarg glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:05:59 2015] Targeted (NPC): a ravishing drolvarg
+[Sat Nov 14 17:05:59 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:05:59 2015] a ravishing drolvarg glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:06:00 2015] a ravishing drolvarg glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:06:01 2015] a ravishing drolvarg glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:06:01 2015] a ravishing drolvarg glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:06:02 2015] a drolvarg rager glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:07:24 2015] It will take you about 30 seconds to prepare your camp.
+[Sat Nov 14 17:07:28 2015] It will take about 25 more seconds to prepare your camp.
+[Sat Nov 14 17:07:33 2015] It will take about 20 more seconds to prepare your camp.
+[Sat Nov 14 17:07:38 2015] It will take about 15 more seconds to prepare your camp.
+[Sat Nov 14 17:07:43 2015] It will take about 10 more seconds to prepare your camp.
+[Sat Nov 14 17:07:48 2015] It will take about 5 more seconds to prepare your camp.
+[Sat Nov 14 17:30:19 2015] Welcome to EverQuest!
+[Sat Nov 14 17:30:19 2015] You have entered Dreadlands.
+[Sat Nov 14 17:30:19 2015] MESSAGE OF THE DAY: Welcome to the Project 1999 Classic EverQuest Server!  All server rules can be found at www.project1999.com - If you require help, please /petition - Have fun and good luck!
+[Sat Nov 14 17:30:19 2015] GUILD MOTD: Magnateaz - Mumble: geekcore.damnserver.com default port
+[Sat Nov 14 17:33:27 2015] You may not loot this corpse at this time.
+[Sat Nov 14 17:33:32 2015] You begin casting Clarity.
+[Sat Nov 14 17:33:35 2015] A cool breeze slips through your mind.
+[Sat Nov 14 17:34:24 2015] Logging to 'eqlog.txt' is now *ON*.
+[Sat Nov 14 17:34:41 2015] Targeted (NPC): a ravishing drolvarg
+[Sat Nov 14 17:34:41 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:34:43 2015] a ravishing drolvarg glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:34:44 2015] a ravishing drolvarg glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:34:54 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:34:57 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:35:24 2015] Your Mesmerize spell has worn off.
+[Sat Nov 14 17:35:34 2015] Targeted (NPC): a ravishing drolvarg
+[Sat Nov 14 17:35:34 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:35:35 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:35:35 2015] You haven't recovered yet...
+[Sat Nov 14 17:35:37 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:35:39 2015] Targeted (NPC): Hiraya's corpse
+[Sat Nov 14 17:35:39 2015] Right click on the NPC to consider him.
+[Sat Nov 14 17:35:52 2015] Targeted (NPC): a ravishing drolvarg
+[Sat Nov 14 17:35:52 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:35:52 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:35:55 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:36:07 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:36:09 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:36:24 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:36:27 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:36:53 2015] LOADING, PLEASE WAIT...
+[Sat Nov 14 17:37:11 2015] You have entered Karnor's Castle.
+[Sat Nov 14 17:38:22 2015] LOADING, PLEASE WAIT...
+[Sat Nov 14 17:38:50 2015] You have entered Dreadlands.
+[Sat Nov 14 17:38:59 2015] Targeted (NPC): a ravishing drolvarg
+[Sat Nov 14 17:38:59 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:39:01 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:39:03 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:39:11 2015] a ravishing drolvarg glares at you threateningly -- it appears to be quite formidable.
+[Sat Nov 14 17:39:12 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:39:14 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:39:26 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:39:28 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:39:44 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:39:47 2015] A ravishing drolvarg has been mesmerized.
+[Sat Nov 14 17:39:55 2015] LOADING, PLEASE WAIT...
+[Sat Nov 14 17:40:14 2015] You have entered Karnor's Castle.
+[Sat Nov 14 17:41:57 2015] You forget Clarity.
+[Sat Nov 14 17:42:01 2015] Beginning to memorize Gate...
+[Sat Nov 14 17:42:02 2015] You have finished memorizing Gate.
+[Sat Nov 14 17:42:12 2015] Players in EverQuest:
+[Sat Nov 14 17:42:12 2015] ---------------------------
+
+[Sat Nov 14 17:42:12 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: karnor  
+[Sat Nov 14 17:42:12 2015] There is 1 player in EverQuest.
+[Sat Nov 14 17:42:14 2015] You begin casting Gate.
+[Sat Nov 14 17:42:19 2015] LOADING, PLEASE WAIT...
+[Sat Nov 14 17:42:42 2015] You have entered East Commonlands.
+[Sat Nov 14 17:42:44 2015] Sevaril auctions, 'WTS Spell: Elemental Maelstrom/Spell: Thrall of Bones/Spell: Cripple/Spell: Death Pact'
+[Sat Nov 14 17:42:46 2015] Aiaiai auctions, 'wts Spell: Torpor'
+[Sat Nov 14 17:42:47 2015] Fiduciary auctions, 'Spirit Tome600 l Book of Obulus 1.8k l Rod of Insidious Glamour 750 l Shining Metallic Robes 2k l Spell: Inferno of Al`Kabor l Spell: Circle of Summer l Spell: Blizzard l '
+[Sat Nov 14 17:42:51 2015] Snoozefest says, 'No such thing as Clarity'
+[Sat Nov 14 17:42:52 2015] Fiduciary auctions, 'Spell: Atol`s Spectral Shackles l Spell: Yaulp IV l Spell: Spirit of Scale l Spell: Yaulp IV l Spell: Tears of Druzzil l Spell: Circle of Winter l Spell: Death Pact l '
+[Sat Nov 14 17:42:52 2015] Snoozefest begins to cast a spell.
+[Sat Nov 14 17:42:55 2015] Rithiel auctions, 'WTS  Clay Guardian Shield PST'
+[Sat Nov 14 17:42:57 2015] Snoozefest begins to cast a spell.
+[Sat Nov 14 17:42:58 2015] Fiduciary auctions, 'Spell: Heroic Bond l Spell: Bandoleer of Luclin l Spell: Bristlebane`s Bundle l Spell: Atol`s Spectral Shackles l Spell: Gift of Xev l Spell: Convergence l '
+[Sat Nov 14 17:42:58 2015] Igotu auctions, 'WTB cleric spells fortitude, stun command, mark of karn, aegis, banishment of shadows, divine intervention, word of redemption'
+[Sat Nov 14 17:43:01 2015] Fiduciary auctions, 'Spell: Pillar of Lightning l Spell: Death Pact l Spell: Circle of Winter l Spell: Shiftless Deeds l Spell: Theft of Thought l Spell: Color Slant l Spell: Pillage Enchantment '
+[Sat Nov 14 17:43:02 2015] Shaynk auctions, 'WTB Mrylokar Vambraces'
+[Sat Nov 14 17:43:03 2015] Igotu auctions, 'WTB singed scroll cleric chardok MQ....ask your guilds if anyone has one laying around'
+[Sat Nov 14 17:43:05 2015] Qozko auctions, 'WTS Woodsman's Staff 6.5k | Unicorn Horn | Plains Pebble'
+[Sat Nov 14 17:43:13 2015] Igotu auctions, 'WTS Silver Chitin Wristband 10k or trade for singed scroll (cleric epic chardok)'
+[Sat Nov 14 17:43:17 2015] Stepping auctions, 'WTS Elf-hide Gloves | Lute of the Gypsy Princess | Crested Mistmoore Shield PST'
+[Sat Nov 14 17:43:23 2015] Auggie auctions, 'WTS Dwarven Work Boots 400, Drolvarg Mantle 50, Lamentation 1500, Spell: Atol`s Spectral Shackles 100, Spell: Blast of Poison 200, Spell: Gift of Xev 200'
+[Sat Nov 14 17:43:24 2015] Quath auctions, 'Excellent Sabertooth Tiger Hide x3'
+[Sat Nov 14 17:43:26 2015] Auggie auctions, 'WTS Crushed Onyx Sapphire 500p, Crushed Lava Ruby 400, Green Jade Broadsword 200, Green Silken Drape 100, Advisor Robe 250p, Jaundiced Bone Vambraces 500, Adamantite Bo Stick 200'
+[Sat Nov 14 17:43:28 2015] Auggie auctions, 'WTSJaundiced Bone Gauntlets 450, Cane of the Tranquil 200, Robe of Living Fungus 500, Elder Spiritist's Gauntlets 500, Mrylokar's Gift 200, Diamondine Earring 400'
+[Sat Nov 14 17:43:32 2015] Vasecbank auctions, 'WTS Gauntlets of Fiery Might 8k, Cloak of Flames 75k(trading for Drums of the Beast), White Dragon Tooth 25k, Poison Wind Censer 1.1k, Ragefire Heart MQ 30k'
+[Sat Nov 14 17:43:33 2015] You forget Gasping Embrace.
+[Sat Nov 14 17:43:33 2015] Beginning to memorize Chaos Flux...
+[Sat Nov 14 17:43:34 2015] You have finished memorizing Chaos Flux.
+[Sat Nov 14 17:43:37 2015] Linksfather auctions, 'Ice Giant Toes 26x  75pp each'
+[Sat Nov 14 17:43:39 2015] You forget Cast Sight.
+[Sat Nov 14 17:43:40 2015] Beginning to memorize Paralyzing Earth...
+[Sat Nov 14 17:43:40 2015] You have finished memorizing Paralyzing Earth.
+[Sat Nov 14 17:43:41 2015] a rattlesnake looks your way apprehensively -- You could probably win this fight.
+[Sat Nov 14 17:43:43 2015] Kenshyro auctions, 'WTS Jagged Band, Savant's Cap, Bloodstained Mantle, Robe of Dalnir, Baton of Faith, and Shiny Brass Idol, PST'
+[Sat Nov 14 17:43:44 2015] You cannot memorize a spell you already have memorized.
+[Sat Nov 14 17:43:45 2015] Glanton auctions, 'WTB sentient bracer, steel hilted flint dagger'
+[Sat Nov 14 17:43:47 2015] You cannot memorize a spell you already have memorized.
+[Sat Nov 14 17:43:48 2015] You cannot memorize a spell you already have memorized.
+[Sat Nov 14 17:43:55 2015] Targeted (NPC): a rattlesnake
+[Sat Nov 14 17:43:55 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:43:55 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:43:56 2015] Zoodey auctions, 'WTS Circlet of Shadow4k  Impskin Gloves1k Golden Efreeti Boots 2.8k  Froglok Bonecaster's Robe1.8k  Sheer Bone Mask100p  Batskull Earring x2 300p each. PST ( will not lower prices. )'
+[Sat Nov 14 17:43:58 2015] A rattlesnake has been mesmerized.
+[Sat Nov 14 17:44:09 2015] You begin casting Chaos Flux.
+[Sat Nov 14 17:44:11 2015] Lokthar auctions, 'wts  Froglok Bonecaster's Robe 2k // Silver Swiftblade 50 // Runed Cowl 800'
+[Sat Nov 14 17:44:12 2015] Karlaa auctions, 'WTS Elder Spiritist's Breastplate  //  Ceremonial Iksar Chestplate'
+[Sat Nov 14 17:44:13 2015] Your Mesmerize spell has worn off.
+[Sat Nov 14 17:44:13 2015] a rattlesnake was hit by non-melee for 150 points of damage.
+[Sat Nov 14 17:44:13 2015] A rattlesnake is surrounded by fluxing strands of chaos.
+[Sat Nov 14 17:44:13 2015] You have slain a rattlesnake!
+[Sat Nov 14 17:44:13 2015] You have become better at Evocation! (213)
+[Sat Nov 14 17:44:22 2015] Zhubba auctions, 'WTS Chipped Bone Braceletx2//Totemic Helm//Jaundiced Bone Boots//Black Chitin Leggings//Bloodstained Tunic//'
+[Sat Nov 14 17:44:25 2015] Oneeyedjack auctions, 'wts Seahorse Spine Bracelet White Wolf-hide Cloak'
+[Sat Nov 14 17:44:29 2015] Toyman auctions, 'WTS Haze Panther Tunic..Haze Panther Sleeves..Haze Panther Leggings..Haze Panther Boots..Haze Panther Skullcap..35k for set...PST'
+[Sat Nov 14 17:44:35 2015] Laste auctions, 'WTS JBoots MQ 7k have ring and rapier'
+[Sat Nov 14 17:44:37 2015] Talos auctions, 'WTS 10 Dose Kilva's Skin of Flame 500 each || 10 Dose Null Potion 100 each || 10 Dose Potion of Purity 100 each'
+[Sat Nov 14 17:44:43 2015] Enig auctions, 'WTS Sebilite Croaking Dirk - Clay Guardian Shield - Cone of the Mystics - A Shimmering Orb - Sheer Bone Mask - Runed Cowl'
+[Sat Nov 14 17:44:43 2015] Sair auctions, 'WTS Sarnak Skullsplitter | Spell: Pillar of Lightning | Spell: Inferno of Al`Kabor | Spell: Reckoning | Spell: Form of the Howler | Spell: Blizzard | Bone Chips'
+[Sat Nov 14 17:44:48 2015] Crimsonghost auctions, 'WTS 10 Dose Blood of the Wolf + 10 Dose Ant's Potion + 10 Dose Potion of Aquatic Haunt + 10 Dose Null Potion'
+[Sat Nov 14 17:44:48 2015] Showmee auctions, 'WTS ///Glimmering Axe 25pp///Turtleshell Helm 30pp///Goblin Backstabber 40pp///Embroidered Black Sleeves  4ac 10hp 25mana 200pp///Griffon Feathers 10pp///High Quality Bear Skin 15pp  BUYING Silver Plated Leggings or Kylong Greaves'
+[Sat Nov 14 17:45:00 2015] Sevaril auctions, 'WTS Spell: Elemental Maelstrom/Spell: Thrall of Bones/Spell: Cripple/Spell: Death Pact'
+[Sat Nov 14 17:45:01 2015] Sevaril auctions, 'WTS Silver-Plated Bracer/Gloomwater Harpoon/Elf-hide Gloves/Lute of the Gypsy Princess'
+[Sat Nov 14 17:45:05 2015] Stepping auctions, 'WTS Elf-hide Gloves | Lute of the Gypsy Princess | Crested Mistmoore Shield PST'
+[Sat Nov 14 17:45:10 2015] Targeted (NPC): an air elemental's corpse
+[Sat Nov 14 17:45:10 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:45:11 2015] Allyy auctions, 'WTS OT Hammer Service 2.5k || Level 50+   '
+[Sat Nov 14 17:45:12 2015] Targeted (NPC): a spiderling
+[Sat Nov 14 17:45:12 2015] Right click on the NPC to consider it.
+[Sat Nov 14 17:45:13 2015] Your target is out of range, get closer!
+[Sat Nov 14 17:45:17 2015] Auggie auctions, 'WTS Dwarven Work Boots 400, Drolvarg Mantle 50, Lamentation 1500, Spell: Atol`s Spectral Shackles 100, Spell: Blast of Poison 200, Spell: Gift of Xev 200'
+[Sat Nov 14 17:45:18 2015] Oneeyedjack auctions, 'wts Seahorse Spine Bracelet White Wolf-hide Cloak'
+[Sat Nov 14 17:45:20 2015] Iear auctions, 'WTS Black Sapphire Electrum Earring  - Trakasaur's Tooth PST.'
+[Sat Nov 14 17:45:22 2015] Zoodey auctions, 'WTS Circlet of Shadow4k  Impskin Gloves1k Golden Efreeti Boots 2.8k  Froglok Bonecaster's Robe1.8k  Sheer Bone Mask100p  Batskull Earring x2 300p each. PST ( will not lower prices. )'
+[Sat Nov 14 17:45:23 2015] Lumindanu auctions, 'WTS Weighted Velium Brawl Stick, Engraved Velium Warsword, Loam Encrusted Cap, Teir`Dal Adamantite Greaves, Mammoth Hide Cloak, Book of Tactics, Black Chitin Leggings'
+[Sat Nov 14 17:45:24 2015] Colloquial auctions, 'WTS Kunzar Cloak Polished Bone Bracelet Batskull Earring Spider Fang Choker Batfang Headband Chipped Velium Amulet Ring of Frost'
+[Sat Nov 14 17:45:26 2015] Zoodey auctions, 'WTS Circlet of Shadow4k  Impskin Gloves1k Golden Efreeti Boots 2.8k  Froglok Bonecaster's Robe1.8k  Sheer Bone Mask100p  Batskull Earring x2 300p each. PST ( will not lower prices. )'
+[Sat Nov 14 17:45:30 2015] You begin casting Mesmerize.
+[Sat Nov 14 17:45:33 2015] A spiderling has been mesmerized.
+[Sat Nov 14 17:45:34 2015] Auggie auctions, 'WTS Crushed Onyx Sapphire 500p, Crushed Lava Ruby 400, Green Jade Broadsword 200,  Advisor Robe 250p, Jaundiced Bone Vambraces 500, Adamantite Bo Stick 200'
+[Sat Nov 14 17:45:39 2015] Auggie auctions, 'WTSJaundiced Bone Gauntlets 450, Cane of the Tranquil 200, Robe of Living Fungus 500, Elder Spiritist's Gauntlets 500, Mrylokar's Gift 200, Diamondine Earring 400'
+[Sat Nov 14 17:45:43 2015] a spiderling regards you indifferently -- You could probably win this fight.
+[Sat Nov 14 17:45:45 2015] You begin casting Chaos Flux.
+[Sat Nov 14 17:45:48 2015] Wide auctions, 'WTB Black Pantherskin Boots, Legs, Sarnak Hide Leggings'
+[Sat Nov 14 17:45:48 2015] Kaluua auctions, 'WTS 1Thick Grizzly Bear Skin 10pp, 1 Medium Quality Bear Skin 5pp, 1 Medium Quality Cat Pelt 5pp, 4Low Quality Bear Skin 2pp/ea'
+[Sat Nov 14 17:45:48 2015] Your Mesmerize spell has worn off.
+[Sat Nov 14 17:45:48 2015] a spiderling was hit by non-melee for 150 points of damage.
+[Sat Nov 14 17:45:48 2015] A spiderling is surrounded by fluxing strands of chaos.
+[Sat Nov 14 17:45:48 2015] You have slain a spiderling!
+[Sat Nov 14 17:45:49 2015] Stoze auctions, 'WTS Spell: Aegolism -  Spell: Arch Lich'
+[Sat Nov 14 17:45:49 2015] Minorseven auctions, 'WTS Sarnak Battle Shield, , Sebilite Scale Boots, Elder Spiritist's Gauntlets, Helm of Rile, Chipped Bone Bracelet, Firerune Brand'
+[Sat Nov 14 17:45:50 2015] Stoze auctions, 'WTS Barbed Dragonscale Boots - Barbed Dragonscale Pauldrons - Reinforced Dragonwing Mantle - Worked Dragonwing Mantle'
+[Sat Nov 14 17:45:54 2015] You forget Gate.
+[Sat Nov 14 17:45:55 2015] Manabatteryy auctions, 'WTS Hammerhead Helm / Iksar Hide Boots / Cone of the Mystics !'
+[Sat Nov 14 17:45:55 2015] Singulairity auctions, 'WTS: Haze Panther Skin 1k, Sentient Greaves 250pp, Sentient Bracer 125pp'
+[Sat Nov 14 17:45:55 2015] Talos auctions, 'WTS 10 Dose Kilva's Skin of Flame 500 each || 10 Dose Null Potion 100 each || 10 Dose Potion of Purity 100 each'
+[Sat Nov 14 17:45:58 2015] Beginning to memorize Clarity...
+[Sat Nov 14 17:45:59 2015] You have finished memorizing Clarity.
+[Sat Nov 14 17:46:03 2015] You begin casting Clarity.
+[Sat Nov 14 17:46:05 2015] Igotu auctions, 'WTB singed scroll cleric chardok MQ....ask your guilds if anyone has one laying around'
+[Sat Nov 14 17:46:06 2015] The cool breeze fades.
+[Sat Nov 14 17:46:06 2015] A cool breeze slips through your mind.
+[Sat Nov 14 17:46:07 2015] Oneeyedjack auctions, 'wts Seahorse Spine Bracelet White Wolf-hide Cloak'
+[Sat Nov 14 17:46:08 2015] Zoodey auctions, 'WTS Circlet of Shadow4k  Impskin Gloves1k Golden Efreeti Boots 2.8k  Froglok Bonecaster's Robe1.8k  Sheer Bone Mask100p  Batskull Earring x2 300p each. PST ( will not lower prices. )'
+[Sat Nov 14 17:46:13 2015] You no longer have a target.
+[Sat Nov 14 17:46:13 2015] Cerbius auctions, 'WTS Deathfist Slashed Belt 5p ea (25 for 100p) '
+[Sat Nov 14 17:46:14 2015] Phirmule auctions, 'WTS:  Rebreather1.75k // Worked Dragonspine Vambraces 3k // Mithril Vambraces 2.5k // Loam Encrusted Cloak 1k // Runed Cowl 800 // Tome of Miragul 1.5k// Sash of the Dragonborn8k'
+[Sat Nov 14 17:46:15 2015] Phirmule auctions, 'WTS:  Fishbone Earring 4k // Bloody Griffon-Hide Wrist Guard 10k '
+[Sat Nov 14 17:46:19 2015] Zhubba auctions, 'WTS Chipped Bone Braceletx2//Totemic Helm//Jaundiced Bone Boots//Black Chitin Leggings//Bloodstained Tunic// WTB Imbued Fighters Staff'
+[Sat Nov 14 17:46:20 2015] Qozko auctions, 'WTS Woodsman's Staff 6.5k | Unicorn Horn | Plains Pebble'
+[Sat Nov 14 17:46:25 2015] Snoozefest auctions, 'WTS Crystalline Belt - Book of Obulus'
+[Sat Nov 14 17:46:25 2015] Iear auctions, 'WTS Black Sapphire Electrum Earring  - Trakasaur's Tooth PST.'
+[Sat Nov 14 17:46:33 2015] Snoozefest auctions, 'WTB Adamantite Epaulets - PAYING 300p! BUYING'
+[Sat Nov 14 17:46:43 2015] Minorseven auctions, 'WTS Sarnak Battle Shield, , Sebilite Scale Boots, Elder Spiritist's Gauntlets, Helm of Rile, Chipped Bone Bracelet, Firerune Brand'
+[Sat Nov 14 17:46:47 2015] Minorseven auctions, 'WTS Monk Epic Robe MQ KC Pipe'
+[Sat Nov 14 17:46:50 2015] Oneeyedjack auctions, 'wts Seahorse Spine Bracelet White Wolf-hide Cloak'
+[Sat Nov 14 17:46:53 2015] Enig auctions, 'WTS Sebilite Croaking Dirk - Clay Guardian Shield - Cone of the Mystics - A Shimmering Orb - Sheer Bone Mask - Runed Cowl - Cloak of Shadows'
+[Sat Nov 14 17:46:54 2015] Zoodey auctions, 'WTS Circlet of Shadow4k  Impskin Gloves1k Golden Efreeti Boots 2.8k  Froglok Bonecaster's Robe1.8k  Sheer Bone Mask100p  Batskull Earring x2 300p each. PST ( will not lower prices. )'
+[Sat Nov 14 17:46:56 2015] Allyy auctions, 'WTS OT Hammer Service 2.5k || Level 50+   '
+[Sat Nov 14 17:47:04 2015] Vasecbank auctions, 'WTS Gauntlets of Fiery Might 8k, Cloak of Flames 75k(trading for Drums of the Beast), White Dragon Tooth 25k, Poison Wind Censer 1.1k, Ragefire Heart MQ 30k'
+[Sat Nov 14 17:47:13 2015] Targeted (NPC): a lesser mummy
+[Sat Nov 14 17:47:13 2015] Right click on the NPC to consider him.
+[Sat Nov 14 17:47:13 2015] a lesser mummy scowls at you, ready to attack -- You could probably win this fight.
+[Sat Nov 14 17:47:13 2015] a lesser mummy scowls at you, ready to attack -- You could probably win this fight.
+[Sat Nov 14 17:47:15 2015] Targeted (NPC): a lesser mummy
+[Sat Nov 14 17:47:15 2015] Right click on the NPC to consider him.
+[Sat Nov 14 17:47:17 2015] Your feet slow down.
+[Sat Nov 14 17:47:17 2015] Your feet feel quick.
+[Sat Nov 14 17:47:36 2015] Your feet feel quick.
+[Sat Nov 14 17:47:43 2015] Daya auctions, 'WTS Book of Obulus - Medicine Totem - 5 Piece set of Teir`Dal Adamantite Breastplate ( Includes BP, Leggings, 1 Bracer, Gloves, Arms ) Asking 11k, But willing to negotiate. Lets make some deals!'
+[Sat Nov 14 17:47:43 2015] Singulairity auctions, 'WTS: Haze Panther Skin 1k, Sentient Greaves 250pp'
+[Sat Nov 14 17:47:44 2015] Daya auctions, 'WTS Forest Loop - Platinum Tiara - Jasper Gold Earring - Mucilaginous Girdle - Obulus Death Shroud - Golem Tear Ring -  Selling cheaper than average! Lets make a deal'
+[Sat Nov 14 17:47:46 2015] Talos auctions, 'WTS 10 Dose Kilva's Skin of Flame 500 each || 10 Dose Null Potion 100 each || 10 Dose Potion of Purity 100 each'
+[Sat Nov 14 17:47:49 2015] Oneeyedjack auctions, 'wts Seahorse Spine Bracelet White Wolf-hide Cloak'
+[Sat Nov 14 17:47:51 2015] Vasecbank auctions, 'WTS Gauntlets of Fiery Might 8k, Cloak of Flames 75k(trading for Drums of the Beast), White Dragon Tooth 25k, Poison Wind Censer 1.1k, Ragefire Heart MQ 30k'
+[Sat Nov 14 17:47:52 2015] Elegiggle begins to cast a spell.
+[Sat Nov 14 17:47:57 2015] Sair auctions, 'WTS Sarnak Skullsplitter | Spell: Pillar of Lightning | Spell: Inferno of Al`Kabor | Spell: Reckoning | Spell: Form of the Howler | Spell: Blizzard | Bone Chips'
+[Sat Nov 14 17:47:58 2015] Middleton auctions, 'WTS CrushBone Pads (5pp ea), Leather Whips (10pp ea), Dwarven Axe (10pp), AND Dwarven RingMail Tunic (75pp)!                                                '
+[Sat Nov 14 17:47:59 2015] Glanton auctions, 'WTB steel hilted flint dagger'
+[Sat Nov 14 17:47:59 2015] Stepping auctions, 'WTS Elf-hide Gloves | Lute of the Gypsy Princess | Crested Mistmoore Shield PST'
+[Sat Nov 14 17:47:59 2015] Auggie auctions, 'WTS Dwarven Work Boots 400, Drolvarg Mantle 50, Lamentation 1500, Spell: Atol`s Spectral Shackles 100, Spell: Blast of Poison 200, Spell: Gift of Xev 200'
+[Sat Nov 14 17:48:02 2015] Auggie auctions, 'WTS Crushed Onyx Sapphire 500p, Crushed Lava Ruby 400, Green Jade Broadsword 200,  Advisor Robe 250p, Jaundiced Bone Vambraces 500, Adamantite Bo Stick 200'
+[Sat Nov 14 17:48:02 2015] Zoodey auctions, 'WTS Circlet of Shadow4k  Impskin Gloves1k Golden Efreeti Boots 2.8k  Froglok Bonecaster's Robe1.8k  Sheer Bone Mask100p  Batskull Earring x2 300p each. PST ( NOT LOWERING PRICES! )'
+[Sat Nov 14 17:48:04 2015] Auggie auctions, 'WTSJaundiced Bone Gauntlets 450, Cane of the Tranquil 200, Robe of Living Fungus 500, Elder Spiritist's Gauntlets 500, Mrylokar's Gift 200, Diamondine Earring 400'
+[Sat Nov 14 17:48:05 2015] Targeted (Player): Hadiar
+[Sat Nov 14 17:48:05 2015] Right click on yourself to bring up your own inspect window. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 17:48:06 2015] You no longer have a target.
+[Sat Nov 14 17:48:09 2015] Vorusk auctions, 'WTS Bracer of the Hidden , Cold Steel Helmet , Spell: Wandering Mind.'
+[Sat Nov 14 17:48:09 2015] Wevo auctions, 'WTB SK weapon PST'
+[Sat Nov 14 17:48:20 2015] Iear auctions, 'WTS Black Sapphire Electrum Earring  - Trakasaur's Tooth PST.'
+[Sat Nov 14 17:48:27 2015] Oneeyedjack auctions, 'wts Seahorse Spine Bracelet 3k - White Wolf-hide Cloak 300p'
+[Sat Nov 14 17:48:28 2015] Wizarnator auctions, 'WTS Crustacean Shell Gauntlets only 200pp'
+[Sat Nov 14 17:48:28 2015] Minorseven auctions, 'WTS Sarnak Battle Shield, , Sebilite Scale Boots, Elder Spiritist's Gauntlets, Helm of Rile, Chipped Bone Bracelet, Firerune Brand'
+[Sat Nov 14 17:48:30 2015] Minorseven auctions, 'WTS Monk Epic Robe MQ KC Pipe'
+[Sat Nov 14 17:48:45 2015] Tormaax auctions, 'WTB Frostbringer'
+[Sat Nov 14 17:48:52 2015] Laughs auctions, 'WTS Jade Mace//Hooded Black Cloak//Golden Chitin Bracer'
+[Sat Nov 14 17:48:52 2015] Snoozefest auctions, 'WTB Adamantite Epaulets - PAYING 300p! BUYING'
+[Sat Nov 14 17:49:03 2015] Occulus auctions, 'WTS Gauntlets of Power 1.5k Chipped Bone Bracelet 500pp Batskull Earring 425pp'
+[Sat Nov 14 17:49:07 2015] Kenshyro auctions, 'WTS Jagged Band 50pp, Savant's Cap 50pp, Bloodstained Mantle 50pp, Robe of Dalnir 350pp, Baton of Faith 150pp, and Shiny Brass Idol 500pp, PST'
+[Sat Nov 14 17:49:08 2015] Middleton auctions, 'WTS CrushBone Pads (5pp ea), Leather Whips (10pp ea), Dwarven Axe (10pp), AND Dwarven RingMail Tunic (75pp)!                                                '
+[Sat Nov 14 17:49:09 2015] Sair auctions, 'WTS Sarnak Skullsplitter | Spell: Pillar of Lightning | Spell: Inferno of Al`Kabor | Spell: Reckoning | Spell: Form of the Howler | Spell: Blizzard | Bone Chips'
+[Sat Nov 14 17:49:13 2015] Jaxxz auctions, '-------  WTS  Hero Bracers  '
+[Sat Nov 14 17:49:13 2015] Manabatteryy auctions, 'WTS Hammerhead Helm / Iksar Hide Boots / Cone of the Mystics !'
+[Sat Nov 14 17:49:15 2015] Wide auctions, 'WTB Black Pantherskin Boots, Legs, Sarnak Hide Leggings'
+[Sat Nov 14 17:49:15 2015] Snoozefest auctions, 'WTS Crystalline Belt - Book of Obulus'
+[Sat Nov 14 17:49:16 2015] Talos auctions, 'WTS 10 Dose Kilva's Skin of Flame 500 each || 10 Dose Null Potion 100 each || 10 Dose Potion of Purity 100 each'
+[Sat Nov 14 17:49:16 2015] Snoozefest auctions, 'WTB Adamantite Epaulets - PAYING 300p! BUYING'
+[Sat Nov 14 17:49:18 2015] Oneeyedjack auctions, 'wts Seahorse Spine Bracelet 3k - White Wolf-hide Cloak 300p'
+[Sat Nov 14 17:49:21 2015] Karlaa auctions, 'WTS Elder Spiritist's Breastplate  //  Ceremonial Iksar Chestplate'
+[Sat Nov 14 17:49:24 2015] Jaxxz auctions, '<<  WTB >>  HQ Bear Skins --- Buying Your High Quality Bear Skins --- Get Paid Now!  30pp each   '
+[Sat Nov 14 17:49:24 2015] Allyy auctions, 'WTS OT Hammer Service 2.5k || Level 50+   '
+[Sat Nov 14 17:49:33 2015] Atadan auctions, 'WTB Greater lightsone'
+[Sat Nov 14 17:49:36 2015] Crimsonghost auctions, 'WTS Spell: Circle of Summer 100p'
+[Sat Nov 14 17:49:37 2015] Gigantuous auctions, 'WTS Hero Bracers // Shroud of Nature // Sarnak Arcane Fetish// Siren Scale Robe// Batskull Earring// Sarnak Ceremonial Dagger//Impskin Gloves// '
+[Sat Nov 14 17:49:44 2015] Vasecbank auctions, 'WTS Gauntlets of Fiery Might 8k, Cloak of Flames 75k(trading for Drums of the Beast), White Dragon Tooth 25k, Poison Wind Censer 1.1k, Ragefire Heart MQ 30k'
+[Sat Nov 14 17:49:51 2015] Lumindanu auctions, 'WTS Weighted Velium Brawl Stick, Teir`Dal Adamantite Greaves, Mammoth Hide Cloak, Book of Tactics, Black Chitin Leggings, Engraved Velium Warsword, Heavy Velium Battlehammer'
+[Sat Nov 14 17:49:53 2015] Stepping auctions, 'WTS Elf-hide Gloves | Lute of the Gypsy Princess | Crested Mistmoore Shield PST'
+[Sat Nov 14 17:49:54 2015] Stoze auctions, 'WTS Barbed Dragonscale Boots - Barbed Dragonscale Pauldrons - Reinforced Dragonwing Mantle - Worked Dragonwing Mantle'
+[Sat Nov 14 17:49:55 2015] Crimsonghost auctions, 'WTS Nephrite 275p'
+[Sat Nov 14 17:49:56 2015] Stoze auctions, 'WTS Spell: Aegolism -  Spell: Arch Lich'
+[Sat Nov 14 17:49:57 2015] Shaynk auctions, 'WTS  Iksar Hide Boots 2200 / Oggok Cleaver 3k / Sarnak Warhammer 1500'
+[Sat Nov 14 17:50:03 2015] Linksfather auctions, 'Ice Giant Toes 26x  75pp each'
+[Sat Nov 14 17:50:05 2015] Oneeyedjack auctions, 'wts Seahorse Spine Bracelet 3k - White Wolf-hide Cloak 300p'
+[Sat Nov 14 17:50:08 2015] Alivya auctions, 'WTS Crystal Chitin Shield, , Ring of the Frost Spiders, , Crushed Lava Ruby x2 CHEAP DID I SAY CHEAP I MEAN CHEAP'
+[Sat Nov 14 17:50:09 2015] Coachs auctions, 'WTS: Hill Giant Toes||Cyclops Toes||Fire Giant Toes||Bone Chips||Sabertooth Tiger Hide||Excellent Sabertooth Tiger Hide||High Quality Cat PeltI'
+[Sat Nov 14 17:50:09 2015] Zoodey auctions, 'WTS Circlet of Shadow4k  Impskin Gloves1k Golden Efreeti Boots 2.8k  Froglok Bonecaster's Robe1.8k  Sheer Bone Mask100p   PST ( NOT LOWERING PRICES! )'
+[Sat Nov 14 17:50:13 2015] Vasecbank auctions, 'WTS Gauntlets of Fiery Might 8k, Cloak of Flames 75k(trading for Drums of the Beast), White Dragon Tooth 25k, Poison Wind Censer 1.1k, Ragefire Heart MQ 30k'
+[Sat Nov 14 17:50:17 2015] Aiaiai auctions, 'wts Spell: Torpor'
+[Sat Nov 14 17:50:27 2015] Tormaax auctions, 'WTB Frostbringer WTBuy'
+[Sat Nov 14 17:50:29 2015] Snoozefest auctions, 'WTS Crystalline Belt - Book of Obulus'
+[Sat Nov 14 17:50:29 2015] Sair auctions, 'WTS Sarnak Skullsplitter | Spell: Pillar of Lightning | Spell: Inferno of Al`Kabor | Spell: Reckoning | Spell: Form of the Howler | Spell: Blizzard | Bone Chips'
+[Sat Nov 14 17:50:35 2015] Snoozefest auctions, 'WTB Adamantite Epaulets - PAYING 300p! BUYING'
+[Sat Nov 14 17:50:38 2015] Threed auctions, 'WTS Arctic Wyvern Hidex14//Spell: Great Divide Portal  WTB Diamond//BD '
+[Sat Nov 14 17:50:43 2015] Coachs auctions, 'WTS: Wraith Bone Hammer||Purity Belt||Gnome Skin Skullcap||Sacrificial Dagger||Gatorscale Sleeves||Plains Pebble||Bone TotemII'
+[Sat Nov 14 17:50:46 2015] Zhubba auctions, 'WTS Chipped Bone Braceletx2//Totemic Helm//Jaundiced Bone Boots//Embroidered Black Sleeves//Bloodstained Tunic// WTB Imbued Fighters Staff'
+[Sat Nov 14 17:50:48 2015] Karlaa auctions, 'WTS Elder Spiritist's Breastplate  //  Ceremonial Iksar Chestplate'
+[Sat Nov 14 17:50:52 2015] LOADING, PLEASE WAIT...
+[Sat Nov 14 17:51:14 2015] You have entered West Freeport.
+[Sat Nov 14 17:51:15 2015] a bat regards you indifferently -- You could probably win this fight.
+[Sat Nov 14 17:51:18 2015] a bat regards you indifferently -- You could probably win this fight.
+[Sat Nov 14 17:51:49 2015] Oblie begins to cast a spell.
+[Sat Nov 14 17:51:52 2015] Rasaella begins to cast a spell.
+[Sat Nov 14 17:51:54 2015] Oblie begins to cast a spell.
+[Sat Nov 14 17:51:56 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 17:52:01 2015] Oblie begins to cast a spell.
+[Sat Nov 14 17:52:02 2015] a bat regards you indifferently -- You could probably win this fight.
+[Sat Nov 14 17:52:28 2015] Oblie begins to cast a spell.
+[Sat Nov 14 17:52:29 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 17:52:33 2015] Oblie begins to cast a spell.
+[Sat Nov 14 17:52:35 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 17:53:00 2015] Oblie begins to cast a spell.
+[Sat Nov 14 17:53:00 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 17:54:25 2015] Rasaella begins to cast a spell.
+[Sat Nov 14 17:54:31 2015] Rasaella begins to cast a spell.
+[Sat Nov 14 17:54:56 2015] Niltik begins to walk faster.
+[Sat Nov 14 17:55:42 2015] Alvinas says out of character, 'any sow plz?'
+[Sat Nov 14 17:55:50 2015] Qozko says out of character, 'come near NFP zone'
+[Sat Nov 14 17:56:54 2015] Poysun begins to cast a spell.
+[Sat Nov 14 17:59:56 2015] Linksfather auctions, 'Ice Giant Toes 26x  75pp each'
+[Sat Nov 14 18:02:35 2015] a snake looks your way apprehensively -- You could probably win this fight.
+[Sat Nov 14 18:05:48 2015] Trolamora says, 'Hail, Hadiar'
+[Sat Nov 14 18:05:58 2015] Your feet slow down.
+[Sat Nov 14 18:06:08 2015] Trolamora tells you, 'could I get a sow please'
+[Sat Nov 14 18:06:39 2015] You told trolamora, 'yea'
+[Sat Nov 14 18:06:42 2015] Players on EverQuest:
+[Sat Nov 14 18:06:42 2015] ---------------------------
+[Sat Nov 14 18:06:42 2015] [13 Cleric] Trolamora (Dwarf) <Order of Exile>
+[Sat Nov 14 18:06:42 2015] There is 1 player in West Freeport.
+[Sat Nov 14 18:06:47 2015] Trolamora tells you, 'thank you '
+[Sat Nov 14 18:06:48 2015] Targeted (Corpse): Daymartwo's corpse
+[Sat Nov 14 18:06:48 2015] Stand close to and right click on the Corpse to try looting it.
+[Sat Nov 14 18:06:49 2015] You may not loot this corpse at this time.
+[Sat Nov 14 18:06:49 2015] Targeted (Player): Trolamora
+[Sat Nov 14 18:06:49 2015] Stand close to and right click on the Player to consider and inspect her. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 18:06:50 2015] You begin casting Clarity.
+[Sat Nov 14 18:06:53 2015] Trolamora looks tranquil.
+[Sat Nov 14 18:07:05 2015] Trolamora snaps to attention and salutes Hadiar crisply.
+[Sat Nov 14 18:08:58 2015] Linksfather says out of character, 'any master researchers around?'
+[Sat Nov 14 18:09:56 2015] Rasaella begins to cast a spell.
+[Sat Nov 14 18:10:03 2015] Rasaella begins to cast a spell.
+[Sat Nov 14 18:12:04 2015] Brodern auctions, 'WTS Sarnak Warhammer - Firerune Brand - Kunzar Ku'juch - Lost Staff of the Scorned - Sand of Ro x2'
+[Sat Nov 14 18:12:27 2015] Hughjorgen begins to cast a spell.
+[Sat Nov 14 18:12:34 2015] Hughjorgen begins to cast a spell.
+[Sat Nov 14 18:12:43 2015] Hughjorgen begins to cast a spell.
+[Sat Nov 14 18:13:03 2015] Guard Jacsen says 'Let your death be a warning to all who dare oppose the Freeport Militia!'
+[Sat Nov 14 18:13:29 2015] The cool breeze fades.
+[Sat Nov 14 18:15:39 2015] Linksfather shouts, 'looking for a spell researcher with skill of 180ish '
+[Sat Nov 14 18:19:24 2015] It begins to rain.
+[Sat Nov 14 18:21:10 2015] Oblie says out of character, 'anyone have lucan on track ?'
+[Sat Nov 14 18:24:05 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:24:05 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 18:24:17 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:24:19 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 18:24:23 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:24:25 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 18:24:32 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:24:45 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:24:52 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:24:57 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:25:01 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 18:25:03 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:25:08 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:25:48 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:25:52 2015] Lintilla begins to cast a spell.
+[Sat Nov 14 18:25:56 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:26:45 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 18:26:45 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 18:26:46 2015] Guard Jacsen tries to kick Opmeter, but misses!
+[Sat Nov 14 18:26:46 2015] Guard Jacsen was tormented.
+[Sat Nov 14 18:26:46 2015] Guard Jacsen slashes Opmeter for 100 points of damage.
+[Sat Nov 14 18:26:46 2015] Guard Jacsen was tormented.
+[Sat Nov 14 18:26:46 2015] Guard Jacsen slashes Opmeter for 54 points of damage.
+[Sat Nov 14 18:26:46 2015] Guard Munden tries to kick Opmeter, but misses!
+[Sat Nov 14 18:26:46 2015] Guard Munden was tormented.
+[Sat Nov 14 18:26:46 2015] Guard Munden slashes Opmeter for 32 points of damage.
+[Sat Nov 14 18:26:46 2015] Guard Munden tries to slash Opmeter, but misses!
+[Sat Nov 14 18:27:11 2015] Oblie's casting is interrupted!
+[Sat Nov 14 18:28:35 2015] Guard Munden says 'Let your death be a warning to all who dare oppose the Freeport Militia!'
+[Sat Nov 14 18:29:57 2015] Exuo tells you, 'if you are lfg by chance, I have a spot for you at KC lcy'
+[Sat Nov 14 18:30:23 2015] You told exuo, 'not atm, thanks for the tell though !'
+[Sat Nov 14 18:30:31 2015] Players in EverQuest:
+[Sat Nov 14 18:30:31 2015] ---------------------------
+
+[Sat Nov 14 18:30:31 2015] [ANONYMOUS] Exuo <Forsaken> 
+[Sat Nov 14 18:30:31 2015] There is 1 player in EverQuest.
+[Sat Nov 14 18:30:34 2015] Exuo tells you, 'np, best of luck to you'
+[Sat Nov 14 18:32:39 2015] Constituent shouts, 'DEATH TO FREEPORT MILITIA!'
+[Sat Nov 14 18:32:55 2015] Oblie shouts, 'hear hear!'
+[Sat Nov 14 18:33:02 2015] Deadnews begins to cast a spell.
+[Sat Nov 14 18:33:27 2015] Deadnews begins to cast a spell.
+[Sat Nov 14 18:33:31 2015] Deadnews begins to cast a spell.
+[Sat Nov 14 18:33:32 2015] Deadnews regains concentration and continues casting.
+[Sat Nov 14 18:33:46 2015] Qinari begins to cast a spell.
+[Sat Nov 14 18:35:54 2015] Oblie's spell fizzles!
+[Sat Nov 14 18:35:56 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:36:15 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:36:22 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:42:44 2015] Deadnews begins to cast a spell.
+[Sat Nov 14 18:42:45 2015] Deadnews's casting is interrupted!
+[Sat Nov 14 18:42:47 2015] Deadnews begins to cast a spell.
+[Sat Nov 14 18:44:15 2015] Players in EverQuest:
+[Sat Nov 14 18:44:15 2015] ---------------------------
+
+[Sat Nov 14 18:44:15 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 18:44:15 2015] There is 1 player in EverQuest.
+[Sat Nov 14 18:46:37 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:49:34 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:49:41 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:50:25 2015] Oblie says out of character, 'anyone killing lucan ?'
+[Sat Nov 14 18:50:31 2015] Oblie says out of character, 'i wanna tag him'
+[Sat Nov 14 18:50:35 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:51:09 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:51:24 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:52:02 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:52:09 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:52:17 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:54:06 2015] **A Magic Die is rolled by Oblie.
+[Sat Nov 14 18:54:06 2015] **It could have been any number from 0 to 100, but this time it turned up a 51.
+[Sat Nov 14 18:54:17 2015] **A Magic Die is rolled by Qinari.
+[Sat Nov 14 18:54:17 2015] **It could have been any number from 0 to 100, but this time it turned up a 15.
+[Sat Nov 14 18:54:39 2015] **A Magic Die is rolled by Minbin.
+[Sat Nov 14 18:54:39 2015] **It could have been any number from 0 to 100, but this time it turned up a 17.
+[Sat Nov 14 18:57:17 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:57:21 2015] Oblie's spell fizzles!
+[Sat Nov 14 18:57:24 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:57:25 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 18:59:09 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:59:20 2015] Oblie begins to cast a spell.
+[Sat Nov 14 18:59:51 2015] Weewonder auctions, 'WTS Ice Giant Toes x5 100p ea - Platinum Fire Wedding Ring 250p ea'
+[Sat Nov 14 18:59:54 2015] Oblie's spell fizzles!
+[Sat Nov 14 18:59:56 2015] Oblie begins to cast a spell.
+[Sat Nov 14 19:00:09 2015] Oblie begins to cast a spell.
+[Sat Nov 14 19:00:11 2015] Oblie regains concentration and continues casting.
+[Sat Nov 14 19:01:10 2015] Bilbik auctions, 'WTB Wizard Spells - Tishan's Discord(51), Abscond(52),Translocate:Group(52), Pillar of Flame(57)  PST'
+[Sat Nov 14 19:01:11 2015] Bilbik auctions, 'WTB Atol's Spectral Shackles(51), Inferno of Al'Kabor(53), Pillar of Frost(51), Tears of Druzzil(52) PST'
+[Sat Nov 14 19:01:25 2015] Olmec begins to cast a spell.
+[Sat Nov 14 19:03:23 2015] Oblie says out of character, 'can anyone do a couple of rezzes here?'
+[Sat Nov 14 19:03:51 2015] Guard Jacsen tries to kick a deathfist pawn, but misses!
+[Sat Nov 14 19:03:51 2015] Guard Jacsen slashes a deathfist pawn for 140 points of damage.
+[Sat Nov 14 19:03:51 2015] a deathfist pawn has been slain by Guard Jacsen!
+[Sat Nov 14 19:03:51 2015] Guard Jacsen says 'Let your death be a warning to all who dare oppose the Freeport Militia!'
+[Sat Nov 14 19:04:24 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:04:27 2015] Mikrah's casting is interrupted!
+[Sat Nov 14 19:04:35 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:04:38 2015] Mikrah has healed you for 235 points of damage.
+[Sat Nov 14 19:04:38 2015] You feel resolute.
+[Sat Nov 14 19:04:41 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:04:48 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:04:51 2015] Munc looks resolute.
+[Sat Nov 14 19:04:54 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:04:58 2015] Demonknight looks resolute.
+[Sat Nov 14 19:05:02 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:05:05 2015] Olmec begins to cast a spell.
+[Sat Nov 14 19:05:11 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:05:19 2015] Blurrpy begins to cast a spell.
+[Sat Nov 14 19:05:19 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:05:21 2015] Blurrpy's casting is interrupted!
+[Sat Nov 14 19:05:23 2015] Blurrpy begins to cast a spell.
+[Sat Nov 14 19:05:33 2015] Mikrah begins to cast a spell.
+[Sat Nov 14 19:08:39 2015] Players in EverQuest:
+[Sat Nov 14 19:08:39 2015] ---------------------------
+
+[Sat Nov 14 19:08:39 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 19:08:39 2015] [27 Bard] Diletantte (Half Elf) <Nocterma> ZONE: nro  
+[Sat Nov 14 19:08:39 2015] There are 2 players in EverQuest.
+[Sat Nov 14 19:09:05 2015] Forecaster begins to cast a spell.
+[Sat Nov 14 19:12:51 2015] Wyskey says, 'can you bind me?'
+[Sat Nov 14 19:13:05 2015] Demonknight begins to cast a spell.
+[Sat Nov 14 19:13:07 2015] Demonknight beams a smile at a decaying skeleton
+[Sat Nov 14 19:13:12 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:13:12 2015] Demonknight begins to cast a spell.
+[Sat Nov 14 19:13:14 2015] Yorshi's casting is interrupted!
+[Sat Nov 14 19:13:14 2015] Demonknight beams a smile at a decaying skeleton
+[Sat Nov 14 19:13:15 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:13:27 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:13:28 2015] Effakils begins to cast a spell.
+[Sat Nov 14 19:13:34 2015] A missed note brings Wyskey's song to a close!
+[Sat Nov 14 19:14:30 2015] Yorshi tells you, 'could u spare a C '
+[Sat Nov 14 19:14:44 2015] A missed note brings Minbin's song to a close!
+[Sat Nov 14 19:14:49 2015] Hevie begins to cast a spell.
+[Sat Nov 14 19:15:04 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:15:06 2015] Yorshi's casting is interrupted!
+[Sat Nov 14 19:15:08 2015] Munc regards you indifferently -- You could probably win this fight.
+[Sat Nov 14 19:15:08 2015] You are inspecting Munc.
+[Sat Nov 14 19:15:08 2015] Munc regards you indifferently -- You could probably win this fight.
+[Sat Nov 14 19:15:09 2015] Targeted (Player): Yorshi
+[Sat Nov 14 19:15:09 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 19:15:10 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:15:12 2015] You begin casting Clarity.
+[Sat Nov 14 19:15:12 2015] You haven't recovered yet...
+[Sat Nov 14 19:15:12 2015] You haven't recovered yet...
+[Sat Nov 14 19:15:15 2015] Yorshi looks tranquil.
+[Sat Nov 14 19:15:24 2015] Yorshi tells you, 'tyvm'
+[Sat Nov 14 19:15:28 2015] Yorshi's spell fizzles!
+[Sat Nov 14 19:15:29 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:15:40 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:15:42 2015] Yorshi regains concentration and continues casting.
+[Sat Nov 14 19:15:53 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:15:55 2015] Yorshi's casting is interrupted!
+[Sat Nov 14 19:16:53 2015] Munc says out of character, 'anyone can port this noob to BB?'
+[Sat Nov 14 19:17:05 2015] Munc says out of character, 'or gfay'
+[Sat Nov 14 19:18:07 2015] Oblie says out of character, 'anyone killing lucan?'
+[Sat Nov 14 19:18:27 2015] Oblie says out of character, 'just want to tag him for faction'
+[Sat Nov 14 19:19:06 2015] Emjaye begins to cast a spell.
+[Sat Nov 14 19:19:08 2015] Emjaye's casting is interrupted!
+[Sat Nov 14 19:19:10 2015] Emjaye begins to cast a spell.
+[Sat Nov 14 19:19:19 2015] Emjaye begins to cast a spell.
+[Sat Nov 14 19:24:45 2015] Glug, glug, glug...  Cohn takes a drink from a Black Burrow Stout.
+[Sat Nov 14 19:25:55 2015] Fahrenhot says out of character, 'would anyone be so kind as to bind me at the gate?'
+[Sat Nov 14 19:26:13 2015] Fahrenhot says out of character, 'or however that works'
+[Sat Nov 14 19:26:30 2015] Emjaye begins to cast a spell.
+[Sat Nov 14 19:26:32 2015] Emjaye begins to cast a spell.
+[Sat Nov 14 19:26:42 2015] Emjaye begins to cast a spell.
+[Sat Nov 14 19:30:38 2015] Dyonus says, 'anyone able to bind here?'
+[Sat Nov 14 19:30:52 2015] Dyonus says out of character, 'anyone able to bind me at gate to Commons'
+[Sat Nov 14 19:32:17 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 19:32:17 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 19:32:17 2015] Guard Jacsen bashes Enialis for 39 points of damage.
+[Sat Nov 14 19:32:17 2015] Guard Jacsen slashes Enialis for 140 points of damage.
+[Sat Nov 14 19:32:17 2015] Guard Jacsen slashes Enialis for 140 points of damage.
+[Sat Nov 14 19:32:17 2015] Guard Jacsen slashes Enialis for 140 points of damage.
+[Sat Nov 14 19:32:17 2015] Guard Jacsen tries to slash Enialis, but misses!
+[Sat Nov 14 19:32:18 2015] Guard Munden tries to kick Enialis, but misses!
+[Sat Nov 14 19:32:18 2015] Guard Munden slashes Enialis for 122 points of damage.
+[Sat Nov 14 19:32:19 2015] Guard Jacsen tries to slash Enialis, but misses!
+[Sat Nov 14 19:32:19 2015] Guard Jacsen slashes Enialis for 140 points of damage.
+[Sat Nov 14 19:32:19 2015] Guard Jacsen slashes Enialis for 105 points of damage.
+[Sat Nov 14 19:32:20 2015] Guard Munden slashes Enialis for 105 points of damage.
+[Sat Nov 14 19:32:20 2015] Guard Munden tries to slash Enialis, but misses!
+[Sat Nov 14 19:34:12 2015] Imspecial begins to cast a spell.
+[Sat Nov 14 19:42:29 2015] Sokum tells the guild, 'sup '
+[Sat Nov 14 19:42:47 2015] Players in EverQuest:
+[Sat Nov 14 19:42:47 2015] ---------------------------
+
+[Sat Nov 14 19:42:47 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 19:42:47 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: ecommons  
+[Sat Nov 14 19:42:47 2015] There are 2 players in EverQuest.
+[Sat Nov 14 19:42:48 2015] You say to your guild, 'howdy'
+[Sat Nov 14 19:43:05 2015] Farcore says out of character, 'anyone free to bind me real quick?'
+[Sat Nov 14 19:43:22 2015] You say out of character, 'gate'
+[Sat Nov 14 19:43:29 2015] Targeted (Player): Farcore
+[Sat Nov 14 19:43:29 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 19:43:34 2015] You invite Farcore to join your group.
+[Sat Nov 14 19:43:34 2015] Farcore is already in another group.
+[Sat Nov 14 19:43:35 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:43:42 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:44:25 2015] Boomba the Big says 'It's not enough that you Dark Elves have ruined your own land. Now get lost!'
+[Sat Nov 14 19:44:25 2015] Boomba the Big says 'I have something here that Dark Elves use..let me see...it's the EXIT, now get LOST!'
+[Sat Nov 14 19:44:26 2015] Boomba the Big says 'It's not enough that you Dark Elves have ruined your own land. Now get lost!'
+[Sat Nov 14 19:44:28 2015] Boomba the Big says 'I have something here that Dark Elves use..let me see...it's the EXIT, now get LOST!'
+[Sat Nov 14 19:44:29 2015] Boomba the Big says 'I don't like to speak to Dark Elves much less sell to them!'
+[Sat Nov 14 19:46:04 2015] Windflash waves at Hadiar.
+[Sat Nov 14 19:46:11 2015] Targeted (Player): Windflash
+[Sat Nov 14 19:46:11 2015] Stand close to and right click on the Player to consider and inspect her. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 19:46:12 2015] You must stand up and be still to perform this action.
+[Sat Nov 14 19:46:47 2015] Bluefish begins to cast a spell.
+[Sat Nov 14 19:47:08 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:47:54 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:48:04 2015] Crandis says out of character, 'are there enchanter merchants that sell to DE here?'
+[Sat Nov 14 19:48:06 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:49:25 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 19:49:42 2015] Boomba the Big says 'It's not enough that you Dark Elves have ruined your own land. Now get lost!'
+[Sat Nov 14 19:49:42 2015] Boomba the Big says 'Don't you Dark Elves have your own merchants?  Whatever, I'm not selling anything to you!'
+[Sat Nov 14 19:52:55 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:53:02 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:53:31 2015] Yorshi tells you, 'could i bum another C from ya '
+[Sat Nov 14 19:53:53 2015] Yorshi is looking at your equipment...
+[Sat Nov 14 19:54:00 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:54:23 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:54:24 2015] Targeted (Player): Yorshi
+[Sat Nov 14 19:54:24 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 19:54:27 2015] You begin casting Clarity.
+[Sat Nov 14 19:54:30 2015] Yorshi begins to cast a spell.
+[Sat Nov 14 19:54:30 2015] Yorshi looks tranquil.
+[Sat Nov 14 19:54:32 2015] Yorshi is surrounded by a translucent shield.
+[Sat Nov 14 19:54:35 2015] yorshit is not online at this time.
+[Sat Nov 14 19:54:41 2015] You told yorshi, 'not a problem'
+[Sat Nov 14 19:54:42 2015] Yorshi tells you, 'tyvm im sure these will get easier'
+[Sat Nov 14 19:54:50 2015] You told yorshi, 'not a problem'
+[Sat Nov 14 19:55:05 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:55:14 2015] Yorshi tells you, 'how much do those rods of insidious glamur cos'
+[Sat Nov 14 19:55:23 2015] You told yorshi, 'I am just sitting here programming hit me up for more C'
+[Sat Nov 14 19:55:30 2015] Yorshi says, 'Hail, a bat'
+[Sat Nov 14 19:55:30 2015] Yorshi says, 'Hail, a bat'
+[Sat Nov 14 19:55:35 2015] Yorshi tells you, 'o hehe i appreciate it'
+[Sat Nov 14 19:55:36 2015] You told Yorshi, 'I forgot, I think about 1k it was'
+[Sat Nov 14 19:56:00 2015] Yorshi tells you, 'are they prett nce to use?'
+[Sat Nov 14 19:56:25 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 19:57:05 2015] Yorshi tells you, 'it strips my C every time i zone why ?'
+[Sat Nov 14 19:57:22 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 19:57:30 2015] You told Yorshi, 'that's weird I've never heard of that'
+[Sat Nov 14 19:57:44 2015] You told Yorshi '[queued], yea its great, it resets your global cooldown'
+[Sat Nov 14 19:58:05 2015] Yorshi tells you, 'even minor shielding when i zone'
+[Sat Nov 14 19:58:22 2015] You told Yorshi, 'weird'
+[Sat Nov 14 20:03:13 2015] Elementri begins to cast a spell.
+[Sat Nov 14 20:03:25 2015] Elementri begins to cast a spell.
+[Sat Nov 14 20:06:32 2015] Diletantte tickles Hadiar.
+[Sat Nov 14 20:07:48 2015] Your resolution fades.
+[Sat Nov 14 20:08:37 2015] Diletantte tells you, 'you busy?'
+[Sat Nov 14 20:09:04 2015] You told Diletantte, 'sort of just programming and eq thing what's up'
+[Sat Nov 14 20:09:14 2015] Diletantte tells you, 'can you do a quick xfer for me?'
+[Sat Nov 14 20:09:20 2015] You told Diletantte, 'yep np'
+[Sat Nov 14 20:10:00 2015] Diletantte tells you, 'have space for a bag?'
+[Sat Nov 14 20:10:09 2015] You told Diletantte, 'yea'
+[Sat Nov 14 20:10:11 2015] Diletantte has offered you a Backpack.
+[Sat Nov 14 20:10:20 2015] Diletantte tells you, 'to Sokum please...brb hes in Nfp'
+[Sat Nov 14 20:11:48 2015] Sokum tells the guild, 'brt'
+[Sat Nov 14 20:12:00 2015] You say to your guild, 'aight'
+[Sat Nov 14 20:12:17 2015] Targeted (Player): Yorshi
+[Sat Nov 14 20:12:17 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 20:12:30 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 20:12:31 2015] Guard Doolin kicks Sokum for 39 points of damage.
+[Sat Nov 14 20:12:31 2015] Guard Doolin tries to slash Sokum, but misses!
+[Sat Nov 14 20:12:31 2015] Guard Doolin slashes Sokum for 105 points of damage.
+[Sat Nov 14 20:12:31 2015] Targeted (Player): Hadiar
+[Sat Nov 14 20:12:31 2015] Right click on yourself to bring up your own inspect window. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 20:12:33 2015] Sokum says, 'Hail, Hadiar'
+[Sat Nov 14 20:12:40 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 20:12:40 2015] Sokum adds some coins to the trade.
+[Sat Nov 14 20:12:40 2015] The total trade is: 1 PP, 0 GP, 0 SP, 0 CP
+[Sat Nov 14 20:12:40 2015] Guard Doolin tries to bash Chaine, but misses!
+[Sat Nov 14 20:12:40 2015] Guard Doolin tries to slash Chaine, but misses!
+[Sat Nov 14 20:12:40 2015] Guard Doolin tries to slash Chaine, but misses!
+[Sat Nov 14 20:12:42 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:12:56 2015] Targeted (Player): Hadiar
+[Sat Nov 14 20:12:56 2015] Right click on yourself to bring up your own inspect window. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 20:12:56 2015] Sokum tells you, 'thanks man'
+[Sat Nov 14 20:13:04 2015] You told Sokum, 'fo sho'
+[Sat Nov 14 20:13:08 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 20:13:10 2015] You no longer have a target.
+[Sat Nov 14 20:13:12 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 20:13:56 2015] Lewodun says, 'np making sure'
+[Sat Nov 14 20:19:49 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 20:19:50 2015] Guard Doolin bashes Sokum for 35 points of damage.
+[Sat Nov 14 20:19:50 2015] Guard Doolin slashes Sokum for 128 points of damage.
+[Sat Nov 14 20:19:52 2015] Guard Doolin tries to slash Sokum, but misses!
+[Sat Nov 14 20:21:07 2015] Targeted (Player): Yorshi
+[Sat Nov 14 20:21:07 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 20:21:08 2015] You begin casting Clarity.
+[Sat Nov 14 20:21:11 2015] Yorshi tells you, 'can i hit ya up again P)'
+[Sat Nov 14 20:21:11 2015] Yorshi looks tranquil.
+[Sat Nov 14 20:21:15 2015] Yorshi tells you, 'ty sir'
+[Sat Nov 14 20:21:18 2015] You told Yorshi, 'np'
+[Sat Nov 14 20:21:27 2015] Yorshi tells you, 'see if i can zone with it'
+[Sat Nov 14 20:21:45 2015] You told Yorshi, 'where are you hunting'
+[Sat Nov 14 20:21:52 2015] Yorshi tells you, 'just whatever in EC '
+[Sat Nov 14 20:22:02 2015] You told Yorshi, 'i can zone there if it drops for some reason'
+[Sat Nov 14 20:22:13 2015] Yorshi tells you, 'no worries gona grab food rq '
+[Sat Nov 14 20:22:31 2015] You told Yorshi, 'k let me know can give pet aug too if you want'
+[Sat Nov 14 20:22:38 2015] Players in EverQuest:
+[Sat Nov 14 20:22:38 2015] ---------------------------
+
+[Sat Nov 14 20:22:38 2015] [4 Enchanter] Yorshi (High Elf)  ZONE: freportw  
+[Sat Nov 14 20:22:38 2015] There is 1 player in EverQuest.
+[Sat Nov 14 20:22:39 2015] Yorshi tells you, 'okies'
+[Sat Nov 14 20:24:52 2015] Delmar's spell fizzles!
+[Sat Nov 14 20:24:53 2015] Delmar begins to cast a spell.
+[Sat Nov 14 20:24:58 2015] Delmar begins to cast a spell.
+[Sat Nov 14 20:25:59 2015] Opmeter auctions, 'WTS Mithril Vambraces 1.5K'
+[Sat Nov 14 20:26:06 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 20:26:08 2015] Guard Doolin tries to bash Opmeter, but misses!
+[Sat Nov 14 20:26:08 2015] Guard Doolin tries to slash Opmeter, but misses!
+[Sat Nov 14 20:26:08 2015] Guard Doolin was tormented.
+[Sat Nov 14 20:26:08 2015] Guard Doolin slashes Opmeter for 32 points of damage.
+[Sat Nov 14 20:26:21 2015] Delmar begins to cast a spell.
+[Sat Nov 14 20:26:40 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:28:49 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:31:33 2015] Pappasmurf begins to cast a spell.
+[Sat Nov 14 20:31:49 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:32:39 2015] Krystin Charcoal says 'I don't like to speak to Iksars much less sell to them!'
+[Sat Nov 14 20:33:21 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:34:40 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:34:55 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:37:33 2015] Marcvs says, 'Hail, Hadiar'
+[Sat Nov 14 20:37:37 2015] Targeted (Player): Marcvs
+[Sat Nov 14 20:37:37 2015] Stand close to and right click on the Player to consider and inspect him. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 20:37:39 2015] You begin casting Clarity.
+[Sat Nov 14 20:37:41 2015] Marcvs says, 'any chance at a bind?'
+[Sat Nov 14 20:37:42 2015] Marcvs looks tranquil.
+[Sat Nov 14 20:37:45 2015] You invite Marcvs to join your group.
+[Sat Nov 14 20:37:47 2015] You have formed the group.
+[Sat Nov 14 20:37:47 2015] Marcvs has joined the group.
+[Sat Nov 14 20:37:50 2015] Marcvs is looking at your equipment...
+[Sat Nov 14 20:37:56 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:37:56 2015] You forget Paralyzing Earth.
+[Sat Nov 14 20:37:57 2015] Beginning to memorize Bind Affinity...
+[Sat Nov 14 20:37:57 2015] You have finished memorizing Bind Affinity.
+[Sat Nov 14 20:38:11 2015] You begin casting Bind Affinity.
+[Sat Nov 14 20:38:17 2015] Marcvs is bound to the area.
+[Sat Nov 14 20:38:21 2015] Marcvs tells the group, 'thank you'
+[Sat Nov 14 20:38:23 2015] Marcvs waves at Hadiar.
+[Sat Nov 14 20:38:24 2015] You tell your party, 'yep'
+[Sat Nov 14 20:38:25 2015] You remove Marcvs from the party.
+[Sat Nov 14 20:38:26 2015] Marcvs has left the group.
+[Sat Nov 14 20:38:26 2015] Your group has been disbanded.
+[Sat Nov 14 20:39:49 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:42:15 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:42:33 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:44:03 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:47:40 2015] Kumor begins to cast a spell.
+[Sat Nov 14 20:48:05 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:48:55 2015] Brother Hayle shouts, 'All hail Oblie, wielder of Soulfire!'
+[Sat Nov 14 20:49:13 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:53:22 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 20:54:12 2015] Morrissey auctions, 'WTS |Silver Jasper Ring x2|Small Bronze Bracers|Small Bronze Boots|Small Bronze Vambraces|Bone Legplates|Small Banded Bracer|'
+[Sat Nov 14 20:54:18 2015] Morrissey auctions, 'WTS Split Paw Hide Gloves|Spiked Collar|Small Bronze Breastplate|Fine Steel Morning Star| PST'
+[Sat Nov 14 20:55:41 2015] Boomba the Big says 'Hi there Slowscales, just browsing?  Have you seen the Cloth Sandals I just got in?'
+[Sat Nov 14 20:55:50 2015] Slowscales begins to cast a spell.
+[Sat Nov 14 20:56:18 2015] A decaying skeleton crushes Hermoinee for 1 point of damage.
+[Sat Nov 14 20:56:19 2015] Guard Doolin bashes a decaying skeleton for 42 points of damage.
+[Sat Nov 14 20:56:19 2015] a decaying skeleton has been slain by Guard Doolin!
+[Sat Nov 14 20:56:19 2015] Guard Doolin says 'Let your death be a warning to all who dare oppose the Freeport Militia!'
+[Sat Nov 14 21:00:12 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 21:03:41 2015] Magnateaz begins to cast a spell.
+[Sat Nov 14 21:03:45 2015] You feel the spirit of wolf enter you.
+[Sat Nov 14 21:03:58 2015] Players in EverQuest:
+[Sat Nov 14 21:03:58 2015] ---------------------------
+
+[Sat Nov 14 21:03:58 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 21:03:58 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: greatdivide  
+[Sat Nov 14 21:03:58 2015] [54 Wanderer] Magnateaz (Half Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 21:03:58 2015] There are 3 players in EverQuest.
+[Sat Nov 14 21:04:01 2015] You say to your guild, 'hey mags'
+[Sat Nov 14 21:04:04 2015] Targeted (Player): Hadiar
+[Sat Nov 14 21:04:04 2015] Right click on yourself to bring up your own inspect window. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 21:04:05 2015] Magnateaz tells the guild, 'hey'
+[Sat Nov 14 21:04:06 2015] You no longer have a target.
+[Sat Nov 14 21:04:11 2015] Targeted (Player): Hadiar
+[Sat Nov 14 21:04:11 2015] Right click on yourself to bring up your own inspect window. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 21:06:11 2015] Adaulith begins to cast a spell.
+[Sat Nov 14 21:08:52 2015] Sokum tells the guild, 'heya mag, whatcha up to?'
+[Sat Nov 14 21:14:02 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:14:05 2015] Imspecial begins to cast a spell.
+[Sat Nov 14 21:14:10 2015] Imspecial is surrounded by a brief lupine aura.
+[Sat Nov 14 21:15:43 2015] Hacym tells the guild, 'hi guys'
+[Sat Nov 14 21:15:48 2015] Sokum tells the guild, 'sup'
+[Sat Nov 14 21:16:01 2015] Magnateaz tells the guild, 'hey'
+[Sat Nov 14 21:16:06 2015] You say to your guild, 'what erp'
+[Sat Nov 14 21:16:34 2015] You no longer have a target.
+[Sat Nov 14 21:18:05 2015] Cruci's spell fizzles!
+[Sat Nov 14 21:18:06 2015] Cruci begins to cast a spell.
+[Sat Nov 14 21:18:07 2015] Magnateaz begins to cast a spell.
+[Sat Nov 14 21:18:23 2015] Magnateaz creates a mystic portal.
+[Sat Nov 14 21:18:32 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:18:39 2015] Imspecial begins to cast a spell.
+[Sat Nov 14 21:19:33 2015] Players on EverQuest:
+[Sat Nov 14 21:19:33 2015] ---------------------------
+[Sat Nov 14 21:19:33 2015] [55 Conjurer] Meddy (Erudite)
+[Sat Nov 14 21:19:33 2015] [24 Magician] Malfin (Gnome)
+[Sat Nov 14 21:19:33 2015] [58 Outrider] Imspecial (Human) <Forsaken>
+[Sat Nov 14 21:19:33 2015] [2 Enchanter] Kalosine (Human)
+[Sat Nov 14 21:19:33 2015] [13 Warrior] Derajyor (Human) <Original Sin>
+[Sat Nov 14 21:19:33 2015] [ANONYMOUS] Malmur  <Bregan D`Aerth>
+[Sat Nov 14 21:19:33 2015] [14 Shadow Knight] Vortextron (Erudite) <Mortals No Longer>
+[Sat Nov 14 21:19:33 2015] [4 Enchanter] Hypnoo (Human) <Kittens Who Say Meow>
+[Sat Nov 14 21:19:33 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma>
+[Sat Nov 14 21:19:33 2015] There are 9 players in West Freeport.
+[Sat Nov 14 21:20:20 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 21:23:19 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:24:36 2015] Players in EverQuest:
+[Sat Nov 14 21:24:36 2015] ---------------------------
+
+[Sat Nov 14 21:24:36 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 21:24:36 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: thurgadina  
+[Sat Nov 14 21:24:36 2015] [54 Wanderer] Magnateaz (Half Elf) <Nocterma> ZONE: greatdivide  
+[Sat Nov 14 21:24:36 2015] [52 Illusionist] Hacym (Erudite) <Nocterma> ZONE: thurgadina  
+[Sat Nov 14 21:24:36 2015] There are 4 players in EverQuest.
+[Sat Nov 14 21:24:44 2015] Boomba the Big says 'I have something here that Dark Elves use..let me see...it's the EXIT, now get LOST!'
+[Sat Nov 14 21:24:45 2015] Boomba the Big says 'I don't like to speak to Dark Elves much less sell to them!'
+[Sat Nov 14 21:24:46 2015] Boomba the Big says 'I have something here that Dark Elves use..let me see...it's the EXIT, now get LOST!'
+[Sat Nov 14 21:24:47 2015] Boomba the Big says 'I don't like to speak to Dark Elves much less sell to them!'
+[Sat Nov 14 21:26:03 2015] Evyly says out of character, 'Is it possible to get a bind at the wall near Ping Fuzzlecutter'
+[Sat Nov 14 21:26:56 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 21:26:56 2015] Guard Doolin bashes Tanthanthalsis for 32 points of damage.
+[Sat Nov 14 21:26:56 2015] Guard Doolin tries to slash Tanthanthalsis, but misses!
+[Sat Nov 14 21:26:56 2015] Guard Kroon tries to bash Tanthanthalsis, but Tanthanthalsis parries!
+[Sat Nov 14 21:26:56 2015] Guard Kroon slashes Tanthanthalsis for 17 points of damage.
+[Sat Nov 14 21:27:17 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:27:27 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:27:54 2015] Spaid begins to cast a spell.
+[Sat Nov 14 21:28:05 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:28:16 2015] Targeted (Player): Hadiar
+[Sat Nov 14 21:28:16 2015] Right click on yourself to bring up your own inspect window. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 21:28:22 2015] Targeted (Player): Hadiar
+[Sat Nov 14 21:28:22 2015] Right click on yourself to bring up your own inspect window. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 21:28:26 2015] Euth says out of character, 'it is'
+[Sat Nov 14 21:29:57 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:30:17 2015] Windflash begins to cast a spell.
+[Sat Nov 14 21:30:19 2015] Spaid begins to cast a spell.
+[Sat Nov 14 21:30:24 2015] Windflash begins to cast a spell.
+[Sat Nov 14 21:30:33 2015] Evyly says out of character, 'Donating for  a bind at the wall near Ping Fuzzlecutter'
+[Sat Nov 14 21:30:40 2015] Windflash begins to cast a spell.
+[Sat Nov 14 21:32:06 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:32:37 2015] Howlat )
+[Sat Nov 14 21:32:42 2015] Howlat )
+[Sat Nov 14 21:37:14 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:39:48 2015] Guard Jacsen bashes Tanthanthalsis for 38 points of damage.
+[Sat Nov 14 21:39:48 2015] Guard Jacsen slashes Tanthanthalsis for 83 points of damage.
+[Sat Nov 14 21:39:48 2015] Guard Jacsen slashes Tanthanthalsis for 128 points of damage.
+[Sat Nov 14 21:39:48 2015] Guard Jacsen tries to slash Tanthanthalsis, but misses!
+[Sat Nov 14 21:39:48 2015] The spirit of wolf leaves you.
+[Sat Nov 14 21:39:49 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 21:39:50 2015] Guard Munden tries to bash Tanthanthalsis, but misses!
+[Sat Nov 14 21:39:50 2015] Guard Munden slashes Tanthanthalsis for 49 points of damage.
+[Sat Nov 14 21:39:50 2015] Guard Doolin kicks Tanthanthalsis for 32 points of damage.
+[Sat Nov 14 21:39:50 2015] Guard Doolin tries to slash Tanthanthalsis, but misses!
+[Sat Nov 14 21:39:50 2015] Guard Jacsen slashes Tanthanthalsis for 32 points of damage.
+[Sat Nov 14 21:39:50 2015] Guard Jacsen tries to slash Tanthanthalsis, but misses!
+[Sat Nov 14 21:39:50 2015] Guard Jacsen slashes Tanthanthalsis for 88 points of damage.
+[Sat Nov 14 21:42:11 2015] Backnummer auctions, 'WTS Defiance 2k pst'
+[Sat Nov 14 21:42:46 2015] Sokum tells the guild, 'why arent you guys lvling? =P'
+[Sat Nov 14 21:42:55 2015] Estha tells the guild, 'who guys?'
+[Sat Nov 14 21:42:58 2015] You say to your guild, 'cuz'
+[Sat Nov 14 21:43:00 2015] Tanthanthalsis auctions, 'WTS Frostbringer, PST selling cheap'
+[Sat Nov 14 21:43:05 2015] You say to your guild, 'doing stuff'
+[Sat Nov 14 21:43:12 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 21:43:13 2015] Players in EverQuest:
+[Sat Nov 14 21:43:13 2015] ---------------------------
+
+[Sat Nov 14 21:43:13 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 21:43:13 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: thurgadina  
+[Sat Nov 14 21:43:13 2015] [54 Wanderer] Magnateaz (Half Elf) <Nocterma> ZONE: thurgadina  
+[Sat Nov 14 21:43:13 2015] [52 Illusionist] Hacym (Erudite) <Nocterma> ZONE: thurgadina  
+[Sat Nov 14 21:43:13 2015] [57 Templar] Estha (Halfling) <Nocterma> ZONE: greatdivide  LFG
+[Sat Nov 14 21:43:13 2015] There are 5 players in EverQuest.
+[Sat Nov 14 21:43:35 2015] A bat bites Hermoinee for 1 point of damage.
+[Sat Nov 14 21:43:35 2015] A decaying skeleton hits Hermoinee for 1 point of damage.
+[Sat Nov 14 21:43:38 2015] A bat bites Hermoinee for 1 point of damage.
+[Sat Nov 14 21:43:38 2015] A decaying skeleton hits Hermoinee for 1 point of damage.
+[Sat Nov 14 21:44:43 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:44:51 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:46:32 2015] Jovik begins to cast a spell.
+[Sat Nov 14 21:47:03 2015] Merchantmike auctions, 'WTS Bone Chips 10pp | Enchanted Teir`Dal Great Staff 50pp'
+[Sat Nov 14 21:48:47 2015] Sapbelly shouts, 'Ports to BB, Toxx, EK, NK, WC PST. Help the little guy out!'
+[Sat Nov 14 21:49:25 2015] Merchantmike auctions, 'WTS Bone Chips 10pp | Enchanted Teir`Dal Great Staff 50pp'
+[Sat Nov 14 21:50:36 2015] Merchantmike auctions, 'WTS Bone Chips 10pp | Enchanted Teir`Dal Great Staff 50pp'
+[Sat Nov 14 21:52:22 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 21:52:22 2015] Guard Doolin tries to bash Zekay, but misses!
+[Sat Nov 14 21:52:22 2015] Guard Doolin tries to slash Zekay, but misses!
+[Sat Nov 14 21:52:22 2015] Guard Doolin slashes Zekay for 43 points of damage.
+[Sat Nov 14 21:53:20 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:55:32 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:57:43 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 21:58:14 2015] Merchantmike auctions, 'WTS Bone Chips 10pp | Enchanted Teir`Dal Great Staff 50pp'
+[Sat Nov 14 21:59:13 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:00:10 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:00:26 2015] Kizile shouts, 'well let me do it too'
+[Sat Nov 14 22:03:23 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:03:42 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:03:48 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:03:49 2015] Boomba the Big says 'Greetings, Ebiejeebie. You look like you could use a Rune of Al'Kabor.'
+[Sat Nov 14 22:03:51 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:04:00 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:04:07 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:04:26 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:04:35 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:04:45 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:04:53 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:05:01 2015] Xeniaa begins to cast a spell.
+[Sat Nov 14 22:15:16 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:17:43 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:18:14 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:18:46 2015] Pleadies says, 'Hail'
+[Sat Nov 14 22:22:20 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:23:35 2015] Guard Munden tries to bash Svenn, but misses!
+[Sat Nov 14 22:23:35 2015] Guard Munden slashes Svenn for 111 points of damage.
+[Sat Nov 14 22:23:35 2015] Guard Munden tries to slash Svenn, but misses!
+[Sat Nov 14 22:23:37 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 22:23:52 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:26:17 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:28:40 2015] Guard Kroon tries to kick Svenn, but misses!
+[Sat Nov 14 22:28:40 2015] Guard Kroon tries to slash Svenn, but misses!
+[Sat Nov 14 22:28:40 2015] Guard Kroon tries to slash Svenn, but misses!
+[Sat Nov 14 22:28:42 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 22:30:38 2015] You begin casting Clarity.
+[Sat Nov 14 22:30:41 2015] A cool breeze slips through your mind.
+[Sat Nov 14 22:31:06 2015] You no longer have a target.
+[Sat Nov 14 22:32:59 2015] Targeted (NPC): a large rat
+[Sat Nov 14 22:32:59 2015] Right click on the NPC to consider it.
+[Sat Nov 14 22:33:01 2015] You begin casting Mesmerize.
+[Sat Nov 14 22:33:04 2015] A large rat has been mesmerized.
+[Sat Nov 14 22:33:12 2015] Targeted (Player): Hadiar
+[Sat Nov 14 22:33:12 2015] Right click on yourself to bring up your own inspect window. Use the /toggleinspect command to enable or disable right-click inspecting.
+[Sat Nov 14 22:33:16 2015] You no longer have a target.
+[Sat Nov 14 22:33:29 2015] Your Mesmerize spell has worn off.
+[Sat Nov 14 22:33:47 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 22:33:47 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 22:33:47 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 22:33:48 2015] Guard Doolin tries to bash Fange, but misses!
+[Sat Nov 14 22:33:48 2015] Guard Doolin tries to slash Fange, but misses!
+[Sat Nov 14 22:33:48 2015] Guard Doolin tries to slash Fange, but misses!
+[Sat Nov 14 22:34:22 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:36:32 2015] You begin casting Clarity.
+[Sat Nov 14 22:36:35 2015] A cool breeze slips through your mind.
+[Sat Nov 14 22:36:50 2015] You begin casting Clarity.
+[Sat Nov 14 22:36:53 2015] A cool breeze slips through your mind.
+[Sat Nov 14 22:37:23 2015] Guard Effel tries to kick Fange, but misses!
+[Sat Nov 14 22:37:23 2015] Guard Effel slashes Fange for 31 points of damage.
+[Sat Nov 14 22:37:23 2015] Guard Effel tries to slash Fange, but misses!
+[Sat Nov 14 22:37:25 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 22:37:25 2015] Guard Doolin bashes Fange for 39 points of damage.
+[Sat Nov 14 22:37:25 2015] Guard Doolin slashes Fange for 88 points of damage.
+[Sat Nov 14 22:37:25 2015] Guard Doolin tries to slash Fange, but misses!
+[Sat Nov 14 22:37:28 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 22:37:28 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 22:37:38 2015] Windflash says, 'Hail, Boomba the Big'
+[Sat Nov 14 22:37:38 2015] Boomba the Big says 'Hullo!!  Me is Boomba.  Me make da bestest pickles in da Norrath. Me gots da dwarfies. da halflings. da humies - me even gots da pixie pickles!!  Of course all of dem were baddies from da dunjuns.  Da guards say it gud ta pickle da baddies.'
+[Sat Nov 14 22:38:38 2015] You begin casting Clarity.
+[Sat Nov 14 22:38:42 2015] A cool breeze slips through your mind.
+[Sat Nov 14 22:39:03 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:40:16 2015] Vorask is looking at your equipment...
+[Sat Nov 14 22:44:26 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:45:56 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:47:18 2015] You begin casting Clarity.
+[Sat Nov 14 22:47:21 2015] A cool breeze slips through your mind.
+[Sat Nov 14 22:49:24 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:54:55 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 22:55:56 2015] Boomba the Big says 'Greetings, Bellygrubb. You look like you could use a Rune of Al'Kabor.'
+[Sat Nov 14 22:57:23 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 22:57:23 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 22:57:25 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 22:59:27 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 22:59:27 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 22:59:28 2015] Guard Jacsen tries to bash Bree, but misses!
+[Sat Nov 14 22:59:28 2015] Guard Jacsen tries to slash Bree, but misses!
+[Sat Nov 14 22:59:29 2015] Vorask begins to cast a spell.
+[Sat Nov 14 22:59:31 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:00:04 2015] Errenn says out of character, 'casting shaman buffs at gate, hail me'
+[Sat Nov 14 23:00:37 2015] Muteprint begins to cast a spell.
+[Sat Nov 14 23:00:40 2015] Muteprint lets loose a berserk yell.
+[Sat Nov 14 23:00:43 2015] Muteprint begins to cast a spell.
+[Sat Nov 14 23:00:50 2015] Errenn begins to cast a spell.
+[Sat Nov 14 23:00:59 2015] Errenn begins to cast a spell.
+[Sat Nov 14 23:01:07 2015] Errenn begins to cast a spell.
+[Sat Nov 14 23:01:13 2015] Errenn's spell fizzles!
+[Sat Nov 14 23:01:15 2015] Errenn begins to cast a spell.
+[Sat Nov 14 23:01:21 2015] Ebiejeebie begins to cast a spell.
+[Sat Nov 14 23:01:23 2015] Errenn begins to cast a spell.
+[Sat Nov 14 23:01:24 2015] Ebiejeebie's image shimmers.
+[Sat Nov 14 23:01:45 2015] Ebiejeebie waves at Boomba the Big.
+[Sat Nov 14 23:01:46 2015] Errenn begins to cast a spell.
+[Sat Nov 14 23:03:13 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:03:33 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:03:36 2015] Brother Jentry regains concentration and continues casting.
+[Sat Nov 14 23:03:55 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:04:00 2015] Brother Jentry's casting is interrupted!
+[Sat Nov 14 23:04:12 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:04:22 2015] Brother Jentry regains concentration and continues casting.
+[Sat Nov 14 23:04:47 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:04:51 2015] Brother Jentry regains concentration and continues casting.
+[Sat Nov 14 23:04:53 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:04:55 2015] Izaic ASSASSINATES their victim!!
+[Sat Nov 14 23:11:41 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:11:48 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:11:49 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:11:49 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:11:52 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:12:07 2015] Krystin Charcoal says 'I have something here that Dark Elves use..let me see...it's the EXIT, now get LOST!'
+[Sat Nov 14 23:12:08 2015] Krystin Charcoal says 'I have something here that Dark Elves use..let me see...it's the EXIT, now get LOST!'
+[Sat Nov 14 23:12:18 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:12:45 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:14:18 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:14:25 2015] The cool breeze fades.
+[Sat Nov 14 23:14:58 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:14:58 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:14:58 2015] Altek auctions, 'WTS Fungus Covered Scale Tunic'
+[Sat Nov 14 23:15:40 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:15:40 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:15:40 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:16:11 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:16:24 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:16:37 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:21:39 2015] Setalieli begins to cast a spell.
+[Sat Nov 14 23:21:44 2015] Setalieli is surrounded by a brief lupine aura.
+[Sat Nov 14 23:22:25 2015] Guard Munden says 'Let your death be a warning to all who dare oppose the Freeport Militia!'
+[Sat Nov 14 23:22:38 2015] Eqoili says, in Dark Elvish, 'H`vl, Gunbd `oqrin'
+[Sat Nov 14 23:22:42 2015] Boomba the Big says 'It's not enough that you Dark Elves have ruined your own land. Now get lost!'
+[Sat Nov 14 23:22:44 2015] Eqoili says, in Dark Elvish, 'Hyul, Boo ba grg'
+[Sat Nov 14 23:22:44 2015] Boomba the Big says 'Hullo!!  Me is Boomba.  Me make da bestest pickles in da Norrath. Me gots da dwarfies. da halflings. da humies - me even gots da pixie pickles!!  Of course all of dem were baddies from da dunjuns.  Da guards say it gud ta pickle da baddies.'
+[Sat Nov 14 23:23:57 2015] Allexis is surrounded by a brief lupine aura.
+[Sat Nov 14 23:26:11 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:27:03 2015] Brizzy auctions, 'WRS Shralok Pack 200p High Quality Cat Peltx2 15p each'
+[Sat Nov 14 23:27:36 2015] Players in EverQuest:
+[Sat Nov 14 23:27:36 2015] ---------------------------
+
+[Sat Nov 14 23:27:36 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 23:27:36 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:27:36 2015] [54 Wanderer] Magnateaz (Half Elf) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:27:36 2015] [52 Illusionist] Hacym (Erudite) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:27:36 2015] There are 4 players in EverQuest.
+[Sat Nov 14 23:27:44 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:27:44 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:27:46 2015] Guard Munden was burned.
+[Sat Nov 14 23:27:46 2015] Guard Munden kicks Maori for 35 points of damage.
+[Sat Nov 14 23:27:46 2015] Guard Munden tries to slash Maori, but misses!
+[Sat Nov 14 23:27:47 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:28:07 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:32:11 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:32:41 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:32:41 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:32:42 2015] Guard Jacsen was burned.
+[Sat Nov 14 23:34:38 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:36:08 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:36:08 2015] Guard Ledshin tries to bash Khanga, but misses!
+[Sat Nov 14 23:36:08 2015] Guard Ledshin tries to slash Khanga, but misses!
+[Sat Nov 14 23:36:38 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:36:38 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:36:39 2015] Guard Jacsen bashes Xerra for 42 points of damage.
+[Sat Nov 14 23:36:39 2015] Guard Jacsen slashes Xerra for 128 points of damage.
+[Sat Nov 14 23:36:39 2015] Guard Jacsen slashes Xerra for 122 points of damage.
+[Sat Nov 14 23:36:39 2015] Guard Jacsen tries to slash Xerra, but misses!
+[Sat Nov 14 23:36:39 2015] Guard Jacsen slashes Xerra for 105 points of damage.
+[Sat Nov 14 23:36:40 2015] Guard Munden tries to slash Xerra, but misses!
+[Sat Nov 14 23:36:41 2015] Guard Jacsen tries to slash Xerra, but misses!
+[Sat Nov 14 23:36:41 2015] Guard Jacsen slashes Xerra for 128 points of damage.
+[Sat Nov 14 23:37:01 2015] Hacym tells the guild, 'Champion Standing ( from twitch chat ) is this monk Drizik'
+[Sat Nov 14 23:37:06 2015] Opalfire begins to cast a spell.
+[Sat Nov 14 23:37:12 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:37:20 2015] Hacym tells the guild, 'been talking to him, he could fill 2nd monk slot - he has a mage 30's he wants to level also'
+[Sat Nov 14 23:37:22 2015] Majestar creates a shimmering portal.
+[Sat Nov 14 23:37:22 2015] Opalfire creates a shimmering portal.
+[Sat Nov 14 23:37:33 2015] Hacym tells the guild, 'wanna tag him? he's usually on in our time slot also'
+[Sat Nov 14 23:37:45 2015] Players in EverQuest:
+[Sat Nov 14 23:37:45 2015] ---------------------------
+
+[Sat Nov 14 23:37:45 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 23:37:45 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:37:45 2015] [54 Wanderer] Magnateaz (Half Elf) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:37:45 2015] [52 Illusionist] Hacym (Erudite) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:37:45 2015] There are 4 players in EverQuest.
+[Sat Nov 14 23:37:46 2015] Sokum tells the guild, 'hes a pretty chill dude'
+[Sat Nov 14 23:37:52 2015] You say to your guild, 'BRING HIM INTO THE FOLD'
+[Sat Nov 14 23:38:02 2015] Hacym tells the guild, 'hiya Had'
+[Sat Nov 14 23:38:06 2015] You say to your guild, 'wsup'
+[Sat Nov 14 23:38:07 2015] Hacym tells the guild, 'lol'
+[Sat Nov 14 23:38:10 2015] Hacym tells the guild, 'you so quit'
+[Sat Nov 14 23:38:21 2015] You say to your guild, 'dude I'm making a timer/trigger app for eq'
+[Sat Nov 14 23:38:46 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:38:46 2015] Hacym tells the guild, 'hahah'
+[Sat Nov 14 23:38:55 2015] Hacym tells the guild, 'welcome =) '
+[Sat Nov 14 23:38:57 2015] You say to your guild, 'and compiling a custom Wine for linux with a mouselook fix'
+[Sat Nov 14 23:39:04 2015] Drizik tells the guild, 'hey guys thanks for the invite'
+[Sat Nov 14 23:39:04 2015] Hacym tells the guild, 'well tag your mage late'
+[Sat Nov 14 23:39:04 2015] Sokum tells the guild, 'Welcome!'
+[Sat Nov 14 23:39:05 2015] Players in EverQuest:
+[Sat Nov 14 23:39:05 2015] ---------------------------
+
+[Sat Nov 14 23:39:05 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sat Nov 14 23:39:05 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:39:05 2015] [54 Wanderer] Magnateaz (Half Elf) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:39:05 2015] [52 Illusionist] Hacym (Erudite) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:39:05 2015] [51 Disciple] Drizik (Iksar) <Nocterma> ZONE: velketor  
+[Sat Nov 14 23:39:05 2015] There are 5 players in EverQuest.
+[Sat Nov 14 23:39:19 2015] Sokum tells the guild, 'now you can pull!'
+[Sat Nov 14 23:39:46 2015] You say to your guild, 'I'll give you a pull'
+[Sat Nov 14 23:40:02 2015] You say to your guild, 'if you know what I mean ;D ;D'
+[Sat Nov 14 23:40:12 2015] Hacym tells the guild, 'durtee'
+[Sat Nov 14 23:40:45 2015] You no longer have a target.
+[Sat Nov 14 23:42:23 2015] Akashx beams a smile at Guard Fralldo
+[Sat Nov 14 23:44:21 2015] Drakkall says out of character, 'anyone selling bone chips? pst'
+[Sat Nov 14 23:45:50 2015] Joomay begins to cast a spell.
+[Sat Nov 14 23:46:20 2015] Joomay begins to cast a spell.
+[Sat Nov 14 23:48:37 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:50:01 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:50:04 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:50:04 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:51:25 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:51:56 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:52:00 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:52:00 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:52:00 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:52:01 2015] Guard Doolin tries to bash Maori, but Maori blocks!
+[Sat Nov 14 23:52:01 2015] Guard Doolin tries to slash Maori, but Maori blocks!
+[Sat Nov 14 23:52:01 2015] Guard Kroon tries to kick Maori, but misses!
+[Sat Nov 14 23:52:01 2015] Guard Kroon was burned.
+[Sat Nov 14 23:52:01 2015] Guard Kroon slashes Maori for 82 points of damage.
+[Sat Nov 14 23:52:02 2015] Guard Jacsen tries to bash Maori, but misses!
+[Sat Nov 14 23:52:02 2015] Maori tries to crush Guard Jacsen, but misses!
+[Sat Nov 14 23:52:02 2015] Guard Jacsen tries to slash Maori, but Maori ripostes!
+[Sat Nov 14 23:52:02 2015] Guard Jacsen was burned.
+[Sat Nov 14 23:52:02 2015] Guard Jacsen slashes Maori for 32 points of damage.
+[Sat Nov 14 23:52:02 2015] Guard Jacsen was burned.
+[Sat Nov 14 23:52:02 2015] Guard Jacsen slashes Maori for 66 points of damage.
+[Sat Nov 14 23:52:03 2015] Guard Doolin was burned.
+[Sat Nov 14 23:52:03 2015] Guard Doolin slashes Maori for 94 points of damage.
+[Sat Nov 14 23:52:03 2015] Guard Doolin was burned.
+[Sat Nov 14 23:52:03 2015] Guard Doolin slashes Maori for 32 points of damage.
+[Sat Nov 14 23:52:04 2015] Guard Jacsen tries to slash Maori, but misses!
+[Sat Nov 14 23:52:04 2015] Guard Jacsen tries to slash Maori, but misses!
+[Sat Nov 14 23:52:04 2015] Guard Jacsen tries to slash Maori, but misses!
+[Sat Nov 14 23:52:04 2015] Guard Kroon tries to slash Maori, but misses!
+[Sat Nov 14 23:52:04 2015] Guard Munden was burned.
+[Sat Nov 14 23:52:04 2015] Guard Munden bashes Maori for 40 points of damage.
+[Sat Nov 14 23:52:04 2015] Guard Munden was burned.
+[Sat Nov 14 23:52:04 2015] Guard Munden slashes Maori for 32 points of damage.
+[Sat Nov 14 23:52:04 2015] Guard Munden tries to slash Maori, but misses!
+[Sat Nov 14 23:52:05 2015] Guard Doolin was burned.
+[Sat Nov 14 23:52:05 2015] Guard Doolin slashes Maori for 32 points of damage.
+[Sat Nov 14 23:52:05 2015] Guard Doolin tries to slash Maori, but misses!
+[Sat Nov 14 23:52:06 2015] Guard Jacsen was burned.
+[Sat Nov 14 23:52:06 2015] Guard Jacsen slashes Maori for 100 points of damage.
+[Sat Nov 14 23:52:06 2015] Guard Jacsen was burned.
+[Sat Nov 14 23:52:06 2015] Guard Jacsen slashes Maori for 32 points of damage.
+[Sat Nov 14 23:52:06 2015] Guard Jacsen was burned.
+[Sat Nov 14 23:52:06 2015] Guard Jacsen slashes Maori for 32 points of damage.
+[Sat Nov 14 23:52:06 2015] Guard Munden tries to slash Maori, but misses!
+[Sat Nov 14 23:52:06 2015] Guard Munden tries to slash Maori, but misses!
+[Sat Nov 14 23:53:57 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sat Nov 14 23:53:58 2015] Guard Jacsen says 'Die, dog!!'
+[Sat Nov 14 23:55:15 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sat Nov 14 23:56:51 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:57:26 2015] Hacym tells the guild, 'you asshats better be rolling for me'
+[Sat Nov 14 23:57:34 2015] Oddfello begins to cast a spell.
+[Sat Nov 14 23:57:39 2015] Sokum tells the guild, 'whats that even good for? charmin?'
+[Sat Nov 14 23:57:43 2015] Drizik tells the guild, 'i don't want that thing'
+[Sat Nov 14 23:57:49 2015] Drizik tells the guild, 'im dumb enough already'
+[Sat Nov 14 23:57:53 2015] Oddfello begins to cast a spell.
+[Sat Nov 14 23:58:00 2015] Brother Jentry begins to cast a spell.
+[Sat Nov 14 23:58:10 2015] Oddfello begins to cast a spell.
+[Sat Nov 14 23:59:13 2015] Oddfello begins to cast a spell.
+[Sat Nov 14 23:59:30 2015] Oddfello begins to cast a spell.
+[Sun Nov 15 00:00:10 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:02:00 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sun Nov 15 00:02:00 2015] Guard Jacsen says 'Die, dog!!'
+[Sun Nov 15 00:03:34 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sun Nov 15 00:03:34 2015] Guard Jacsen says 'Die, dog!!'
+[Sun Nov 15 00:03:37 2015] Guard Doolin says 'You're not welcome in Freeport.'
+[Sun Nov 15 00:05:58 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:09:20 2015] Guard Kroon slashes Trollolololol for 17 points of damage.
+[Sun Nov 15 00:09:20 2015] Guard Kroon slashes Trollolololol for 38 points of damage.
+[Sun Nov 15 00:09:23 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sun Nov 15 00:09:23 2015] Guard Jacsen says 'Die, dog!!'
+[Sun Nov 15 00:10:17 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:10:54 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:11:09 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:09 2015] Krystin Charcoal says 'Welcome to my shop, Sirkus. You would probably find a A Spider Venom Sac handy.'
+[Sun Nov 15 00:11:09 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:10 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:10 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:10 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:10 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:11 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:11 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:11 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:12 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:11:12 2015] Gaiseric begins to walk faster.
+[Sun Nov 15 00:14:15 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sun Nov 15 00:14:15 2015] Guard Jacsen says 'Die, dog!!'
+[Sun Nov 15 00:19:19 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:21:07 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:21:41 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:24:00 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:31:05 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sun Nov 15 00:31:05 2015] Guard Jacsen says 'Die, dog!!'
+[Sun Nov 15 00:33:32 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:33:47 2015] Leopoldstotch begins to cast a spell.
+[Sun Nov 15 00:35:36 2015] Mezzah begins to cast a spell.
+[Sun Nov 15 00:35:41 2015] Mezzah fades away.
+[Sun Nov 15 00:35:48 2015] Monkgaggar has fallen to the ground.
+[Sun Nov 15 00:37:48 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:40:05 2015] Breus's spell fizzles!
+[Sun Nov 15 00:40:07 2015] Breus begins to cast a spell.
+[Sun Nov 15 00:42:02 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:42:40 2015] Hacym tells the guild, 'hadiar you still around?'
+[Sun Nov 15 00:42:53 2015] You say to your guild, 'yea man'
+[Sun Nov 15 00:43:02 2015] Hacym tells the guild, 'wanna come rep me in KC?'
+[Sun Nov 15 00:43:04 2015] You say to your guild, 'just got the time bars rednering fuck yea'
+[Sun Nov 15 00:43:13 2015] Sokum tells the guild, 'wtf no you arent leaving Hac'
+[Sun Nov 15 00:43:29 2015] Hacym tells the guild, 'huh?'
+[Sun Nov 15 00:43:41 2015] You say to your guild, 'the timer bars'
+[Sun Nov 15 00:43:53 2015] You say to your guild, 'are now rendering properly'
+[Sun Nov 15 00:44:19 2015] You say to your guild, 'but I don't have the whole thing put together yet, so no I can't replace you'
+[Sun Nov 15 00:44:44 2015] Sokum tells the guild, 'screw that shit...get ur ass down here'
+[Sun Nov 15 00:44:54 2015] You say to your guild, 'dude I have no timers'
+[Sun Nov 15 00:45:01 2015] You say to your guild, 'how will i know when mez is over'
+[Sun Nov 15 00:45:06 2015] Sokum tells the guild, 'its classic, timers arent supposed to exist'
+[Sun Nov 15 00:45:07 2015] Hacym tells the guild, 'timers for what?'
+[Sun Nov 15 00:45:13 2015] Drizik tells the guild, 'GINA timers?'
+[Sun Nov 15 00:45:14 2015] Hacym tells the guild, 'what mez?'
+[Sun Nov 15 00:45:20 2015] Drizik tells the guild, 'don't even'
+[Sun Nov 15 00:45:22 2015] You say to your guild, 'not GINA'
+[Sun Nov 15 00:45:27 2015] You say to your guild, 'not gam'
+[Sun Nov 15 00:45:27 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:45:39 2015] You say to your guild, 'Yet Another everQuest Parser'
+[Sun Nov 15 00:46:03 2015] You say to your guild, 'yaqp (yak-pee) '
+[Sun Nov 15 00:46:10 2015] Drizik tells the guild, 'rofl'
+[Sun Nov 15 00:46:20 2015] You say to your guild, 'picture a yak peeing'
+[Sun Nov 15 00:46:38 2015] Sokum tells the guild, 'lol'
+[Sun Nov 15 00:46:56 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:47:07 2015] You say to your guild, 'shit's going up on github tonight'
+[Sun Nov 15 00:48:06 2015] Potto begins to cast a spell.
+[Sun Nov 15 00:48:38 2015] Boomba the Big says 'I have something here that Dark Elves use..let me see...it's the EXIT, now get LOST!'
+[Sun Nov 15 00:48:38 2015] Boomba the Big says 'It's not enough that you Dark Elves have ruined your own land. Now get lost!'
+[Sun Nov 15 00:48:40 2015] Boomba the Big says 'I have something here that Dark Elves use..let me see...it's the EXIT, now get LOST!'
+[Sun Nov 15 00:51:50 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:51:54 2015] Guard Jacsen says 'Let your death be a warning to all who dare oppose the Freeport Militia!'
+[Sun Nov 15 00:57:02 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 00:58:11 2015] Krystin Charcoal says 'Greetings, Sirkus. You look like you could use a Cask.'
+[Sun Nov 15 00:58:51 2015] Players in EverQuest:
+[Sun Nov 15 00:58:51 2015] ---------------------------
+
+[Sun Nov 15 00:58:51 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sun Nov 15 00:58:51 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: karnor  
+[Sun Nov 15 00:58:51 2015] [54 Wanderer] Magnateaz (Half Elf) <Nocterma> ZONE: karnor  
+[Sun Nov 15 00:58:51 2015] [52 Illusionist] Hacym (Erudite) <Nocterma> ZONE:   
+[Sun Nov 15 00:58:51 2015] [51 Disciple] Drizik (Iksar) <Nocterma> ZONE: karnor  
+[Sun Nov 15 00:58:51 2015] There are 5 players in EverQuest.
+[Sun Nov 15 01:01:36 2015] Kneet auctions, 'buying Flawed Topaz x2'
+[Sun Nov 15 01:01:56 2015] MESSAGE OF THE DAY: Welcome to the Project 1999 Classic EverQuest Server!  All server rules can be found at www.project1999.com - If you require help, please /petition - Have fun and good luck!
+[Sun Nov 15 01:02:04 2015] That is not a valid command.  Please use /help.
+[Sun Nov 15 01:02:07 2015] Format: /help <class> Where class is one of normal, emote, or guild
+[Sun Nov 15 01:02:07 2015] Normal will display a list of all commands.
+[Sun Nov 15 01:02:07 2015] Emote will display a list of all player emotes.
+[Sun Nov 15 01:02:07 2015] Guild will display a list of guild commands.
+[Sun Nov 15 01:02:07 2015] Voice will display a list of voice control commands.
+[Sun Nov 15 01:02:07 2015] Chat will display a list of chat channel commands.
+[Sun Nov 15 01:02:12 2015] List of commands
+[Sun Nov 15 01:02:12 2015] --------------------------------------------------------------------------------
+[Sun Nov 15 01:02:12 2015]   /guildsay
+[Sun Nov 15 01:02:12 2015]   /guildinvite
+[Sun Nov 15 01:02:12 2015]   /guildremove
+[Sun Nov 15 01:02:12 2015]   /guilddelete
+[Sun Nov 15 01:02:12 2015]   /guildstatus
+[Sun Nov 15 01:02:12 2015]   /guildleader
+[Sun Nov 15 01:02:12 2015]   /guildwar
+[Sun Nov 15 01:02:12 2015]   /guildpeace
+[Sun Nov 15 01:02:12 2015]   /guildmotd
+[Sun Nov 15 01:02:12 2015]   /getguildmotd
+[Sun Nov 15 01:02:17 2015] This command can only be used by officers and leaders of a guild to set or clear the guild motd.  To view the guild motd, use the new /getguildmotd command.
+[Sun Nov 15 01:02:29 2015] GUILD MOTD: Magnateaz - Mumble: geekcore.damnserver.com default port
+[Sun Nov 15 01:04:08 2015] Kneet auctions, 'buying Flawed Topaz x2'
+[Sun Nov 15 01:14:14 2015] Boomba the Big says 'Greetings, Kalanthes. You look like you could use a Cloth Shirt.'
+[Sun Nov 15 01:15:38 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 01:17:01 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 01:19:10 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 01:20:28 2015] Hacym tells the guild, 'hrmmmmm'
+[Sun Nov 15 01:20:36 2015] Klauss tells the guild, 'Thanks boss'
+[Sun Nov 15 01:20:42 2015] Klauss tells the guild, 'Casting Complete Healing on Sokum                '
+[Sun Nov 15 01:20:44 2015] Players in EverQuest:
+[Sun Nov 15 01:20:44 2015] ---------------------------
+
+[Sun Nov 15 01:20:44 2015] [52 Illusionist] Hadiar (High Elf) <Nocterma> ZONE: freportw  
+[Sun Nov 15 01:20:44 2015] [52 Disciple] Sokum (Iksar) <Nocterma> ZONE: karnor  
+[Sun Nov 15 01:20:44 2015] [54 Wanderer] Magnateaz (Half Elf) <Nocterma> ZONE: karnor  
+[Sun Nov 15 01:20:44 2015] [52 Illusionist] Hacym (Erudite) <Nocterma> ZONE: karnor  
+[Sun Nov 15 01:20:44 2015] [51 Disciple] Drizik (Iksar) <Nocterma> ZONE: karnor  
+[Sun Nov 15 01:20:44 2015] [57 Templar] Klauss (Dwarf) <Nocterma> ZONE: karnor  
+[Sun Nov 15 01:20:44 2015] There are 6 players in EverQuest.
+[Sun Nov 15 01:20:45 2015] Sokum tells the guild, 'welcome!'
+[Sun Nov 15 01:20:51 2015] Klauss tells the guild, 'Thank You, appreciate t'
+[Sun Nov 15 01:21:02 2015] You say to your guild, 'Greetzz'
+[Sun Nov 15 01:21:11 2015] Magnateaz tells the guild, 'I'm gonna go buy beer.  Want me to leave zone?'
+[Sun Nov 15 01:21:28 2015] Sokum tells the guild, 'i dont mind you leechin xp'
+[Sun Nov 15 01:21:36 2015] Matriex says out of character, 'looking for a rez outside gate'
+[Sun Nov 15 01:21:53 2015] Matriex says out of character, 'i mean bind lol'
+[Sun Nov 15 01:22:37 2015] Magnateaz tells the guild, 'be back in like 15 minutes.'
+[Sun Nov 15 01:22:43 2015] Sokum tells the guild, 'k'
+[Sun Nov 15 01:23:04 2015] You begin casting Clarity.
+[Sun Nov 15 01:23:05 2015] Your spell is interrupted.
+[Sun Nov 15 01:23:07 2015] You begin casting Rune III.
+[Sun Nov 15 01:23:12 2015] A dark shimmer of runes surround you.
+[Sun Nov 15 01:23:23 2015] Brother Jentry begins to cast a spell.
+[Sun Nov 15 01:28:32 2015] Azell says out of character, '<3'
+[Sun Nov 15 01:28:43 2015] Azell says out of character, 'Thank you :)'
+[Sun Nov 15 01:28:50 2015] Snozeberry auctions, 'WTB High Quality Ore pst'
+[Sun Nov 15 01:28:59 2015] Guard Jacsen says 'Die, dog!!'
+[Sun Nov 15 01:28:59 2015] Guard Munden says 'Stand where you are, scum!!'
+[Sun Nov 15 01:29:00 2015] Guard Jacsen tries to kick Snozeberry, but misses!
+[Sun Nov 15 01:29:00 2015] Guard Jacsen slashes Snozeberry for 32 points of damage.
+[Sun Nov 15 01:29:00 2015] Guard Jacsen slashes Snozeberry for 32 points of damage.
+[Sun Nov 15 01:29:00 2015] Guard Jacsen tries to slash Snozeberry, but misses!
+[Sun Nov 15 01:33:14 2015] Klauss tells the guild, 'Casting Complete Healing on Sokum                '
+[Sun Nov 15 01:33:21 2015] Drizik tells the guild, 'is my mic super quiet? im using a desk mic atm not my normal headset'
+[Sun Nov 15 01:33:47 2015] Klauss tells the guild, 'it's fine.'
+[Sun Nov 15 01:36:01 2015] Klauss tells the guild, 'Casting Complete Healing on Sokum                '
+[Sun Nov 15 01:39:05 2015] Colbyjac auctions, 'WTS Robe of the Oracle 350p / A Shimmering Orb 100p / '
+[Sun Nov 15 01:39:20 2015] Klauss tells the guild, 'Casting Complete Healing on Drizik                '
+[Sun Nov 15 01:39:58 2015] Panza says out of character, 'looking for a bind at ping'
+[Sun Nov 15 01:41:06 2015] Panza says out of character, 'looking for a bind at ping'
+[Sun Nov 15 01:41:14 2015] Brother Hayle shouts, 'All hail Innie, wielder of Soulfire!'

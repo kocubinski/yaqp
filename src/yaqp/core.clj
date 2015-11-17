@@ -1,7 +1,7 @@
 (ns yaqp.core
   (:require
    [yaqp.gui :as gui]
-   [simple-time.core :as time])
+   [simple-time.core :as t])
   (:use
    [yaqp.log])
   (:import
@@ -38,16 +38,25 @@
          :log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
          :timers []}))
 
+(defprotocol Trigger
+  (on-trigger []))
+
+(defprotocol Timed
+  (expired? [now])
+  (time-passed [now])
+  )
+
+(defrecord Timer [name start-time duration]
+  Timed
+  (expired? [now] (t/< (time-passed now) duration))
+  (time-passed [now] (t/- now start-time)))
+
 (defn add-timer! [text duration]
   (swap! app update-in [:timers] conj
-         {:start-time (time/now)
-          :duration duration
-          :text text
-          }))
+         (Timer. text (time/now) duration-ms)))
 
 (defn handle-line [line]
-  ;(log line)
-  (log "foo")
+  ;;(log "foo")
   )
 
 (defn watch []
@@ -56,30 +65,33 @@
                     (handle-line line)))]
     (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 500 true))))
 
-(defn tick []
+(defn tick [app]
   ;; iterate through timers, draw fraction according to diff from (now) - start, duration
-  ;(log "tick")
-  (let [now (time/now)]
+  (log "tick")
+  (let [now (time/now)
+        [live-timers dead-timers] (split-with (fn [{:keys [start-time duration]}]
+                                                )
+                                              (:timers app))]
     (gui/render-bars
      (map
       (fn [{:keys [start-time duration text]}]
         (let [passed-ms (time/timespan->total-milliseconds
                          (time/- now start-time))
               duration-ms (time/timespan->total-milliseconds duration)]
-          ;(log (str "passed: " passed-ms " duration: " duration-ms))
-          (when (< passed-ms duration-ms)
-            (Bar. (/ (- duration-ms passed-ms)
-                     duration-ms)
-                  text))))
-      (:timers @app)))))
+          (Bar. (/ (- duration-ms passed-ms) duration-ms) text)))
+      live-timers))))
 
 (defn run []
   (when-not (:kill @app)
-    (Thread/sleep 1000)
-    (tick)
+    (Thread/sleep 100)
+    (try
+      (tick)
+      (catch Exception e
+        (log e)))
     (recur)))
 
 (defn start []
+  (swap! app assoc :kill false)
   (.start (Thread. run)))
 
 (defn stop []
