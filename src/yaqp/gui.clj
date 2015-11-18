@@ -1,6 +1,6 @@
 (ns yaqp.gui
   (:use [seesaw core graphics color]
-        [yaqp.log]))
+        [yaqp.debug]))
 
 (native!)
 
@@ -19,7 +19,7 @@
 
 (defonce f
   (->
-   (frame :title "feed3"
+   (frame :title "yaqp"
           :height 225 :width 400)
    (config! :content (canvas :id :canvas :background "#444" :paint nil))
    show!))
@@ -63,13 +63,3 @@
   (render-bars
    [(Bar. 0.8 "Mez")
     (Bar. 0.3 "Mez")]))
-
-(defn test-clear []
-  (render-bars []))
-
-
-
-  (let [now (t/now)
-
-
-                                   (:timers @app))

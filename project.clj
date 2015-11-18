@@ -4,7 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
-                 ;[clojure-lanterna "0.9.4"]
+                 [clj-http "1.0.1"]
+                 [de.huxhorn.sulky/de.huxhorn.sulky.3rdparty.jlayer "1.0"]
                  [commons-io/commons-io "2.4"]
                  [simple-time "0.2.0"]
                  [seesaw "1.4.5"]])
