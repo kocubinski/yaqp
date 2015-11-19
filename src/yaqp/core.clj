@@ -36,16 +36,19 @@
           duration-ms (t/timespan->total-milliseconds duration)]
       (/ (- duration-ms passed-ms) duration-ms))))
 
-(defn add-timer! [text duration]
-  (swap! app update-in [:timers] conj
-         (Timer. text (t/now) (tr/parse-time duration))))
+(defn timer [text duration & [{:keys [target]}]]
+  (let [target (apply str (take 20 target))
+        text (str text " " target)]
+    (swap! app update-in [:timers] conj
+           (Timer. text (t/now) (tr/parse-time duration)))))
 
 (defn clear-timers []
   (swap! app update-in [:timers]
          (fn [timers]
            (remove #(expired? % (t/now)) timers))))
 
-(defn pipe [line file]
+(defn pipe [line file & opts]
+  (let )
   (spit (str eq-logs-dir file) (str line "\n")
         :append true))
 
@@ -59,16 +62,33 @@
       (with-open [player (new Player (ByteArrayInputStream. mp3))]
         (.play player)))))
 
-(defn handle-line [line]
-  ;(log (str "got line " line))
-  (condp (fn [needle hay] (.contains hay needle)) line
-      "has been mesmerized." (add-timer! "Mez" "00:24")
-      "has been entranced." (add-timer! "Mez" "00:80")
-      "has been enthralled." (add-timer! "Mez" "00:48")
+(def triggers
+  `("(.*) has been mesmerized." (timer "Mez" "00:24")
+    "(.*) has been enthralled." (timer "Mez" "00:48")
+    "(.*) has been entranced." (timer "Mez" "00:80")
 
-      "feels much faster." (add-timer! "Haste" "14:30")
-      "A cool breeze slips through your mind." (add-timer! "Crack" "26:00")
-      "the skin breaking and peeling." (add-timer! "Boon" "4:30")
+    "(.*) feels much faster." (timer "Haste" "14:30")
+    "A cool breeze slips through your mind." (timer "Crack" "26:00")
+    "the skin breaking and peeling." (timer "Boon" "4:30")
+
+    "out of character," (pipe line "chat.txt")
+    "shouts," (pipe line "chat.txt")
+
+    "tells the group," (pipe line "chat.txt")
+    "tell your party," (pipe line "chat.txt")
+
+    "tells the guild," (pipe line "chat.txt")
+    "tell your guild," (pipe line "chat.txt")))
+
+(defn handle-line [line]
+  (condp (fn [needle hay] (.contains hay needle)) line
+      "has been mesmerized." (timer "Mez" "00:24")
+      "has been entranced." (timer "Mez" "00:80")
+      "has been enthralled." (timer "Mez" "00:48")
+
+      "feels much faster." (timer "Haste" "14:30")
+      "A cool breeze slips through your mind." (timer "Crack" "26:00")
+      "the skin breaking and peeling." (timer "Boon" "4:30")
       ;;"The cool breeze fades." (say "Blue meth please" 3)
 
       "out of character," (pipe line "chat.txt")
