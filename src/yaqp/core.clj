@@ -2,6 +2,7 @@
   (:require
    [yaqp.gui :as gui]
    [yaqp.triggers :as tr]
+   [yaqp.parse :as p]
    [clj-http.client :as client]
    [simple-time.core :as t])
   (:use
@@ -42,13 +43,7 @@
     (swap! app update-in [:timers] conj
            (Timer. text (t/now) (tr/parse-time duration)))))
 
-(defn clear-timers []
-  (swap! app update-in [:timers]
-         (fn [timers]
-           (remove #(expired? % (t/now)) timers))))
-
 (defn pipe [line file & opts]
-  (let )
   (spit (str eq-logs-dir file) (str line "\n")
         :append true))
 
@@ -63,49 +58,36 @@
         (.play player)))))
 
 (def triggers
-  `("(.*) has been mesmerized." (timer "Mez" "00:24")
-    "(.*) has been enthralled." (timer "Mez" "00:48")
-    "(.*) has been entranced." (timer "Mez" "00:80")
+  `(#"(.*) has been mesmerized." (timer "Mez" "00:24")
+    #"(.*) has been enthralled." (timer "Mez" "00:48")
+    #"(.*) has been entranced." (timer "Mez" "00:80")
 
-    "(.*) feels much faster." (timer "Haste" "14:30")
+    #"(.*) feels much faster." (timer "Haste" "14:30")
     "A cool breeze slips through your mind." (timer "Crack" "26:00")
     "the skin breaking and peeling." (timer "Boon" "4:30")
 
-    "out of character," (pipe line "chat.txt")
-    "shouts," (pipe line "chat.txt")
+    "out of character," (pipe "chat.txt" {:fg "green"})
+    "shouts," (pipe "chat.txt" {:fg "red"})
 
-    "tells the group," (pipe line "chat.txt")
-    "tell your party," (pipe line "chat.txt")
+    "tells the group," (pipe "chat.txt" {:fg "cyan" :bold true})
+    "tell your party," (pipe "chat.txt" {:fg "cyan" :bold true})
 
-    "tells the guild," (pipe line "chat.txt")
-    "tell your guild," (pipe line "chat.txt")))
+    "tells the guild," (pipe "chat.txt" {:fg "green" :bold true})
+    "tell your guild," (pipe "chat.txt" {:fg "green" :bold true})))
 
 (defn handle-line [line]
-  (condp (fn [needle hay] (.contains hay needle)) line
-      "has been mesmerized." (timer "Mez" "00:24")
-      "has been entranced." (timer "Mez" "00:80")
-      "has been enthralled." (timer "Mez" "00:48")
-
-      "feels much faster." (timer "Haste" "14:30")
-      "A cool breeze slips through your mind." (timer "Crack" "26:00")
-      "the skin breaking and peeling." (timer "Boon" "4:30")
-      ;;"The cool breeze fades." (say "Blue meth please" 3)
-
-      "out of character," (pipe line "chat.txt")
-      "shouts," (pipe line "chat.txt")
-
-      "tells the group," (pipe line "chat.txt")
-      "tell your party," (pipe line "chat.txt")
-
-      "tells the guild," (pipe line "chat.txt")
-      "tell your guild," (pipe line "chat.txt")
-      nil))
+  (p/parse-line line (partition 2 triggers)))
 
 (defn watch []
   (let [watcher (proxy [TailerListenerAdapter] []
                   (handle [line]
                     (handle-line line)))]
     (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 100 true))))
+
+(defn clear-timers []
+  (swap! app update-in [:timers]
+         (fn [timers]
+           (remove #(expired? % (t/now)) timers))))
 
 (defn tick [app]
   ;; iterate through timers, draw fraction according to diff from (now) - start, duration
@@ -118,7 +100,6 @@
            (fn [{:keys [name] :as timer} ]
              (Bar. (fraction timer now) name)))))
     (clear-timers)
-    ;(swap! app update-in [:timers] #(remove #{dead-timers} %))
     ))
 
 (defn run []
@@ -132,7 +113,6 @@
 
 (defn start []
   (swap! app assoc :kill false)
-  (watch)
   (.start (Thread. run)))
 
 (defn stop []
