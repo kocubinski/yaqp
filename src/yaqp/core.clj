@@ -2,7 +2,9 @@
   (:require
    [yaqp.gui :as gui]
    [yaqp.triggers :as tr]
+   [yaqp.parse :as p]
    [clj-http.client :as client]
+   [clojure.string :as str]
    [simple-time.core :as t])
   (:use
    [yaqp.debug])
@@ -63,11 +65,11 @@
         (.play player)))))
 
 (def triggers
-  `("(.*) has been mesmerized." (timer "Mez" "00:24")
-    "(.*) has been enthralled." (timer "Mez" "00:48")
-    "(.*) has been entranced." (timer "Mez" "00:80")
+  `(#"(.*) has been mesmerized." (timer "Mez" "00:24")
+    #"(.*) has been enthralled." (timer "Mez" "00:48")
+    #"(.*) has been entranced." (timer "Mez" "00:80")
 
-    "(.*) feels much faster." (timer "Haste" "14:30")
+    #"(.*) feels much faster." (timer "Haste" "14:30")
     "A cool breeze slips through your mind." (timer "Crack" "26:00")
     "the skin breaking and peeling." (timer "Boon" "4:30")
 

@@ -59,7 +59,7 @@
   (->
    (frame :title "yaqp" :height 225 :width 400)
    (config! :content (canvas :id :canvas :background "#444" :paint nil))
-   (set-opacity (-> @state :window :bars :opacity int))
+   ;(set-opacity (-> @state :window :bars :opacity int))
    show!))
 
 ;; swing: because fuck you, that's why.
@@ -90,11 +90,11 @@
    (set-opacity (-> @state :window :chat :opacity int))
    show!))
 
-(def bar-frame
+(defonce bar-frame
   (create-bar-frame))
 
 (def text-style (style :foreground (color 0 0 0)
-                       :font "SANS-BOLD-16"))
+                       :font "DejaVu Sans-BOLD-16"))
 
 (defn draw-bar [g gutter width height row col fraction text]
   (let [x (+ gutter (* gutter col) (* width col))
