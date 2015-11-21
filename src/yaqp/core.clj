@@ -2,9 +2,7 @@
   (:require
    [yaqp.gui :as gui]
    [yaqp.triggers :as tr]
-   [yaqp.parse :as p]
    [clj-http.client :as client]
-   [clojure.string :as str]
    [simple-time.core :as t])
   (:use
    [yaqp.debug])
@@ -39,12 +37,10 @@
       (/ (- duration-ms passed-ms) duration-ms))))
 
 (defn timer [text duration & [{:keys [target]}]]
-  (let [target (-> (apply str (take 20 target))
-                   (str/replace "A " ""))
+  (let [target (apply str (take 20 target))
         text (str text " " target)]
-    (when-not (or (= target "Gabartik"))
-      (swap! app update-in [:timers] conj
-             (Timer. text (t/now) (tr/parse-time duration))))))
+    (swap! app update-in [:timers] conj
+           (Timer. text (t/now) (tr/parse-time duration)))))
 
 (defn clear-timers []
   (swap! app update-in [:timers]
@@ -67,22 +63,22 @@
         (.play player)))))
 
 (def triggers
-  `(#"(.*) has been mesmerized." (timer "Mez" "00:24")
-    #"(.*) has been enthralled." (timer "Mez" "00:48")
-    #"(.*) has been entranced." (timer "Mez" "00:80")
+  `("(.*) has been mesmerized." (timer "Mez" "00:24")
+    "(.*) has been enthralled." (timer "Mez" "00:48")
+    "(.*) has been entranced." (timer "Mez" "00:80")
 
-    #"(.*) feels much faster." (timer "Haste" "14:30")
+    "(.*) feels much faster." (timer "Haste" "14:30")
     "A cool breeze slips through your mind." (timer "Crack" "26:00")
     "the skin breaking and peeling." (timer "Boon" "4:30")
 
-    "out of character," (pipe "chat.txt")
-    "shouts," (pipe "chat.txt")
+    "out of character," (pipe "chat.txt" {:fg "green"})
+    "shouts," (pipe "chat.txt" {:fg "red"})
 
-    "tells the group," (pipe "chat.txt")
-    "tell your party," (pipe "chat.txt")
+    "tells the group," (pipe "chat.txt" {:fg "cyan" :bold true})
+    "tell your party," (pipe "chat.txt" {:fg "cyan" :bold true})
 
-    "tells the guild," (pipe "chat.txt")
-    "to your guild," (pipe "chat.txt")))
+    "tells the guild," (pipe "chat.txt" {:fg "green" :bold true})
+    "tell your guild," (pipe "chat.txt" {:fg "green" :bold true})))
 
 (defn handle-line [line]
   ;(log (str "got line " line))
