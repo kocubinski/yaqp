@@ -2,7 +2,9 @@
   (:require
    [yaqp.gui :as gui]
    [yaqp.triggers :as tr]
+   [yaqp.parse :as p]
    [clj-http.client :as client]
+   [clojure.string :as str]
    [simple-time.core :as t])
   (:use
    [yaqp.debug])
@@ -37,19 +39,21 @@
       (/ (- duration-ms passed-ms) duration-ms))))
 
 (defn timer [text duration & [{:keys [target]}]]
-  (let [target (apply str (take 20 target))
+  (let [target (-> (apply str (take 20 target))
+                   (str/replace "A " ""))
         text (str text " " target)]
-    (swap! app update-in [:timers] conj
-           (Timer. text (t/now) (tr/parse-time duration)))))
+    (when-not (or (= target "Gabartik"))
+      (swap! app update-in [:timers] conj
+             (Timer. text (t/now) (tr/parse-time duration))))))
 
 (defn clear-timers []
   (swap! app update-in [:timers]
          (fn [timers]
            (remove #(expired? % (t/now)) timers))))
 
-(defn pipe [line file & opts]
-  (let )
-  (spit (str eq-logs-dir file) (str line "\n")
+(defn pipe [file & [{:keys [timestamp message line]}]]
+  (spit (str eq-logs-dir file)
+        (str "[" timestamp "] " message "\n")
         :append true))
 
 (defn say [text times]
@@ -63,43 +67,28 @@
         (.play player)))))
 
 (def triggers
-  `("(.*) has been mesmerized." (timer "Mez" "00:24")
-    "(.*) has been enthralled." (timer "Mez" "00:48")
-    "(.*) has been entranced." (timer "Mez" "00:80")
+  `(#"(.*) has been mesmerized." (timer "Mez" "00:24")
+    #"(.*) has been enthralled." (timer "Mez" "00:48")
+    #"(.*) has been entranced." (timer "Mez" "00:80")
 
-    "(.*) feels much faster." (timer "Haste" "14:30")
+    #"(.*) feels much faster." (timer "Haste" "14:30")
     "A cool breeze slips through your mind." (timer "Crack" "26:00")
     "the skin breaking and peeling." (timer "Boon" "4:30")
 
-    "out of character," (pipe line "chat.txt")
-    "shouts," (pipe line "chat.txt")
+    "out of character," (pipe "chat.txt")
+    "shouts," (pipe "chat.txt")
 
-    "tells the group," (pipe line "chat.txt")
-    "tell your party," (pipe line "chat.txt")
+    "tells the group," (pipe "chat.txt")
+    "tell your party," (pipe "chat.txt")
 
-    "tells the guild," (pipe line "chat.txt")
-    "tell your guild," (pipe line "chat.txt")))
+    "tells the guild," (pipe "chat.txt")
+    "to your guild," (pipe "chat.txt")))
 
 (defn handle-line [line]
-  (condp (fn [needle hay] (.contains hay needle)) line
-      "has been mesmerized." (timer "Mez" "00:24")
-      "has been entranced." (timer "Mez" "00:80")
-      "has been enthralled." (timer "Mez" "00:48")
-
-      "feels much faster." (timer "Haste" "14:30")
-      "A cool breeze slips through your mind." (timer "Crack" "26:00")
-      "the skin breaking and peeling." (timer "Boon" "4:30")
-      ;;"The cool breeze fades." (say "Blue meth please" 3)
-
-      "out of character," (pipe line "chat.txt")
-      "shouts," (pipe line "chat.txt")
-
-      "tells the group," (pipe line "chat.txt")
-      "tell your party," (pipe line "chat.txt")
-
-      "tells the guild," (pipe line "chat.txt")
-      "tell your guild," (pipe line "chat.txt")
-      nil))
+  ;(log (str "got line " line))
+  (when-not (str/blank? line)
+    (p/parse-line line (partition 2 triggers)))
+  )
 
 (defn watch []
   (let [watcher (proxy [TailerListenerAdapter] []

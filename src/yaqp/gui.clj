@@ -25,7 +25,7 @@
    show!))
 
 (def text-style (style :foreground (color 0 0 0)
-                       :font "MONOSPACED-20"))
+                       :font "SANS-BOLD-16"))
 
 (defn draw-bar [g gutter width height row col fraction text]
   (let [x (+ gutter (* gutter col) (* width col))
@@ -35,8 +35,8 @@
     (draw g
           (rect x y width height) (style :background (color "green"))
           (rect f-x y f-w height) (style :background (color "olive"))
-          (string-shape (+ 20 (* gutter col) (* width col))
-                        (+ 22 (* gutter row) (* height row)) text)
+          (string-shape (+ 15 (* gutter col) (* width col))
+                        (+ 20 (* gutter row) (* height row)) text)
           text-style)))
 
 (defn paint [paint-fn]

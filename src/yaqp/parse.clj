@@ -33,7 +33,9 @@
       (when (and (instance? String text)
                  (.contains message text))
         (eval
-         (-> f vec (conj {:timestamp timestamp}) seq))))))
+         (-> f vec (conj {:timestamp timestamp
+                          :message message
+                          :line line}) seq))))))
 
 (def spell-line
   "[Sat Nov 14 22:36:35 2015] A cool breeze slips through your mind."
