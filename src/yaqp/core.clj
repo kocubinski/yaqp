@@ -20,7 +20,8 @@
 (def app
   (atom {:kill nil
          :tail nil
-         :log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
+         ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
+         :log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          :timers []}))
 
 (defprotocol Timed
@@ -28,7 +29,7 @@
   (elapsed [_ now])
   (fraction [_ now]))
 
-(defrecord Timer [name start-time duration]
+(defrecord Timer [name start-time duration opts]
   Timed
   (expired? [timer now] (t/> (elapsed timer now) duration))
   (elapsed [_ now] (t/- now start-time))
@@ -38,11 +39,11 @@
           duration-ms (t/timespan->total-milliseconds duration)]
       (/ (- duration-ms passed-ms) duration-ms))))
 
-(defn timer [text duration & [{:keys [target]}]]
+(defn timer [text duration & [{:keys [target] :as opts}]]
   (let [target (apply str (take 20 target))
         text (str text " " target)]
     (swap! app update-in [:timers] conj
-           (Timer. text (t/now) (tr/parse-time duration)))))
+           (Timer. text (t/now) (tr/parse-time duration) opts))))
 
 (defn clear-timers []
   (swap! app update-in [:timers]
@@ -70,7 +71,7 @@
     #"(.*) has been entranced." (timer "Mez" "00:80")
 
     #"(.*) feels much faster." (timer "Haste" "14:30")
-    "A cool breeze slips through your mind." (timer "Crack" "26:00")
+    "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"})
     "the skin breaking and peeling." (timer "Boon" "4:30")
 
     "out of character," (pipe "chat.txt" {:fg "green"})
@@ -102,8 +103,8 @@
      (->> (:timers @app)
           (filter #(not (expired? % now)))
           (map
-           (fn [{:keys [name] :as timer} ]
-             (Bar. (fraction timer now) name)))))
+           (fn [{:keys [name opts] :as timer} ]
+             (Bar. (fraction timer now) name opts)))))
     (clear-timers)
     ;(swap! app update-in [:timers] #(remove #{dead-timers} %))
     ))

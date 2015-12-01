@@ -3,12 +3,11 @@
         [yaqp.debug])
   (:import [java.awt GraphicsEnvironment Color]
            [javax.swing JTextPane JScrollPane JViewport JPanel]
-           [javax.swing.text SimpleAttributeSet StyleConstants]
-           ))
+           [javax.swing.text SimpleAttributeSet StyleConstants]))
 
 (native!)
 
-(defrecord Bar [fraction text])
+(defrecord Bar [fraction text opts])
 
 (def ^:private state
   (atom {:bars []
@@ -93,20 +92,22 @@
 (defonce bar-frame
   (create-bar-frame))
 
-(def text-style (style :foreground (color 0 0 0)
-                       :font "DejaVu Sans-BOLD-16"))
-
-(defn draw-bar [g gutter width height row col fraction text]
+(defn draw-bar [g gutter width height row col fraction text
+                & [{:keys [bg fg color font]
+                    :or {fg (color "green")
+                         bg (color "olive")
+                         color (color "black")
+                         font "DejaVu Sans-BOLD-16"}}]]
   (let [x (+ gutter (* gutter col) (* width col))
         y (+ gutter (* gutter row) (* height row))
         f-x (+ x (* fraction width))
         f-w (- width (* fraction width))]
     (draw g
-          (rect x y width height) (style :background (color "green"))
-          (rect f-x y f-w height) (style :background (color "olive"))
+          (rect x y width height) (style :background fg)
+          (rect f-x y f-w height) (style :background bg)
           (string-shape (+ 15 (* gutter col) (* width col))
                         (+ 20 (* gutter row) (* height row)) text)
-          text-style)))
+          (style :foreground color :font font))))
 
 (defn paint [paint-fn]
   (-> bar-frame (select [:#canvas])
@@ -122,21 +123,20 @@
     (paint
      (when (seq bars)
        (fn [c g]
-         (doseq [[{:keys [fraction text]} i] (map #(vector %1 %2) bars (range))
+         (doseq [[{:keys [fraction text opts]} i] (map #(vector %1 %2) bars (range))
                  :let [row (mod i row-max)
                        col (Math/floor (/ i row-max))]]
                                         ;(log i)
-           (draw-bar g gutter bar-width bar-height row col fraction text)))))))
+           (draw-bar g gutter bar-width bar-height row col fraction text opts)))))))
 
 (defn test-paint-bars []
   (render-bars
-   [(Bar. 0.8 "Mez")
-    (Bar. 0.3 "Mez")]))
+   [(Bar. 0.8 "Crack" {:fg "Blue" :color "cyan"})
+    (Bar. 0.3 "Mez" {})]))
 
 (defn test-fonts []
   (doseq [f (. (GraphicsEnvironment/getLocalGraphicsEnvironment) getAvailableFontFamilyNames)]
     (println f)))
-
 
 ;; need mouse events and position?:
 ;; http://docs.oracle.com/javase/7/docs/api/javax/swing/text/JTextComponent.html#getToolTipText%28java.awt.event.MouseEvent%29
