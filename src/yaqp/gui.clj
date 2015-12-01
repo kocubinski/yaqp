@@ -1,6 +1,7 @@
 (ns yaqp.gui
   (:use [seesaw core graphics color]
         [yaqp.debug])
+  (:require [seesaw.mouse :as mouse])
   (:import [java.awt GraphicsEnvironment Color]
            [javax.swing JTextPane JScrollPane JViewport JPanel]
            [javax.swing.text SimpleAttributeSet StyleConstants]))
@@ -18,10 +19,15 @@
                   :bar-width 180
                   :bar-height 20}}))
 
-(defn add-bar [bar]
-  (swap! state update-in [:bars] conj bar))
-
-(defn remove-bar [bar])
+(defn bar-clicked? [[x y :as pos]]
+  ;; try to guess border width and title bar height...
+  (->
+   (filter (fn [{:keys [x1 x2 y1 y2]}]
+             (and
+              (and (> x x1) (< x x2))
+              (and (> y y1) (< y y2))))
+           (:bars @state))
+   first :timer-id))
 
 (defn gray-trans [g a]
   (color g g g a))
@@ -58,7 +64,6 @@
   (->
    (frame :title "yaqp" :height 225 :width 400)
    (config! :content (canvas :id :canvas :background "#444" :paint nil))
-   ;(set-opacity (-> @state :window :bars :opacity int))
    show!))
 
 ;; swing: because fuck you, that's why.
@@ -92,8 +97,11 @@
 (defonce bar-frame
   (create-bar-frame))
 
+(defn get-canvas []
+  (select bar-frame [:#canvas]))
+
 (defn draw-bar [g gutter width height row col fraction text
-                & [{:keys [bg fg color font]
+                & [{:keys [bg fg color font timer-id]
                     :or {fg (color "green")
                          bg (color "olive")
                          color (color "black")
@@ -102,6 +110,9 @@
         y (+ gutter (* gutter row) (* height row))
         f-x (+ x (* fraction width))
         f-w (- width (* fraction width))]
+    (swap! state update-in [:bars] conj {:timer-id timer-id
+                                         :x1 x :x2 (+ x width)
+                                         :y1 y :y2 (+ y height)})
     (draw g
           (rect x y width height) (style :background fg)
           (rect f-x y f-w height) (style :background bg)
@@ -120,13 +131,13 @@
         row-height (+ gutter bar-height)
         row-max (dec (Math/floor (/ window-height (+ gutter bar-height))))
         col-max (Math/floor (/ window-width (+ gutter bar-width)))]
+    (swap! state assoc :bars [])
     (paint
      (when (seq bars)
        (fn [c g]
          (doseq [[{:keys [fraction text opts]} i] (map #(vector %1 %2) bars (range))
                  :let [row (mod i row-max)
                        col (Math/floor (/ i row-max))]]
-                                        ;(log i)
            (draw-bar g gutter bar-width bar-height row col fraction text opts)))))))
 
 (defn test-paint-bars []

@@ -7,7 +7,9 @@
    [clojure.string :as str]
    [simple-time.core :as t])
   (:use
-   [yaqp.debug])
+   [yaqp.debug]
+   [seesaw.core :only [listen]]
+   [seesaw.mouse :only [location]])
   (:import
    [yaqp.gui Bar]
    [java.io File]
@@ -20,6 +22,7 @@
 (def app
   (atom {:kill nil
          :tail nil
+         :events []
          ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
          :log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          :timers []}))
@@ -29,7 +32,7 @@
   (elapsed [_ now])
   (fraction [_ now]))
 
-(defrecord Timer [name start-time duration opts]
+(defrecord Timer [id name start-time duration opts]
   Timed
   (expired? [timer now] (t/> (elapsed timer now) duration))
   (elapsed [_ now] (t/- now start-time))
@@ -41,9 +44,10 @@
 
 (defn timer [text duration & [{:keys [target] :as opts}]]
   (let [target (apply str (take 20 target))
-        text (str text " " target)]
+        text (str text " " target)
+        id (.toString (java.util.UUID/randomUUID))]
     (swap! app update-in [:timers] conj
-           (Timer. text (t/now) (tr/parse-time duration) opts))))
+           (Timer. id text (t/now) (tr/parse-time duration) opts))))
 
 (defn clear-timers []
   (swap! app update-in [:timers]
@@ -84,7 +88,7 @@
     "tell your guild," (pipe "chat.txt" {:fg "green" :bold true})))
 
 (defn handle-line [line]
-  ;(log (str "got line " line))
+  (log (str "got line " line))
   (when-not (str/blank? line)
     (p/parse-line line (partition 2 triggers)))
   )
@@ -103,11 +107,14 @@
      (->> (:timers @app)
           (filter #(not (expired? % now)))
           (map
-           (fn [{:keys [name opts] :as timer} ]
-             (Bar. (fraction timer now) name opts)))))
+           (fn [{:keys [id name opts] :as timer} ]
+             (Bar. (fraction timer now) name (assoc opts :timer-id id))))))
     (clear-timers)
     ;(swap! app update-in [:timers] #(remove #{dead-timers} %))
     ))
+
+(defn on-bar-frame-mouse-click [e]
+  (log (gui/bar-clicked? (location e))))
 
 (defn run []
   (when-not (:kill @app)
@@ -120,10 +127,12 @@
 
 (defn start []
   (swap! app assoc :kill false)
+  (swap! app update :events conj (listen (gui/get-canvas) :mouse-clicked #'on-bar-frame-mouse-click))
   (watch)
   (.start (Thread. run)))
 
 (defn stop []
   (when-let [tail (:tail @app)]
    (.stop tail))
-  (swap! app assoc :kill true))
+  (doseq [rm (:events app)] (rm))
+  (swap! app assoc :kill true :events []))
