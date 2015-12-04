@@ -5,11 +5,11 @@
    [yaqp.parse :as p]
    [clj-http.client :as client]
    [clojure.string :as str]
-   [simple-time.core :as t])
+   [simple-time.core :as t]
+   [seesaw.mouse :as mouse])
   (:use
    [yaqp.debug]
-   [seesaw.core :only [listen]]
-   [seesaw.mouse :only [location]])
+   [seesaw.core :only [listen]])
   (:import
    [yaqp.gui Bar]
    [java.io File]
@@ -25,7 +25,7 @@
          :events []
          ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
          :log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
-         :timers []}))
+         :timers {}}))
 
 (defprotocol Timed
   (expired? [t now])
@@ -46,8 +46,7 @@
   (let [target (apply str (take 20 target))
         text (str text " " target)
         id (.toString (java.util.UUID/randomUUID))]
-    (swap! app update-in [:timers] conj
-           (Timer. id text (t/now) (tr/parse-time duration) opts))))
+    (swap! app assoc-in [:timers id] (Timer. id text (t/now) (tr/parse-time duration) opts))))
 
 (defn clear-timers []
   (swap! app update-in [:timers]
@@ -88,10 +87,9 @@
     "tell your guild," (pipe "chat.txt" {:fg "green" :bold true})))
 
 (defn handle-line [line]
-  (log (str "got line " line))
+  ;(log (str "got line " line))
   (when-not (str/blank? line)
-    (p/parse-line line (partition 2 triggers)))
-  )
+    (p/parse-line line (partition 2 triggers))))
 
 (defn watch []
   (let [watcher (proxy [TailerListenerAdapter] []
@@ -101,20 +99,23 @@
 
 (defn tick [app]
   ;; iterate through timers, draw fraction according to diff from (now) - start, duration
-  (let [now (t/now)
-        [dead-timers live-timers] (split-with #(expired? % now) (:timers @app))]
+  (let [timers (-> @app :timers vals)
+        now (t/now)
+        [dead-timers live-timers] (split-with #(expired? % now) timers)]
     (gui/render-bars
-     (->> (:timers @app)
+     (->> timers
           (filter #(not (expired? % now)))
           (map
            (fn [{:keys [id name opts] :as timer} ]
              (Bar. (fraction timer now) name (assoc opts :timer-id id))))))
-    (clear-timers)
+    ;;(clear-timers)
     ;(swap! app update-in [:timers] #(remove #{dead-timers} %))
+    (swap! app update-in [:timers] #(apply dissoc % (map :id dead-timers)))
     ))
 
 (defn on-bar-frame-mouse-click [e]
-  (log (gui/bar-clicked? (location e))))
+  (when (= :right (mouse/button e))
+    (swap! app update-in [:timers] dissoc (gui/bar-clicked? (mouse/location e)))))
 
 (defn run []
   (when-not (:kill @app)
