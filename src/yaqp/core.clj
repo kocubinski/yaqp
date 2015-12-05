@@ -17,11 +17,14 @@
 
 (def eq-logs-dir "/home/makoco/eq-logs/")
 
+;; casting trigger --
+;; one spell at a time, can be single field.
+
 (def app
   (atom {:kill nil
          :tail nil
-         ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
-         :log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
+         :log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
+         ;;log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          :timers []}))
 
 (defprotocol Timed
@@ -42,6 +45,7 @@
 (defn timer [text duration & [{:keys [target] :as opts}]]
   (let [target (apply str (take 20 target))
         text (str text " " target)]
+    (log target)
     (swap! app update-in [:timers] conj
            (Timer. text (t/now) (tr/parse-time duration) opts))))
 
@@ -69,10 +73,21 @@
   `(#"(.*) has been mesmerized." (timer "Mez" "00:24")
     #"(.*) has been enthralled." (timer "Mez" "00:48")
     #"(.*) has been entranced." (timer "Mez" "00:80")
+    #"(.*) has been fascinated." (timer "Mez" "00:36")
 
-    #"(.*) feels much faster." (timer "Haste" "14:30")
+    #"(.*) feels much faster." (timer "Swift" "14:30")
+    #"(.*) experiences a quickening." (timer "Haste" "24:00")
+
+    ;#"(.*) is surrounded by a thorny barrier." (timer "Thorns" "2:30")
+
+    ;#"(.*) looks stronger." (timer "Strength" "27:00")
+    ;#"(.*)'s skin turns hard as steel." (timer "Skin" "36:00")
+    ;#"(.*) feet adhere to the ground." (timer "Root" "3:00")
+
     "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"})
-    "the skin breaking and peeling." (timer "Boon" "4:30")
+    "A soft breeze slips through your mind." (timer "Crack" "26:00" {:fg "blue" :color "white"})
+    "Your spirit screams with berserker strength." (timer "Zerk" "5:00")
+    ;"the skin breaking and peeling." (timer "Boon" "4:30")
 
     "out of character," (pipe "chat.txt" {:fg "green"})
     "shouts," (pipe "chat.txt" {:fg "red"})
@@ -81,7 +96,14 @@
     "tell your party," (pipe "chat.txt" {:fg "cyan" :bold true})
 
     "tells the guild," (pipe "chat.txt" {:fg "green" :bold true})
-    "tell your guild," (pipe "chat.txt" {:fg "green" :bold true})))
+    "say to your guild," (pipe "chat.txt" {:fg "green" :bold true})
+
+    "you say," (pipe "chat.txt" {:bold true})
+    "tells you," (pipe "chat.txt" {:bold true})
+    "You told" (pipe "chat.txt" {:bold true})
+
+    "has looted a" (pipe "chat.txt" {:bold true})
+    ))
 
 (defn handle-line [line]
   ;(log (str "got line " line))

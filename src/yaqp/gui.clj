@@ -1,11 +1,11 @@
 (ns yaqp.gui
   (:use [seesaw core graphics color]
         [yaqp.debug])
-  (:import [java.awt GraphicsEnvironment Color]
+  (:import [java.awt GraphicsEnvironment Color GraphicsDevice$WindowTranslucency]
            [javax.swing JTextPane JScrollPane JViewport JPanel]
            [javax.swing.text SimpleAttributeSet StyleConstants]))
 
-(native!)
+;(native!)
 
 (defrecord Bar [fraction text opts])
 
@@ -15,7 +15,7 @@
                   :chat {:opacity 60}
                   :scroll-pane nil}
          :layout {:gutter 5
-                  :bar-width 180
+                  :bar-width 200
                   :bar-height 20}}))
 
 (defn add-bar [bar]
@@ -31,6 +31,7 @@
   (let [bg (Color. (int 44) (int 44) (int 44) (int op))]
     (.setUndecorated f true)
     (.setBackground f bg)
+    ;(.setOpacity f 0.3)
     (when (= op 255)
       (.setUndecorated f false))
     f))
@@ -97,7 +98,7 @@
                     :or {fg (color "green")
                          bg (color "olive")
                          color (color "black")
-                         font "DejaVu Sans-BOLD-16"}}]]
+                         font "DejaVu Sans-BOLD-14"}}]]
   (let [x (+ gutter (* gutter col) (* width col))
         y (+ gutter (* gutter row) (* height row))
         f-x (+ x (* fraction width))
@@ -143,3 +144,9 @@
 ;; http://docs.oracle.com/javase/7/docs/api/javax/swing/text/JTextComponent.html#viewToModel%28java.awt.Point%29
 
 ;; anti-alias? https://wiki.archlinux.org/index.php/Java_Runtime_Environment_fonts
+
+(defn trans-supported? []
+  (let [env (GraphicsEnvironment/getLocalGraphicsEnvironment)]
+    (doseq [d (.getScreenDevices env)]
+      (println d)
+      (println (. d isWindowTranslucencySupported GraphicsDevice$WindowTranslucency/TRANSLUCENT)))))
