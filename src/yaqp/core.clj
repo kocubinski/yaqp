@@ -3,6 +3,7 @@
    [yaqp.gui :as gui]
    [yaqp.triggers :as tr]
    [yaqp.parse :as p]
+   [yaqp.watcher :as watch]
    [clj-http.client :as client]
    [clojure.string :as str]
    [simple-time.core :as t]
@@ -17,14 +18,14 @@
    [java.io File FileOutputStream ByteArrayInputStream]
    [javazoom.jl.player Player]))
 
-(def eq-logs-dir "/home/makoco/eq-logs/")
+(def eq-logs-dir "C:/binski/apps/eq/Logs/")
 
 (def app
   (atom {:kill nil
          :tail nil
-         :events []
          ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
-         :log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
+         ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
+         :log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
          :timers {}}))
 
 (defprotocol Timed
@@ -79,13 +80,13 @@
 
     ;#"(.*) is surrounded by a thorny barrier." (timer "Thorns" "2:30")
 
-    ;#"(.*) looks stronger." (timer "Strength" "27:00")
-    ;#"(.*)'s skin turns hard as steel." (timer "Skin" "36:00")
-    ;#"(.*) feet adhere to the ground." (timer "Root" "3:00")
+;#"(.*) looks stronger." (timer "Strength" "27:00"
+;#"(.*)'s skin turns hard as steel." (timer "Skin" "36:00")
+;#"(.*) feet adhere to the ground." (timer "Root" "3:00")
 
     "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"})
     "A soft breeze slips through your mind." (timer "Crack" "26:00" {:fg "blue" :color "white"})
-    "Your spirit screams with berserker strength." (timer "Zerk" "5:00")
+    ;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
     ;"the skin breaking and peeling." (timer "Boon" "4:30")
 
     "out of character," (pipe "chat.txt" {:fg "green"})
