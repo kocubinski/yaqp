@@ -3,9 +3,12 @@
   (:import [java.io RandomAccessFile InputStreamReader BufferedReader]
            [java.nio.charset Charset]))
 
-(def log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt")
+(def log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt")
 
 (def state (atom {}))
+
+(defn log-out [msg]
+  (spit "C:/dev/yaqp/log/out" (str msg "\r\n") :append true))
 
 (defn raf-seq
   [#^RandomAccessFile raf]
@@ -22,18 +25,37 @@
 (defn my-sh [cmd]
   (let [proc (.exec (Runtime/getRuntime) cmd)]
     (with-open [stdout (.getInputStream proc)
+                ;;stderr (.getErrorStream proc)
                 rdr (BufferedReader. (InputStreamReader. stdout (Charset/defaultCharset)))
                 ]
+      ;;(println (.waitFor proc))
       (while (not (:kill @state))
+
         (do
           (loop [c (.read rdr)]
-            (when c
-              (print c)
+            (when (not= -1 c)
+              (log-out (str (format "%02X" c) ":" (char c)))
               (recur (.read rdr))))
+
+          ;;(println "reading...")
+
+          ;; This works fine with echo: "test" >> log.txt
+          ;; mingw 'echo' writes "<text>\n[0A]"
+          ;; eq probably ends with "\r[0D]\n[0A]"
+          ;; (when-let [l (.readLine rdr)]
+          ;;   (log-out l))
+
           (Thread/sleep 100))))))
 
 (defn test-tail []
-  (sh "cmd" "/C" "/binski/apps/cygwin64/bin/tail.exe -n 10" log-path))
+  (sh "cmd" "/C" "/cygwin64/bin/tail.exe -n 2" log-path))
 
 (defn test-sh []
-  (my-sh (str "cmd /C /binski/apps/cygwin64/bin/tail.exe -n 2 " log-path)))
+  (my-sh (str "cmd /C /cygwin64/bin/tail.exe -n 2 -f " log-path)))
+
+(defn stop-test []
+  (swap! state assoc :kill true))
+
+(defn start-test []
+  (swap! state assoc :kill false)
+  (.start (Thread. test-sh)))
