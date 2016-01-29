@@ -1,5 +1,7 @@
 (ns yaqp.watcher
-  (:use [clojure.java.shell :only [sh]])
+  (:use [clojure.java.shell :only [sh]]
+        [yaqp.debug :only [log]])
+  (:require [clojure.string :as str])
   (:import [java.io RandomAccessFile InputStreamReader BufferedReader]
            [java.nio.charset Charset]))
 
@@ -47,6 +49,33 @@
 
           (Thread/sleep 100))))))
 
+(defn watch-file* [file line-cb]
+  (let [cmd (str "/cygwin64/bin/tail.exe -n 0 -f " file)
+        proc (.exec (Runtime/getRuntime) cmd)]
+    (swap! state assoc :proc proc)
+    (with-open [stdout (.getInputStream proc)
+                rdr (BufferedReader. (InputStreamReader. stdout (Charset/defaultCharset)))]
+      (while (not (:kill @state))
+        (do
+          (log-out "reading...")
+
+          (loop [c (.read rdr)
+                 s ""]
+            (do
+              (log-out (str c "\n"))
+              (if (= -1 c)
+                (do
+                  (log-out "end of chunk.")
+                  (doseq [line (str/split s #"\n")]
+                    (line-cb line)))
+                (do
+                  (log-out (str (format "%02X" c) ":" (char c) " - " s))
+                  (recur (.read rdr)
+                         (str s (char c))))
+                )))
+
+          (Thread/sleep 1000))))))
+
 (defn test-tail []
   (sh "cmd" "/C" "/cygwin64/bin/tail.exe -n 2" log-path))
 
@@ -54,8 +83,13 @@
   (my-sh (str "cmd /C /cygwin64/bin/tail.exe -n 2 -f " log-path)))
 
 (defn stop-test []
-  (swap! state assoc :kill true))
+  (swap! state assoc :kill true)
+  (.destroy (:proc @state)))
 
 (defn start-test []
-  (swap! state assoc :kill false)
-  (.start (Thread. test-sh)))
+  (swap! state dissoc :kill)
+  (.start (Thread. (fn []
+                     (try
+                       (watch-file* log-path #(log-out (str "Called back: " %)))
+                       (catch Exception ex
+                         (log-out ex)))))))
