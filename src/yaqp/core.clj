@@ -3,7 +3,7 @@
    [yaqp.gui :as gui]
    [yaqp.triggers :as tr]
    [yaqp.parse :as p]
-   [yaqp.watcher :as watch]
+   [yaqp.watcher :as watcher]
    [clj-http.client :as client]
    [clojure.string :as str]
    [simple-time.core :as t]
@@ -26,6 +26,7 @@
          ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
          ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          :log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
+         :pk 1
          :timers {}}))
 
 (defprotocol Timed
@@ -70,24 +71,27 @@
         (.play player)))))
 
 (def triggers
-  `(#"(.*) has been mesmerized." (timer "Mez" "00:24")
+  `(
+    #"(.*) has been mesmerized by the Glamour" (timer "Mez" "00:54")
+    #"(.*) has been mesmerized\." (timer "Mez" "00:24")
     #"(.*) has been enthralled." (timer "Mez" "00:48")
     #"(.*) has been entranced." (timer "Mez" "00:80")
     #"(.*) has been fascinated." (timer "Mez" "00:36")
 
     #"(.*) feels much faster." (timer "Swift" "14:30")
     #"(.*) experiences a quickening." (timer "Haste" "24:00")
+    #"(.*) experiences visions of grandeur." (timer "VoG" "42:00")
 
-    ;#"(.*) is surrounded by a thorny barrier." (timer "Thorns" "2:30")
+    ;;#"(.*) is surrounded by a thorny barrier." (timer "Thorns" "2:30")
 
-;#"(.*) looks stronger." (timer "Strength" "27:00"
-;#"(.*)'s skin turns hard as steel." (timer "Skin" "36:00")
-;#"(.*) feet adhere to the ground." (timer "Root" "3:00")
+    ;;#"(.*) looks stronger." (timer "Strength" "27:00"
+    ;;#"(.*)'s skin turns hard as steel." (timer "Skin" "36:00")
+    ;;#"(.*) feet adhere to the ground." (timer "Root" "3:00")
 
     "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"})
-    "A soft breeze slips through your mind." (timer "Crack" "26:00" {:fg "blue" :color "white"})
-    ;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
-    ;"the skin breaking and peeling." (timer "Boon" "4:30")
+    "A soft breeze slips through your mind." (timer "Crack" "35:00" {:fg "blue" :color "white"})
+    ;;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
+    ;;"the skin breaking and peeling." (timer "Boon" "4:30")
 
     "out of character," (pipe "chat.txt" {:fg "green"})
     "shouts," (pipe "chat.txt" {:fg "red"})
@@ -106,15 +110,15 @@
     ))
 
 (defn handle-line [line]
-  ;(log (str "got line " line))
+  ;;(log (str "got line " line))
   (when-not (str/blank? line)
     (p/parse-line line (partition 2 triggers))))
 
-(defn watch []
+(defn watch-java []
   (let [watcher (proxy [TailerListenerAdapter] []
                   (handle [line]
                     (handle-line line)))]
-    (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 100 true))))
+    (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 500 true))))
 
 (defn tick [app]
   ;; iterate through timers, draw fraction according to diff from (now) - start, duration
@@ -128,7 +132,7 @@
            (fn [{:keys [id name opts] :as timer} ]
              (Bar. (fraction timer now) name (assoc opts :timer-id id))))))
     ;;(clear-timers)
-    ;(swap! app update-in [:timers] #(remove #{dead-timers} %))
+    ;;(swap! app update-in [:timers] #(remove #{dead-timers} %))
     (swap! app update-in [:timers] #(apply dissoc % (map :id dead-timers)))
     ))
 
@@ -148,11 +152,18 @@
 (defn start []
   (swap! app assoc :kill false)
   (swap! app update :events conj (listen (gui/get-canvas) :mouse-clicked #'on-bar-frame-mouse-click))
-  (watch)
+
+  ;; file tailer
+  (swap! watcher/state dissoc :kill)
+  (.start (Thread. (fn []
+                     (watcher/watch-file (:log-path @app) #'handle-line))))
+
+  ;; main loop
   (.start (Thread. run)))
 
 (defn stop []
   (when-let [tail (:tail @app)]
-   (.stop tail))
+    (.stop tail))
   (doseq [rm (:events app)] (rm))
+  (swap! watcher/state assoc :kill true)
   (swap! app assoc :kill true :events []))

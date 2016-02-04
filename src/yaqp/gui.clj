@@ -50,6 +50,7 @@
 (defn chat-line [pane line & [{:keys [fg size font bold]
                                :or {fg Color/white size 14 bold false
                                     font "Segoe UI"}}]]
+  (println fg)
   (let [style (doto (SimpleAttributeSet.)
                 (StyleConstants/setForeground fg)
                 (StyleConstants/setFontFamily font)
@@ -105,7 +106,7 @@
                     :or {fg (color "green")
                          bg (color "olive")
                          color (color "black")
-                         font "DejaVu Sans-BOLD-16"}}]]
+                         font "DejaVu Sans-BOLD-14"}}]]
   (let [x (+ gutter (* gutter col) (* width col))
         y (+ gutter (* gutter row) (* height row))
         f-x (+ x (* fraction width))
