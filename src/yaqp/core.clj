@@ -26,6 +26,7 @@
          ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
          ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          :log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
+         ;:log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
          :pk 1
          :timers {}}))
 
@@ -87,6 +88,7 @@
     ;;#"(.*) looks stronger." (timer "Strength" "27:00"
     ;;#"(.*)'s skin turns hard as steel." (timer "Skin" "36:00")
     ;;#"(.*) feet adhere to the ground." (timer "Root" "3:00")
+    "You begin to sneak" (timer "Sneak" "0:08")
 
     "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"})
     "A soft breeze slips through your mind." (timer "Crack" "35:00" {:fg "blue" :color "white"})
