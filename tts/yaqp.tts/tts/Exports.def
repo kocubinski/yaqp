@@ -1,0 +1,6 @@
+LIBRARY	"tts"
+
+EXPORTS   
+    create_voice @1
+	destroy_voice @2
+	say_words @3

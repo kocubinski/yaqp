@@ -12,11 +12,12 @@ int main(int argc, char* argv[])
 	if (SUCCEEDED(hr))
 	{
 		//hr = pVoice->Speak(L"Hello Brad <pitch middle = '-10'/> gwaps", SPF_IS_XML, NULL);
-		//hr = pVoice->Speak(L"Myca needs vog", 0, NULL);
+		hr = pVoice->Speak(L"Myca needs vog", 0, NULL);
 		//hr = pVoice->Speak(L"cliff golem tashed", 0, NULL);
 		//hr = pVoice->Speak(L"Invis failing, invis failing", 0, NULL);
 
-		hr = pVoice->Speak(L"charm break, <pitch middle = '-10'/> beat down imminent", SPF_IS_XML, NULL);
+		//hr = pVoice->Speak(L"charm break, <pitch middle = '-10'/> beat down imminent", SPF_IS_XML, NULL);
+		hr = pVoice->Speak(L"pet is loose, <pitch middle = '+10'/> pet is loose", SPF_IS_XML, NULL);
 		pVoice->Release();
 		pVoice = NULL;
 	}
