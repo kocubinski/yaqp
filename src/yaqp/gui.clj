@@ -130,7 +130,7 @@
         window-height (.getHeight bar-frame)
         {:keys [gutter bar-width bar-height]} (:layout @state)
         row-height (+ gutter bar-height)
-        row-max (dec (Math/floor (/ window-height (+ gutter bar-height))))
+        row-max (dec (dec (Math/floor (/ window-height (+ gutter bar-height)))))
         col-max (Math/floor (/ window-width (+ gutter bar-width)))]
     (swap! state assoc :bars [])
     (paint

@@ -1,7 +1,8 @@
 (ns yaqp.speech
   (:import [com.sun.jna Native]))
 
-(def lib-path "C:/binski/dev/yaqp/tts/yaqp.tts/x64/Debug/tts.dll")
+(def lib-path "C:/dev/yaqp/tts/yaqp.tts/x64/Debug/tts.dll")
+;(def lib-path "C:/binski/dev/yaqp/tts/yaqp.tts/x64/Debug/tts.dll")
 ;(def dsound-path "C:/binski/dev/pharmaseq/wand/Apps/DSoundBeeper/x64/Debug/DSoundBeeper.dll")
 
 (defn- get-function [n f]

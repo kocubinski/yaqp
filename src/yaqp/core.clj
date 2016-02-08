@@ -1,10 +1,8 @@
 (ns yaqp.core
   (:require
    [yaqp.gui :as gui]
-   [yaqp.triggers :as tr]
    [yaqp.parse :as p]
    [yaqp.watcher :as watcher]
-   [clj-http.client :as client]
    [clojure.string :as str]
    [simple-time.core :as t]
    [seesaw.mouse :as mouse])
@@ -13,11 +11,7 @@
    [yaqp.speech :only [say]]
    [seesaw.core :only [listen]])
   (:import
-   [yaqp.gui Bar]
-   [java.io File]
-   [org.apache.commons.io.input TailerListenerAdapter Tailer]
-   [java.io File FileOutputStream ByteArrayInputStream]
-   [javazoom.jl.player Player]))
+   [yaqp.gui Bar]))
 
 (def eq-logs-dir "C:/binski/apps/eq/Logs/")
 
@@ -29,7 +23,7 @@
          ;:log-path "C:/binski/apps/eq/Logs/eqlog_Subgenius_project1999.txt"
          :log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
          :pk 1
-         :timers {}}))
+         :timers (sorted-map-by >)}))
 
 (defprotocol Timed
   (expired? [t now])
@@ -46,11 +40,19 @@
           duration-ms (t/timespan->total-milliseconds duration)]
       (/ (- duration-ms passed-ms) duration-ms))))
 
+(defn parse-time [time]
+  (let [parts (and (string? time)
+                   (str/split time #":"))]
+    (when (= (count parts) 2)
+      (t/seconds->timespan
+       (+ (. Integer parseInt (second parts))
+          (* 60 (. Integer parseInt (first parts))))))))
+
 (defn timer [text duration & [{:keys [target on-end] :as opts}]]
   (let [target (apply str (take 20 target))
         text (str text " " target)
-        id (.toString (java.util.UUID/randomUUID))]
-    (swap! app assoc-in [:timers id] (Timer. id text (t/now) (tr/parse-time duration) opts))))
+        id  (:pk (swap! app update :pk inc))]
+    (swap! app assoc-in [:timers id] (Timer. id text (t/now) (parse-time duration) opts))))
 
 (defn pipe [file & [{:keys [timestamp message line]}]]
   (spit (str eq-logs-dir file)
@@ -95,6 +97,9 @@
     ;;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
     ;;"the skin breaking and peeling." (timer "Boon" "4:30")
 
+    #"(.*) is a test." (timer "Test" "0:05"
+                                             {:on-end #(speak "%t is a test" %)})
+
     "out of character," (pipe "chat.txt" {:fg "green"})
     "shouts," (pipe "chat.txt" {:fg "red"})
 
@@ -116,12 +121,6 @@
   (when-not (str/blank? line)
     (p/parse-line line (partition 2 triggers))))
 
-(defn watch-java []
-  (let [watcher (proxy [TailerListenerAdapter] []
-                  (handle [line]
-                    (handle-line line)))]
-    (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 500 true))))
-
 (defn clear-timers []
   (swap! app update-in [:timers]
          (fn [timers]
@@ -131,19 +130,21 @@
   ;; iterate through timers, draw fraction according to diff from (now) - start, duration
   (let [timers (-> @app :timers vals)
         now (t/now)
-        [live-timers dead-timers] (split-with #(not (expired? % now)) timers)]
+        live-timers (filter #(not (expired? % now)) timers)
+        live-ids (set (map :id live-timers))
+        dead-timers (filter #(not (live-ids (:id %))) timers)]
     (gui/render-bars
-     (->> timers
-          (filter #(not (expired? % now)))
+     (->> live-timers
+          ;(filter #(not (expired? % now)))
           (map
            (fn [{:keys [id name opts] :as timer} ]
              (Bar. (fraction timer now) name (assoc opts :timer-id id))))))
     ;;(clear-timers)
+    ;;  (doseq [t dead-timers]
+    ;;    (when-let [f (-> t :opts :on-end)]
+    ;;      (f [(:opts t)])))
     ;;(swap! app update-in [:timers] #(remove #{dead-timers} %))
-    ;; (doseq [t dead-timers]
-    ;;   (when-let [f (-> t :opts :on-end)]
-    ;;     (f)))
-    ;; (swap! app update-in [:timers] #(apply dissoc % (map :id dead-timers)))
+    (swap! app update-in [:timers] #(apply dissoc % (map :id dead-timers)))
     ))
 
 (defn on-bar-frame-mouse-click [e]
