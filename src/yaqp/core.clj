@@ -97,8 +97,8 @@
     ;;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
     ;;"the skin breaking and peeling." (timer "Boon" "4:30")
 
-    #"(.*) is a test." (timer "Test" "0:05"
-                                             {:on-end #(speak "%t is a test" %)})
+    #"(.*) is a test." (timer "Test" "0:05" {:on-end #(speak "%t is a test" %)})
+    #"(.*) is a long test." (timer "Test" "5:00" {:on-end #(speak "%t is a test" %)})
 
     "out of character," (pipe "chat.txt" {:fg "green"})
     "shouts," (pipe "chat.txt" {:fg "red"})

@@ -9,7 +9,10 @@
   (handle-line
    (str "[Sun Nov 15 01:39:20 2015] " line)))
 
-(defn test-five-lines []
+(defn twenty-quick-lines []
   (dotimes [i 20]
     (test-line (str "your patience" i " is a test. "))
     (Thread/sleep 500)))
+
+(defn some-long-lines []
+  (test-line "This is a long test."))
