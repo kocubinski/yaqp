@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 		//hr = pVoice->Speak(L"Invis failing, invis failing", 0, NULL);
 
 		//hr = pVoice->Speak(L"charm break, <pitch middle = '-10'/> beat down imminent", SPF_IS_XML, NULL);
-		hr = pVoice->Speak(L"pet is loose, <pitch middle = '+10'/> pet is loose", SPF_IS_XML, NULL);
+		hr = pVoice->Speak(L"pet is loose, <pitch middle = '+10'/> pet is loose", 8, NULL);
 		pVoice->Release();
 		pVoice = NULL;
 	}

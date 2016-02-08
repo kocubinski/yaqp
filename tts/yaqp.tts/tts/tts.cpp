@@ -24,7 +24,7 @@ int __cdecl destroy_voice(ISpVoice* pVoice)
 	return 0;
 }
 
-HRESULT __cdecl say_words(ISpVoice* pVoice, LPCWSTR words)
+HRESULT __cdecl say_words(ISpVoice* pVoice, LPCWSTR words, DWORD flags)
 {
 	//hr = pVoice->Speak(L"Hello Brad <pitch middle = '-10'/> gwaps", SPF_IS_XML, NULL);
 	//hr = pVoice->Speak(L"Myca needs vog", 0, NULL);
@@ -32,6 +32,6 @@ HRESULT __cdecl say_words(ISpVoice* pVoice, LPCWSTR words)
 	//hr = pVoice->Speak(L"Invis failing, invis failing", 0, NULL);
 	//hr = pVoice->Speak(L"charm break, <pitch middle = '-10'/> beat down imminent", SPF_IS_XML, NULL);
 
-	HRESULT hr = pVoice->Speak(words, 0, NULL);
+	HRESULT hr = pVoice->Speak(words, flags, NULL);
 	return hr;
 }

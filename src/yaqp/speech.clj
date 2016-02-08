@@ -7,16 +7,12 @@
 (defn- get-function [n f]
   (com.sun.jna.Function/getFunction n f))
 
-(defonce _
-  (do (System/load lib-path)
-      ;(System/load dsound-path)
-      ))
+(defonce _ (System/load lib-path))
 
 (def create-voice (get-function "tts" "create_voice"))
 (def say-words (get-function "tts" "say_words"))
-;(def create-voice (get-function "DSoundBeeper" "beeper_create"))
 
-(defn hello-world []
-  (let [v (.invoke create-voice com.sun.jna.Pointer (to-array []))]
-    (println v)
-    (.invoke say-words Integer (to-array [v (com.sun.jna.WString. "Justin is my homie")]))))
+(defonce voice (.invoke create-voice com.sun.jna.Pointer (to-array [])))
+
+(defn say [words]
+  (.invoke say-words Integer (to-array [voice (com.sun.jna.WString. words) (int 8)])))
