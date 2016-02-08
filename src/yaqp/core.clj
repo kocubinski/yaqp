@@ -60,11 +60,9 @@
         :append true))
 
 (defn speak [text & [{:keys [target]}]]
-  ;; (future (say (if target
-  ;;                (str/replace text #"%t" target))
-  ;;              text))
-  (future (say text))
-  )
+  (future (say (if target
+                 (str/replace text #"%t" target)
+                 text))))
 
 (def triggers
   `(
@@ -78,8 +76,8 @@
 
     #"(.*) feels much faster." (timer "Swift" "14:30")
 
-    #"(.*) experiences a quickening." (timer "Haste" "0:05"
-                                             {:on-end #(speak "%t needs a q" %)})
+    #"(.*) experiences a quickening." (timer "Haste" "24:00"
+                                             {:on-end #(speak "%t needs AQ" %)})
 
     #"(.*) experiences visions of grandeur." (timer "VoG" "42:00")
     ;#"(.*) experiences a quickening." (timer "AQ" "0:05")
@@ -135,15 +133,12 @@
         dead-timers (filter #(not (live-ids (:id %))) timers)]
     (gui/render-bars
      (->> live-timers
-          ;(filter #(not (expired? % now)))
           (map
            (fn [{:keys [id name opts] :as timer} ]
              (Bar. (fraction timer now) name (assoc opts :timer-id id))))))
-    ;;(clear-timers)
-    ;;  (doseq [t dead-timers]
-    ;;    (when-let [f (-> t :opts :on-end)]
-    ;;      (f [(:opts t)])))
-    ;;(swap! app update-in [:timers] #(remove #{dead-timers} %))
+    (doseq [t dead-timers]
+      (when-let [f (-> t :opts :on-end)]
+        (f (:opts t))))
     (swap! app update-in [:timers] #(apply dissoc % (map :id dead-timers)))
     ))
 

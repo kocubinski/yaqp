@@ -10,10 +10,18 @@
 
 (defonce _ (System/load lib-path))
 
-(def create-voice (get-function "tts" "create_voice"))
-(def say-words (get-function "tts" "say_words"))
+(def create-voice* (get-function "tts" "create_voice"))
+(def say-words* (get-function "tts" "say_words"))
 
-(defonce voice (.invoke create-voice com.sun.jna.Pointer (to-array [])))
+(defn create-voice []
+  (.invoke create-voice* com.sun.jna.Pointer (to-array [])))
+
+(def state (atom {:voice (create-voice)}))
+
+(defn say-words [words]
+  (.invoke say-words* Integer (to-array [(:voice @state) (com.sun.jna.WString. words) (int 8)])))
 
 (defn say [words]
-  (.invoke say-words Integer (to-array [voice (com.sun.jna.WString. words) (int 8)])))
+  (when (= (say-words words) -2147467259)
+    (swap! state assoc :voice (create-voice))
+    (say words)))

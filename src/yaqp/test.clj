@@ -14,5 +14,11 @@
     (test-line (str "your patience" i " is a test. "))
     (Thread/sleep 500)))
 
+(defn one-quick-line []
+  (test-line "a sound is a test."))
+
 (defn some-long-lines []
   (test-line "This is a long test."))
+
+(defn quick-aq []
+  (test-line "Mycahdavith experiences a quickening."))
