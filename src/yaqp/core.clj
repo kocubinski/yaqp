@@ -3,13 +3,14 @@
    [yaqp.gui :as gui]
    [yaqp.triggers :as tr]
    [yaqp.parse :as p]
-   [yaqp.watcher :as watch]
+   [yaqp.watcher :as watcher]
    [clj-http.client :as client]
    [clojure.string :as str]
    [simple-time.core :as t]
    [seesaw.mouse :as mouse])
   (:use
    [yaqp.debug]
+   [yaqp.speech :only [say]]
    [seesaw.core :only [listen]])
   (:import
    [yaqp.gui Bar]
@@ -25,7 +26,9 @@
          :tail nil
          ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
          ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
+         ;:log-path "C:/binski/apps/eq/Logs/eqlog_Subgenius_project1999.txt"
          :log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
+         :pk 1
          :timers {}}))
 
 (defprotocol Timed
@@ -43,51 +46,54 @@
           duration-ms (t/timespan->total-milliseconds duration)]
       (/ (- duration-ms passed-ms) duration-ms))))
 
-(defn timer [text duration & [{:keys [target] :as opts}]]
+(defn timer [text duration & [{:keys [target on-end] :as opts}]]
   (let [target (apply str (take 20 target))
         text (str text " " target)
         id (.toString (java.util.UUID/randomUUID))]
     (swap! app assoc-in [:timers id] (Timer. id text (t/now) (tr/parse-time duration) opts))))
-
-(defn clear-timers []
-  (swap! app update-in [:timers]
-         (fn [timers]
-           (remove #(expired? % (t/now)) timers))))
 
 (defn pipe [file & [{:keys [timestamp message line]}]]
   (spit (str eq-logs-dir file)
         (str "[" timestamp "] " message "\n")
         :append true))
 
-(defn say [text times]
-  (doseq [_ (range times)]
-    (let [mp3 (:body (client/get "http://translate.google.com/translate_tts"
-                                 {:query-params {"ie" "UTF-8"
-                                                 "tl" "en"
-                                                 "q" text}
-                                  :as :byte-array})) ]
-      (with-open [player (new Player (ByteArrayInputStream. mp3))]
-        (.play player)))))
+(defn speak [text & [{:keys [target]}]]
+  ;; (future (say (if target
+  ;;                (str/replace text #"%t" target))
+  ;;              text))
+  (future (say text))
+  )
 
 (def triggers
-  `(#"(.*) has been mesmerized." (timer "Mez" "00:24")
+  `(
+    "The soft breeze fades." (speak "Blue meth <pitch middle = '+10' /> please?")
+
+    #"(.*) has been mesmerized by the Glamour" (timer "Mez" "00:54")
+    #"(.*) has been mesmerized\." (timer "Mez" "00:24")
     #"(.*) has been enthralled." (timer "Mez" "00:48")
     #"(.*) has been entranced." (timer "Mez" "00:80")
     #"(.*) has been fascinated." (timer "Mez" "00:36")
 
     #"(.*) feels much faster." (timer "Swift" "14:30")
-    #"(.*) experiences a quickening." (timer "Haste" "24:00")
 
-    ;#"(.*) is surrounded by a thorny barrier." (timer "Thorns" "2:30")
+    #"(.*) experiences a quickening." (timer "Haste" "0:05"
+                                             {:on-end #(speak "%t needs a q" %)})
 
-;#"(.*) looks stronger." (timer "Strength" "27:00"
-;#"(.*)'s skin turns hard as steel." (timer "Skin" "36:00")
-;#"(.*) feet adhere to the ground." (timer "Root" "3:00")
+    #"(.*) experiences visions of grandeur." (timer "VoG" "42:00")
+    ;#"(.*) experiences a quickening." (timer "AQ" "0:05")
+
+    ;;#"(.*) is surrounded by a thorny barrier." (timer "Thorns" "2:30")
+
+    ;;#"(.*) looks stronger." (timer "Strength" "27:00"
+    ;;#"(.*)'s skin turns hard as steel." (timer "Skin" "36:00")
+    ;;#"(.*) feet adhere to the ground." (timer "Root" "3:00")
+    "You begin to sneak" (timer "Sneak" "0:08")
+    "Subgenius drops dead." (timer "Feign" "0:10")
 
     "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"})
-    "A soft breeze slips through your mind." (timer "Crack" "26:00" {:fg "blue" :color "white"})
-    ;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
-    ;"the skin breaking and peeling." (timer "Boon" "4:30")
+    "A soft breeze slips through your mind." (timer "Crack" "35:00" {:fg "blue" :color "white"})
+    ;;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
+    ;;"the skin breaking and peeling." (timer "Boon" "4:30")
 
     "out of character," (pipe "chat.txt" {:fg "green"})
     "shouts," (pipe "chat.txt" {:fg "red"})
@@ -106,21 +112,26 @@
     ))
 
 (defn handle-line [line]
-  ;(log (str "got line " line))
+  ;;(log (str "got line " line))
   (when-not (str/blank? line)
     (p/parse-line line (partition 2 triggers))))
 
-(defn watch []
+(defn watch-java []
   (let [watcher (proxy [TailerListenerAdapter] []
                   (handle [line]
                     (handle-line line)))]
-    (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 100 true))))
+    (swap! app assoc :tail (Tailer/create (File. (:log-path @app)) watcher 500 true))))
+
+(defn clear-timers []
+  (swap! app update-in [:timers]
+         (fn [timers]
+           (remove #(expired? % (t/now)) timers))))
 
 (defn tick [app]
   ;; iterate through timers, draw fraction according to diff from (now) - start, duration
   (let [timers (-> @app :timers vals)
         now (t/now)
-        [dead-timers live-timers] (split-with #(expired? % now) timers)]
+        [live-timers dead-timers] (split-with #(not (expired? % now)) timers)]
     (gui/render-bars
      (->> timers
           (filter #(not (expired? % now)))
@@ -128,8 +139,11 @@
            (fn [{:keys [id name opts] :as timer} ]
              (Bar. (fraction timer now) name (assoc opts :timer-id id))))))
     ;;(clear-timers)
-    ;(swap! app update-in [:timers] #(remove #{dead-timers} %))
-    (swap! app update-in [:timers] #(apply dissoc % (map :id dead-timers)))
+    ;;(swap! app update-in [:timers] #(remove #{dead-timers} %))
+    ;; (doseq [t dead-timers]
+    ;;   (when-let [f (-> t :opts :on-end)]
+    ;;     (f)))
+    ;; (swap! app update-in [:timers] #(apply dissoc % (map :id dead-timers)))
     ))
 
 (defn on-bar-frame-mouse-click [e]
@@ -148,11 +162,18 @@
 (defn start []
   (swap! app assoc :kill false)
   (swap! app update :events conj (listen (gui/get-canvas) :mouse-clicked #'on-bar-frame-mouse-click))
-  (watch)
+
+  ;; file tailer
+  (swap! watcher/state dissoc :kill)
+  (.start (Thread. (fn []
+                     (watcher/watch-file (:log-path @app) #'handle-line))))
+
+  ;; main loop
   (.start (Thread. run)))
 
 (defn stop []
   (when-let [tail (:tail @app)]
-   (.stop tail))
+    (.stop tail))
   (doseq [rm (:events app)] (rm))
+  (swap! watcher/state assoc :kill true)
   (swap! app assoc :kill true :events []))

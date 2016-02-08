@@ -7,5 +7,6 @@
                  [clj-http "1.0.1"]
                  [de.huxhorn.sulky/de.huxhorn.sulky.3rdparty.jlayer "1.0"]
                  [commons-io/commons-io "2.4"]
+                 [net.java.dev.jna/jna "4.0.0"]
                  [simple-time "0.2.0"]
                  [seesaw "1.4.5"]])
