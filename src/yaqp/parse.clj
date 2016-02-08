@@ -15,8 +15,7 @@
     (swap! state assoc :spells [spell (now)])
     spell))
 
-(defn spell-cast [m]
-  )
+(defn spell-cast [m] )
 
 (defn parse-line [line triggers]
   (let [timestamp (.substring line 12 20)
