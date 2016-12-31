@@ -18,10 +18,10 @@
 (def app
   (atom {:kill nil
          :tail nil
-         ;;:log-path "/home/makoco/eq-logs/eqlog_Hadiar_project1999.txt"
+         :log-path "/home/debian/makoco/wine/eq/drive_c/eq/Logs/eqlog_Hadiar_project1999.txt"
          ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          ;:log-path "C:/binski/apps/eq/Logs/eqlog_Subgenius_project1999.txt"
-         :log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
+         ;;:log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
          :pk 1
          :timers (sorted-map-by >)}))
 
@@ -66,7 +66,10 @@
 
 (def triggers
   `(
-    "The soft breeze fades." (speak "Blue meth <pitch middle = '+10' /> please?")
+    "The soft breeze fades." (speak "Blue meth please?")
+    "charm spell has worn off" (speak "Pet is loose, pet is loose.")
+
+    #"(.*) looks less aggressive" (timer "Calm" "3:00")
 
     #"(.*) has been mesmerized by the Glamour" (timer "Mez" "00:54")
     #"(.*) has been mesmerized\." (timer "Mez" "00:24")
@@ -74,7 +77,7 @@
     #"(.*) has been entranced." (timer "Mez" "00:80")
     #"(.*) has been fascinated." (timer "Mez" "00:36")
 
-    #"(.*) feels much faster." (timer "Swift" "14:30")
+    ;; #"(.*) feels much faster." (timer "Swift" "14:30")
 
     #"(.*) experiences a quickening." (timer "Haste" "24:00"
                                              {:on-end #(speak "%t needs AQ" %)})
@@ -95,9 +98,13 @@
     ;;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
     ;;"the skin breaking and peeling." (timer "Boon" "4:30")
 
+    #"(.*)'s body pulses with the spirit of the Shissar" (timer "SoS" "18:00")
+
     #"(.*) is a test." (timer "Test" "0:05" {:on-end #(speak "%t is a test" %)})
     #"(.*) is a long test." (timer "Test" "5:00" {:on-end #(speak "%t is a test" %)})
+    ))
 
+(comment
     "out of character," (pipe "chat.txt" {:fg "green"})
     "shouts," (pipe "chat.txt" {:fg "red"})
 
@@ -112,7 +119,7 @@
     "You told" (pipe "chat.txt" {:bold true})
 
     "has looted a" (pipe "chat.txt" {:bold true})
-    ))
+  )
 
 (defn handle-line [line]
   ;;(log (str "got line " line))
