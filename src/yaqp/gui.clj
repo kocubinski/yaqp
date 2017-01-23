@@ -10,14 +10,20 @@
 
 (defrecord Bar [fraction text opts])
 
-(def ^:private state
+(defonce ^:private state
   (atom {:bars []
-         :window {:bars {:opacity 255}
+         :events []
+         :window {:bars {:opacity 40}
                   :chat {:opacity 60}
-                  :scroll-pane nil}
+                  :scroll-pane nil
+                  :bar-frame nil
+                  :bar-events []}
          :layout {:gutter 5
-                  :bar-width 180
+                  :bar-width 230
                   :bar-height 20}}))
+
+(defn add-event [e fn]
+  (swap! state update :events conj [e fn]))
 
 (defn bar-clicked? [[x y :as pos]]
   ;; try to guess border width and title bar height...
@@ -34,72 +40,21 @@
 
 (defn set-opacity [f op]
   (println "opacity" op)
-  (let [bg (Color. (int 44) (int 44) (int 44) (int op))]
+  (let [bg (Color. (int 0) (int 0) (int 0) (int op))]
     (.setUndecorated f true)
     (.setBackground f bg)
-    (when (= op 255)
-      (.setUndecorated f false))
+    (.setAlwaysOnTop f true)
     f))
 
-(def chat-pane
-  (config! (make-widget (JTextPane.))
-           :background (gray-trans 30 60)
-           :opaque? false
-           :editable? false))
-
-(defn chat-line [pane line & [{:keys [fg size font bold]
-                               :or {fg Color/white size 14 bold false
-                                    font "Segoe UI"}}]]
-  (println fg)
-  (let [style (doto (SimpleAttributeSet.)
-                (StyleConstants/setForeground fg)
-                (StyleConstants/setFontFamily font)
-                (StyleConstants/setFontSize size)
-                (StyleConstants/setBold bold))
-        doc (. pane getDocument)
-        sb (.getVerticalScrollBar (-> @state :window :scroll-pane))]
-    (.insertString doc (.. doc getEndPosition getOffset) (str line "\n") style)
-    (.setValue sb (.getMaximum sb))))
-
 (defn create-bar-frame []
-  (->
-   (frame :title "yaqp" :height 225 :width 400)
-   (config! :content (canvas :id :canvas :background "#444" :paint nil))
-   show!))
-
-;; swing: because fuck you, that's why.
-(defn scroll-pane [text-pane]
-  (let [vp (JViewport.)
-        sp (JScrollPane. text-pane)]
-    (. vp setView text-pane)
-    (. vp setOpaque false)
-    (. sp setViewport vp)
-    (.setOpaque (.getViewport sp) false)
-    (. sp setOpaque false)
-    (swap! state assoc-in [:window :scroll-pane] sp)
-    sp))
-
-(defn create-chat-frame []
-  (->
-   (doto (frame :title "yaqp chat" :height 255 :width 400)
-     (.setAlwaysOnTop true))
-   ;; (config! :content chat-pane)
-   ;; (config! :content
-   ;;          (config! (make-widget
-   ;;                    (doto (JScrollPane. chat-pane)
-   ;;                      #(.setOpaque (.getViewport %) false)))
-   ;;                   ;:background (gray-trans 30 30)
-   ;;                   :opaque? false
-   ;;                   ))
-   (config! :content (scroll-pane chat-pane))
-   (set-opacity (-> @state :window :chat :opacity int))
-   show!))
-
-(defonce bar-frame
-  (create-bar-frame))
-
-(defn get-canvas []
-  (select bar-frame [:#canvas]))
+  (let [c (canvas :id :canvas :background (Color. (int 0) (int 0) (int 0) (int 0)) :paint nil)]
+    (doseq [[e fn] (:events @state)]
+      (swap! state update-in [:window :bar-events] conj (listen c e fn)))
+    (->
+     (frame :title "yaqp" :height 225 :width 400)
+     (config! :content c)
+     (set-opacity (-> @state :window :bars :opacity int))
+     show!)))
 
 (defn draw-bar [g gutter width height row col fraction text
                 & [{:keys [bg fg color font timer-id]
@@ -121,25 +76,52 @@
                         (+ 20 (* gutter row) (* height row)) text)
           (style :foreground color :font font))))
 
-(defn paint [paint-fn]
-  (-> bar-frame (select [:#canvas])
-      (config! :paint paint-fn)))
+(defn get-canvas []
+  (select (-> @state :window :bar-frame) [:#canvas]))
+
+(defn paint [bar-frame paint-fn]
+  (config! (select bar-frame [:#canvas]) :paint paint-fn))
+
+(defn clear-canvas [bar-frame]
+  (config!
+   (select bar-frame [:#canvas])
+   :paint (fn [c g]
+            (.clearRect g 0 0 (.getWidth bar-frame) (.getHeight bar-frame)))))
+            
 
 (defn render-bars [bars]
-  (let [window-width (.getWidth bar-frame)
+  (let [captured-state @state
+        bar-frame (-> captured-state :window :bar-frame)
+        window-width (.getWidth bar-frame)
         window-height (.getHeight bar-frame)
-        {:keys [gutter bar-width bar-height]} (:layout @state)
+        {:keys [gutter bar-width bar-height]} (:layout captured-state)
         row-height (+ gutter bar-height)
         row-max (dec (dec (Math/floor (/ window-height (+ gutter bar-height)))))
-        col-max (Math/floor (/ window-width (+ gutter bar-width)))]
+        col-max (Math/floor (/ window-width (+ gutter bar-width)))
+        count-bars (count (:bars captured-state))]
+    (when (not= (count bars) count-bars)
+      (clear-canvas bar-frame))
     (swap! state assoc :bars [])
-    (paint
+    (paint bar-frame
      (when (seq bars)
        (fn [c g]
          (doseq [[{:keys [fraction text opts]} i] (map #(vector %1 %2) bars (range))
                  :let [row (mod i row-max)
                        col (Math/floor (/ i row-max))]]
            (draw-bar g gutter bar-width bar-height row col fraction text opts)))))))
+
+(defn set-bar-frame-opacity [op]
+  (swap! state assoc-in [:window :bars :opacity] op))
+
+(defn reset-bar-frame! []
+  (doseq [rm (-> @state :window :bar-events)] (rm))
+  (swap! state assoc-in [:window :bar-events] [])
+  (hide! (-> @state :window :bar-frame))
+  (swap! state assoc-in [:window :bar-frame] (create-bar-frame)))
+
+(defn set-opacity! [op]
+  (swap! state assoc-in [:window :bars :opacity] (int op))
+  (reset-bar-frame!))
 
 (defn test-paint-bars []
   (render-bars
@@ -155,3 +137,53 @@
 ;; http://docs.oracle.com/javase/7/docs/api/javax/swing/text/JTextComponent.html#viewToModel%28java.awt.Point%29
 
 ;; anti-alias? https://wiki.archlinux.org/index.php/Java_Runtime_Environment_fonts
+
+;; chat crap.
+
+;; swing: because fuck you, that's why.
+(defn scroll-pane [text-pane]
+  (let [vp (JViewport.)
+        sp (JScrollPane. text-pane)]
+    (. vp setView text-pane)
+    (. vp setOpaque false)
+    (. sp setViewport vp)
+    (.setOpaque (.getViewport sp) false)
+    (. sp setOpaque false)
+    (swap! state assoc-in [:window :scroll-pane] sp)
+    sp))
+
+(def chat-pane
+  (config! (make-widget (JTextPane.))
+           :background (gray-trans 30 60)
+           :opaque? false
+           :editable? false))
+
+(defn create-chat-frame []
+  (->
+   (doto (frame :title "yaqp chat" :height 255 :width 400)
+     (.setAlwaysOnTop true))
+   ;; (config! :content chat-pane)
+   ;; (config! :content
+   ;;          (config! (make-widget
+   ;;                    (doto (JScrollPane. chat-pane)
+   ;;                      #(.setOpaque (.getViewport %) false)))
+   ;;                   ;:background (gray-trans 30 30)
+   ;;                   :opaque? false
+   ;;                   ))
+   (config! :content (scroll-pane chat-pane))
+   (set-opacity (-> @state :window :chat :opacity int))
+   show!))
+
+(defn chat-line [pane line & [{:keys [fg size font bold]
+                               :or {fg Color/white size 14 bold false
+                                    font "Segoe UI"}}]]
+  (println fg)
+  (let [style (doto (SimpleAttributeSet.)
+                (StyleConstants/setForeground fg)
+                (StyleConstants/setFontFamily font)
+                (StyleConstants/setFontSize size)
+                (StyleConstants/setBold bold))
+        doc (. pane getDocument)
+        sb (.getVerticalScrollBar (-> @state :window :scroll-pane))]
+    (.insertString doc (.. doc getEndPosition getOffset) (str line "\n") style)
+    (.setValue sb (.getMaximum sb))))

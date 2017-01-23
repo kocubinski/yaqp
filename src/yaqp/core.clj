@@ -151,7 +151,8 @@
 
 (defn on-bar-frame-mouse-click [e]
   (when (= :right (mouse/button e))
-    (swap! app update-in [:timers] dissoc (gui/bar-clicked? (mouse/location e)))))
+    (when-let [timer-id (gui/bar-clicked? (mouse/location e))]
+      (swap! app update-in [:timers] dissoc timer-id))))
 
 (defn run []
   (when-not (:kill @app)
@@ -164,7 +165,7 @@
 
 (defn start []
   (swap! app assoc :kill false)
-  (swap! app update :events conj (listen (gui/get-canvas) :mouse-clicked #'on-bar-frame-mouse-click))
+ ;; (swap! app update :events conj (listen (gui/get-canvas) :mouse-clicked #'on-bar-frame-mouse-click))
 
   ;; file tailer
   (swap! watcher/state dissoc :kill)
@@ -177,6 +178,12 @@
 (defn stop []
   (when-let [tail (:tail @app)]
     (.stop tail))
-  (doseq [rm (:events app)] (rm))
+  ;;(doseq [rm (:events app)] (rm))
   (swap! watcher/state assoc :kill true)
-  (swap! app assoc :kill true :events []))
+  (swap! app assoc :kill true))
+
+;; events
+(defonce init
+  (do
+    (gui/add-event :mouse-clicked #'on-bar-frame-mouse-click)
+    (gui/reset-bar-frame!)))
