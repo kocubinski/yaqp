@@ -18,7 +18,8 @@
 (def app
   (atom {:kill nil
          :tail nil
-         :log-path "/home/debian/makoco/wine/eq/drive_c/eq/Logs/eqlog_Hadiar_project1999.txt"
+         ;;:log-path "/home/kocubinski/wine/eq-live/drive_c/eq/Logs/eqlog_Hadiar_agnarr.txt"
+         :log-path "/home/kocubinski/wine/eq/drive_c/eq/Logs/eqlog_Coldeeze_project1999.txt"
          ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          ;:log-path "C:/binski/apps/eq/Logs/eqlog_Subgenius_project1999.txt"
          ;;:log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
@@ -67,9 +68,11 @@
 (def triggers
   `(
     "The soft breeze fades." (speak "Blue meth please?")
-    "charm spell has worn off" (speak "Pet is loose, pet is loose.")
-
-    #"(.*) looks less aggressive" (timer "Calm" "3:00")
+    "Cajoling Whispers spell has worn off" (speak "Pet is loose, pet is loose.")
+    "Allure spell has worn off" (speak "Pet is loose, pet is loose.")
+    "Boltran's Agacerie spell has worn off" (speak "Pet is loose, pet is loose.")
+    
+    #"(.*) looks less aggressive" (timer "Lull" "0:42")
 
     #"(.*) has been mesmerized by the Glamour" (timer "Mez" "00:54")
     #"(.*) has been mesmerized\." (timer "Mez" "00:24")
@@ -77,10 +80,11 @@
     #"(.*) has been entranced." (timer "Mez" "00:80")
     #"(.*) has been fascinated." (timer "Mez" "00:36")
 
-    ;; #"(.*) feels much faster." (timer "Swift" "14:30")
 
+    #"(.*) feels much faster" (timer "Haste" "15:30")
+    #"(.*)'s body pulses with energy" (timer "Aug" "26:00")
     #"(.*) experiences a quickening." (timer "Haste" "24:00"
-                                             {:on-end #(speak "%t needs AQ" %)})
+                                             {:on-end #(speak "%t needs A.Q." %)})
 
     #"(.*) experiences visions of grandeur." (timer "VoG" "42:00")
     ;#"(.*) experiences a quickening." (timer "AQ" "0:05")
@@ -93,16 +97,35 @@
     "You begin to sneak" (timer "Sneak" "0:08")
     "Subgenius drops dead." (timer "Feign" "0:10")
 
-    "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"})
+    "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"
+                                                                     :on-end #(speak "Blue meth please.")})
     "A soft breeze slips through your mind." (timer "Crack" "35:00" {:fg "blue" :color "white"})
     ;;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
     ;;"the skin breaking and peeling." (timer "Boon" "4:30")
 
-    #"(.*)'s body pulses with the spirit of the Shissar" (timer "SoS" "18:00")
+    #"(.*)'s body pulses with the spirit of the Shissar" (timer "SoS" "18:00"
+                                                                {:on-end #(speak "%t needs sos" %)})
 
     #"(.*) is a test." (timer "Test" "0:05" {:on-end #(speak "%t is a test" %)})
     #"(.*) is a long test." (timer "Test" "5:00" {:on-end #(speak "%t is a test" %)})
+
+    ;;#"(.*) glances nervously about" (speak "%t tashed")
+    ;;#"(.*) looks very uncomfortable" (speak "%t malodw")
+
+    "You feel yourself starting to appear" (speak "Invis fading, invis fading.")
+    
+    ;; shaman triggers
+    ;;#"(.*) feels much faster." (timer "Alacrity" "10:00")
+    ;;#"(.*) looks stronger." (timer "Strength" "54:00")
+    ;;#"(.*) looks robust." (timer "Stamina" "63:00")
+    ;;#"(.*) looks agile." (timer "Agility" "63:00")
+    ;;#"(.*) begins to regenerate." (timer "Chloro" "14:20" {:fg "cyan"})
+
+    ;; EC
+    ;;#"(.*) tells you," (speak "tell from %t")
     ))
+
+
 
 (comment
     "out of character," (pipe "chat.txt" {:fg "green"})

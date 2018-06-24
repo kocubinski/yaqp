@@ -40,7 +40,7 @@
 
 (defn set-opacity [f op]
   (println "opacity" op)
-  (let [bg (Color. (int 0) (int 0) (int 0) (int op))]
+  (let [bg (Color. (int 180) (int 180) (int 180) (int op))]
     (.setUndecorated f true)
     (.setBackground f bg)
     (.setAlwaysOnTop f true)
@@ -51,9 +51,9 @@
     (doseq [[e fn] (:events @state)]
       (swap! state update-in [:window :bar-events] conj (listen c e fn)))
     (->
-     (frame :title "yaqp" :height 225 :width 400)
+     (frame :title "yaqp" :height 400 :width 400)
      (config! :content c)
-     (set-opacity (-> @state :window :bars :opacity int))
+     (set-opacity 0 #_(-> @state :window :bars :opacity int))
      show!)))
 
 (defn draw-bar [g gutter width height row col fraction text
@@ -61,7 +61,7 @@
                     :or {fg (color "green")
                          bg (color "olive")
                          color (color "black")
-                         font "DejaVu Sans-BOLD-14"}}]]
+                         font "DejaVu Sans-14"}}]]
   (let [x (+ gutter (* gutter col) (* width col))
         y (+ gutter (* gutter row) (* height row))
         f-x (+ x (* fraction width))
@@ -99,8 +99,9 @@
         row-max (dec (dec (Math/floor (/ window-height (+ gutter bar-height)))))
         col-max (Math/floor (/ window-width (+ gutter bar-width)))
         count-bars (count (:bars captured-state))]
-    (when (not= (count bars) count-bars)
-      (clear-canvas bar-frame))
+    (comment (when (not= (count bars) count-bars)
+               (clear-canvas bar-frame)))
+    (clear-canvas bar-frame)
     (swap! state assoc :bars [])
     (paint bar-frame
      (when (seq bars)
