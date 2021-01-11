@@ -15,10 +15,10 @@
 
 (def eq-logs-dir "C:/binski/apps/eq/Logs/")
 
-(def app
+(defonce app
   (atom {:kill nil
          :tail nil
-         :log-path "/home/debian/makoco/wine/eq/drive_c/eq/Logs/eqlog_Hadiar_project1999.txt"
+         :log-path "/home/mattk/wine/eq/drive_c/eq/Logs/eqlog_Hypermagic_P1999Green.txt"
          ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          ;:log-path "C:/binski/apps/eq/Logs/eqlog_Subgenius_project1999.txt"
          ;;:log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
@@ -27,6 +27,7 @@
 
 (defprotocol Timed
   (expired? [t now])
+  (remaining [t now])
   (elapsed [_ now])
   (fraction [_ now]))
 
@@ -34,6 +35,7 @@
   Timed
   (expired? [timer now] (t/> (elapsed timer now) duration))
   (elapsed [_ now] (t/- now start-time))
+  (remaining [t now] (t/- duration (elapsed t now)))
   (fraction [_ now]
     (let [passed-ms (t/timespan->total-milliseconds
                      (t/- now start-time))
@@ -66,8 +68,9 @@
 
 (def triggers
   `(
-    "The soft breeze fades." (speak "Blue meth please?")
+    "The cool breeze fades." (speak "Blue meth please?")
     "charm spell has worn off" (speak "Pet is loose, pet is loose.")
+    #"(.*) looks uncomfortable" (speak "%t is malo")
 
     #"(.*) looks less aggressive" (timer "Calm" "3:00")
 
@@ -76,6 +79,9 @@
     #"(.*) has been enthralled." (timer "Mez" "00:48")
     #"(.*) has been entranced." (timer "Mez" "00:80")
     #"(.*) has been fascinated." (timer "Mez" "00:36")
+ 
+    #"You have slain Bouncer (.*)" (timer "Pop" "24:00"
+                                          {:remaining? true})
 
     ;; #"(.*) feels much faster." (timer "Swift" "14:30")
 
@@ -141,8 +147,15 @@
     (gui/render-bars
      (->> live-timers
           (map
-           (fn [{:keys [id name opts] :as timer} ]
-             (Bar. (fraction timer now) name (assoc opts :timer-id id))))))
+           (fn [{:keys [id name opts] :as timer}]
+             (Bar. (fraction timer now)
+                   (if (:remaining? opts)
+                     (let [ts (remaining timer now)]
+                       (format "%s - %sm%ss" name
+                               (t/timespan->minutes ts)
+                               (t/timespan->seconds ts)))
+                     name)
+                   (assoc opts :timer-id id))))))
     (doseq [t dead-timers]
       (when-let [f (-> t :opts :on-end)]
         (f (:opts t))))

@@ -16,7 +16,7 @@
                   :chat {:opacity 60}
                   :scroll-pane nil}
          :layout {:gutter 5
-                  :bar-width 180
+                  :bar-width 240
                   :bar-height 20}}))
 
 (defn bar-clicked? [[x y :as pos]]
