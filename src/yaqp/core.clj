@@ -15,10 +15,11 @@
 
 (def eq-logs-dir "C:/binski/apps/eq/Logs/")
 
-(defonce app
+(def app
   (atom {:kill nil
          :tail nil
          :log-path "/home/mattk/wine/eq/drive_c/eq/Logs/eqlog_Hypermagic_P1999Green.txt"
+;;         :log-path "/home/mattk/wine/eq/drive_c/eq/Logs/eqlog_Haddgar_P1999Green.txt"
          ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
          ;:log-path "C:/binski/apps/eq/Logs/eqlog_Subgenius_project1999.txt"
          ;;:log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
@@ -70,23 +71,76 @@
   `(
     "The cool breeze fades." (speak "Blue meth please?")
     "charm spell has worn off" (speak "Pet is loose, pet is loose.")
-    #"(.*) looks uncomfortable" (speak "%t is malo")
+    #"(.*) looks very uncomfortable" (speak "%t is malo")
+    "You feel yourself starting to appear" (speak "Invis fading")
+    #"(.*) yawns" (speak "slow %t")
+    #"(.*) slows down" (speak "slow %t")
 
-    #"(.*) looks less aggressive" (timer "Calm" "3:00")
+    "hits you" (speak "hit")
 
-    #"(.*) has been mesmerized by the Glamour" (timer "Mez" "00:54")
+    "You begin casting Dictate" (timer "Dictate" "00:52" {:remaining? true})
+
+;;    #"(.*) looks less aggressive" (timer "Calm" "3:00")
+    #"(.*) looks less aggressive" (timer "Paci" "7:00")
+
+    #"(.*) has been mesmerized by the Glamour" (timer "Mez" "00:30")
     #"(.*) has been mesmerized\." (timer "Mez" "00:24")
     #"(.*) has been enthralled." (timer "Mez" "00:48")
     #"(.*) has been entranced." (timer "Mez" "00:80")
     #"(.*) has been fascinated." (timer "Mez" "00:36")
- 
+
+    #"Basher (.*) has been slain by" (timer "Pop" "24:00"
+                                            {:remaining? true
+                                             :on-end #(speak "%t pop" %)})
+
+    #"(.*) says, 'Curse you" (timer "" "24:00"
+                                    {:remaining? true
+                                     :on-end #(speak "%t pop" %)})
+    
+
     #"You have slain Bouncer (.*)" (timer "Pop" "24:00"
-                                          {:remaining? true})
+                                          {:remaining? true
+                                           :on-end #(speak "%t pop" %)})
+
+    #"You have slain Basher (.*)" (timer "" "24:00"
+                                          {:remaining? true
+                                           :on-end #(speak "%t pop" %)})
+
+;;    "slain by" (timer "Pop" "6:40" {:remaining? true})
+;;    "You have slain" (timer "Pop" "6:40" {:remaining? true})
+
+    ;; "a spectre has been slain" (timer "spectre" "6:40"
+    ;;                                   {:remaining? true})
+    ;; "You have slain a spectre" (timer "spectre" "6:40"
+    ;;                                   {:remaining? true})
+
+    ;;"You gain experience" (timer "Pop" "5:50"
+    ;;                             {:remaining? true})
+
+    "You have slain Cynthia" (timer "Cynthia" "5:50"
+                                    {:remaining? true})
+    
+    ;; "You have slain Cynthia" (timer "Cynthia Warn" "5:35"
+    ;;                                 {:remaining? true
+    ;;                                  :on-end #(speak (str "Cynthia pop, Cynthia pop" %))})
+
+
+;;     "You gain party experience" (timer "Pop" "27:00"
+;;                                        {:remaining? true})
+
+     ;; "has been slain by" (timer "Pop" "18:00"
+     ;;                            {:remaining? true})
+
+     ;; "You have slain" (timer "Pop" "18:00"
+     ;;                         {:remaining? true})
 
     ;; #"(.*) feels much faster." (timer "Swift" "14:30")
 
     #"(.*) experiences a quickening." (timer "Haste" "24:00"
-                                             {:on-end #(speak "%t needs AQ" %)})
+                                             {:on-end #(speak "%t needs A.Q." %)})
+
+    #"(.*) begins to move with wonderous rapidity." (timer "WR" "18:20"
+                                                           {:on-end #(speak "%t needs haste." %)})
 
     #"(.*) experiences visions of grandeur." (timer "VoG" "42:00")
     ;#"(.*) experiences a quickening." (timer "AQ" "0:05")
@@ -100,7 +154,10 @@
     "Subgenius drops dead." (timer "Feign" "0:10")
 
     "A cool breeze slips through your mind." (timer "Crack" "26:00" {:fg "cyan"})
-    "A soft breeze slips through your mind." (timer "Crack" "35:00" {:fg "blue" :color "white"})
+    "A soft breeze slips through your mind." (timer "Crack" "35:00" {:fg "blue"
+                                                                     :color "white"})
+
+    "You gather mana from your surroundings." (timer "Harvest" "10:00" {:remaining? true})
     ;;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
     ;;"the skin breaking and peeling." (timer "Boon" "4:30")
 
