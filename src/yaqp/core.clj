@@ -17,12 +17,10 @@
 
 (def app
   (atom {:kill nil
-         :tail nil
-         :log-path "/home/mattk/wine/eq/drive_c/eq/Logs/eqlog_Hypermagic_P1999Green.txt"
-;;         :log-path "/home/mattk/wine/eq/drive_c/eq/Logs/eqlog_Haddgar_P1999Green.txt"
-         ;;:log-path "C:/dev/yaqp/log/eqlog_Hadiar_project1999.txt"
-         ;:log-path "C:/binski/apps/eq/Logs/eqlog_Subgenius_project1999.txt"
-         ;;:log-path "C:/binski/apps/eq/Logs/eqlog_Hadiar_project1999.txt"
+         :tails []
+         :log-paths
+         ["/home/mattk/wine/eq/drive_c/eq/Logs/eqlog_Hypermagic_P1999Green.txt"
+          "/home/mattk/wine/eq/drive_c/eq/Logs/eqlog_Haddgar_P1999Green.txt"]
          :pk 1
          :timers (sorted-map-by >)}))
 
@@ -237,16 +235,20 @@
   (swap! app update :events conj (listen (gui/get-canvas) :mouse-clicked #'on-bar-frame-mouse-click))
 
   ;; file tailer
-  (swap! watcher/state dissoc :kill)
-  (.start (Thread. (fn []
-                     (watcher/watch-file (:log-path @app) #'handle-line))))
+  ;;(swap! watcher/state dissoc :kill)
+  ;;(.start (Thread. (fn []
+  ;;                   (watcher/watch-file (:log-path @app) #'handle-line))))
+
+  (swap! app assoc :tails (map (fn [file]
+                                 (watcher/tailer file #'handle-line))
+                               (:log-paths @app)))
 
   ;; main loop
   (.start (Thread. run)))
 
 (defn stop []
-  (when-let [tail (:tail @app)]
-    (.stop tail))
+  (doseq [t (:tails @app)]
+    (.stop t))
   (doseq [rm (:events app)] (rm))
   (swap! watcher/state assoc :kill true)
   (swap! app assoc :kill true :events []))

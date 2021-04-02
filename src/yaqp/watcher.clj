@@ -1,6 +1,8 @@
 (ns yaqp.watcher
   (:use [clojure.java.shell :only [sh]])
+  (:require [clojure.java.io :as io])
   (:import [java.io RandomAccessFile InputStreamReader BufferedReader]
+           [org.apache.commons.io.input TailerListenerAdapter Tailer]
            [java.nio.charset Charset]))
 
 ;(def tail "cmd /C C:/binski/apps/cygwin64/bin/tail.exe -n 0 -f")
@@ -25,6 +27,22 @@
               (cb l)
               (recur (.readLine rdr))))
           (Thread/sleep 100))))))
+
+(defn tailer
+  [^String file cb]
+  (let [listener (proxy [TailerListenerAdapter] []
+                   (^void handle [^String line]
+                    (cb line)))
+        tailer (Tailer.
+                (io/file file)
+                listener
+                50  ; poll delay
+                true ; listen from end
+                )
+        thread (Thread. tailer)]
+    (.setDaemon thread true)
+    (.start thread)
+    tailer))
 
 (defn test-watch []
   (swap! state assoc :kill false)
