@@ -112,8 +112,8 @@
     ;; "You have slain a spectre" (timer "spectre" "6:40"
     ;;                                   {:remaining? true})
 
-    ;;"You gain experience" (timer "Pop" "5:50"
-    ;;                             {:remaining? true})
+    ;; "You gain experience" (timer "Pop" "27:00"
+    ;;                              {:remaining? true})
 
     "You have slain Cynthia" (timer "Cynthia" "5:50"
                                     {:remaining? true})
@@ -123,7 +123,7 @@
     ;;                                  :on-end #(speak (str "Cynthia pop, Cynthia pop" %))})
 
 
-;;     "You gain party experience" (timer "Pop" "27:00"
+    ;;"You gain party experience" (timer "Pop" "27:00"
 ;;                                        {:remaining? true})
 
      ;; "has been slain by" (timer "Pop" "18:00"
@@ -158,6 +158,8 @@
     "You gather mana from your surroundings." (timer "Harvest" "10:00" {:remaining? true})
     ;;"Your spirit screams with berserker strength." (timer "Zerk" "5:00")
     ;;"the skin breaking and peeling." (timer "Boon" "4:30")
+
+    ;;#"You say, '(.*)-"
 
     #"(.*)'s body pulses with the spirit of the Shissar" (timer "SoS" "18:00")
 

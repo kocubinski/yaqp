@@ -51,4 +51,4 @@
              (try
                (watch-file log-path #(log-out %))
                (catch Exception e
-                   (log-out e)))))))
+                 (log-out e)))))))
